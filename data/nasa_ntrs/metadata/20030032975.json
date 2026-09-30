@@ -1,0 +1,51 @@
+{
+  "doc_id": "20030032975",
+  "source": "NASA NTRS",
+  "pdf_filename": "20030032975_20030032975.pdf",
+  "pdf_path": "pdfs/20030032975_20030032975.pdf",
+  "metadata_path": "metadata/20030032975.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20030032975",
+  "title": "Aircraft Engine Sensor/Actuator/Component Fault Diagnosis Using a Bank of Kalman Filters",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-09T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Kobayashi, Takahisa",
+    "Simon, Donald L."
+  ],
+  "organizations": [
+    "QSS Group, Inc.",
+    "NASA Glenn Research Center"
+  ],
+  "subject_categories": [
+    "Aircraft Propulsion And Power"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/CR-2003-212298",
+    "E-13862",
+    "NAS 1.26:212298",
+    "Report Number: NASA/CR-2003-212298",
+    "Report Number: E-13862",
+    "Report Number: NAS 1.26:212298"
+  ],
+  "funding_numbers": [
+    "NAS3-00145",
+    "WBS?22?728?30?05"
+  ],
+  "abstract": "In this report, a fault detection and isolation (FDI) system which utilizes a bank of Kalman filters is developed for aircraft engine sensor and actuator FDI in conjunction with the detection of component faults. This FDI approach uses multiple Kalman filters, each of which is designed based on a specific hypothesis for detecting a specific sensor or actuator fault. In the event that a fault does occur, all filters except the one using the correct hypothesis will produce large estimation errors, from which a specific fault is isolated. In the meantime, a set of parameters that indicate engine component performance is estimated for the detection of abrupt degradation. The performance of the FDI system is evaluated against a nonlinear engine simulation for various engine faults at cruise operating conditions. In order to mimic the real engine environment, the nonlinear simulation is executed not only at the nominal, or healthy, condition but also at aged conditions. When the FDI system designed at the healthy condition is applied to an aged engine, the effectiveness of the FDI system is impacted by the mismatch in the engine health condition. Depending on its severity, this mismatch can cause the FDI system to generate incorrect diagnostic results, such as false alarms and missed detections. To partially recover the nominal performance, two approaches, which incorporate information regarding the engine s aging condition in the FDI system, will be discussed and evaluated. The results indicate that the proposed FDI system is promising for reliable diagnostics of aircraft engines.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

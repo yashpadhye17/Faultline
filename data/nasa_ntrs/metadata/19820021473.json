@@ -1,0 +1,44 @@
+{
+  "doc_id": "19820021473",
+  "source": "NASA NTRS",
+  "pdf_filename": "19820021473_19820021473.pdf",
+  "pdf_path": "pdfs/19820021473_19820021473.pdf",
+  "metadata_path": "metadata/19820021473.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19820021473",
+  "title": "STS-3 main parachute failure",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-22T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Runkle, R.",
+    "Henson, K."
+  ],
+  "organizations": [
+    "NASA Marshall Space Flight Center"
+  ],
+  "subject_categories": [
+    "Space Transportation"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-82490",
+    "NAS 1.15:82490",
+    "Report Number: NASA-TM-82490",
+    "Report Number: NAS 1.15:82490"
+  ],
+  "funding_numbers": [
+    "RTOP 984-11-16"
+  ],
+  "abstract": "A failure analysis of the parachute on the Space Transportation System 3 flight's solid rocket booster's is presented. During the reentry phase of the two Solid Rocket Boosters (SRBs), one 115 ft diameter main parachute failed on the right hand SRB (A12). This parachute failure caused the SRB to impact the Ocean at 110 ft/sec in lieu of the expected 3 parachute impact velocity of 88 ft/sec. This higher impact velocity relates directly to more SRB aft skirt and more motor case damage. The cause of the parachute failure, the potential risks of losing an SRB as a result of this failure, and recommendations to ensure that the probability of chute failures of this type in the future will be low are discussed.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "rca"
+  ]
+}

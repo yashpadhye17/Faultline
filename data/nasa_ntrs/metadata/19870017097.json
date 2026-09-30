@@ -1,0 +1,43 @@
+{
+  "doc_id": "19870017097",
+  "source": "NASA NTRS",
+  "pdf_filename": "19870017097_19870017097.pdf",
+  "pdf_path": "pdfs/19870017097_19870017097.pdf",
+  "metadata_path": "metadata/19870017097.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19870017097",
+  "title": "Expert systems applied to fault isolation and energy storage management, phase 2",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-24T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [],
+  "organizations": [],
+  "subject_categories": [
+    "Computer Programming And Software"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "MCR-85-641",
+    "NAS 1.26:179136",
+    "NASA-CR-179136",
+    "Report Number: MCR-85-641",
+    "Report Number: NAS 1.26:179136",
+    "Report Number: NASA-CR-179136"
+  ],
+  "funding_numbers": [
+    "NAS8-35922"
+  ],
+  "abstract": "A user's guide for the Fault Isolation and Energy Storage (FIES) II system is provided. Included are a brief discussion of the background and scope of this project, a discussion of basic and advanced operating installation and problem determination procedures for the FIES II system and information on hardware and software design and implementation. A number of appendices are provided including a detailed specification for the microprocessor software, a detailed description of the expert system rule base and a description and listings of the LISP interface software.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

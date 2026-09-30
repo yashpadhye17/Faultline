@@ -1,0 +1,50 @@
+{
+  "doc_id": "19960017281",
+  "source": "NASA NTRS",
+  "pdf_filename": "19960017281_19960017281.pdf",
+  "pdf_path": "pdfs/19960017281_19960017281.pdf",
+  "metadata_path": "metadata/19960017281.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19960017281",
+  "title": "Modeling, Monitoring and Fault Diagnosis of Spacecraft Air Contaminants",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "HQ",
+  "center_name": "Headquarters",
+  "year": 2019,
+  "published": "2019-08-16T10:47:21.1270000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Ramirez, W. Fred",
+    "Skliar, Mikhail",
+    "Narayan, Anand",
+    "Morgenthaler, George W.",
+    "Smith, Gerald J."
+  ],
+  "organizations": [
+    "Colorado Univ.",
+    "NASA Headquarters"
+  ],
+  "subject_categories": [
+    "Man/System Technology And Life Support"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NAS 1.26:200748",
+    "NASA-CR-200748",
+    "Report Number: NAS 1.26:200748",
+    "Report Number: NASA-CR-200748"
+  ],
+  "funding_numbers": [
+    "NAGw-4585"
+  ],
+  "abstract": "Progress and results in the development of an integrated air quality modeling, monitoring, fault detection, and isolation system are presented. The focus was on development of distributed models of the air contaminants transport, the study of air quality monitoring techniques based on the model of transport process and on-line contaminant concentration measurements, and sensor placement. Different approaches to the modeling of spacecraft air contamination are discussed, and a three-dimensional distributed parameter air contaminant dispersion model applicable to both laminar and turbulent transport is proposed. A two-dimensional approximation of a full scale transport model is also proposed based on the spatial averaging of the three dimensional model over the least important space coordinate. A computer implementation of the transport model is considered and a detailed development of two- and three-dimensional models illustrated by contaminant transport simulation results is presented. The use of a well established Kalman filtering approach is suggested as a method for generating on-line contaminant concentration estimates based on both real time measurements and the model of contaminant transport process. It is shown that high computational requirements of the traditional Kalman filter can render difficult its real-time implementation for high-dimensional transport model and a novel implicit Kalman filtering algorithm is proposed which is shown to lead to an order of magnitude faster computer implementation in the case of air quality monitoring.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

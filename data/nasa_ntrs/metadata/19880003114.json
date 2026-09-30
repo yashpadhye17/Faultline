@@ -1,0 +1,46 @@
+{
+  "doc_id": "19880003114",
+  "source": "NASA NTRS",
+  "pdf_filename": "19880003114_19880003114.pdf",
+  "pdf_path": "pdfs/19880003114_19880003114.pdf",
+  "metadata_path": "metadata/19880003114.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19880003114",
+  "title": "Analysis of 7- X 10-foot high speed wind tunnel shaft loads in support of fan blade failure investigation",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-24T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Faison, Richard W."
+  ],
+  "organizations": [
+    "NASA Langley Research Center"
+  ],
+  "subject_categories": [
+    "Research And Support Facilities (Air)"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-100504",
+    "NAS 1.15:100504",
+    "Report Number: NASA-TM-100504",
+    "Report Number: NAS 1.15:100504"
+  ],
+  "funding_numbers": [
+    "RTOP 505-61-01-07"
+  ],
+  "abstract": "This is a report of the investigation of the High-Speed 7- X 10-Foot Wind Tunnel at NASA Langley Research Center, which experienced a catastrophic failure of all 18 Sitka spruce fan blades during operation at 0.8 Mach number on 2 July 1985. The High-Speed Tunnel, a closed-circuit/single-return atmospheric wind tunnel, had been operated since 1945 to support a wide range of subsonic aerodynamic tests and studies. The failed blade set had been in use since 1975. In addition to blade loss, the most significant damage was a bent main drive shaft for a total estimated damage loss of 1.7 million dollars. An analysis of the natural frequency characteristics as well as loads, reactions, stresses, and deflections of the fan drive system resulting from steady-state and dynamic loads due to unbalance was performed. Transient load cases were simulated by step input and ramp input loading functions intended to simulate the loss of one to nine blades (maximum unbalance forces).",
+  "query_tag": "\"failure investigation\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

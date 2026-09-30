@@ -1,0 +1,49 @@
+{
+  "doc_id": "20120003292",
+  "source": "NASA NTRS",
+  "pdf_filename": "20120003292_20120003292.pdf",
+  "pdf_path": "pdfs/20120003292_20120003292.pdf",
+  "metadata_path": "metadata/20120003292.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20120003292",
+  "title": "NASA Accident Precursor Analysis Handbook, Version 1.0",
+  "sti_type": "SPECIAL_PUBLICATION",
+  "sti_type_details": "Special Publication (SP)",
+  "center_code": "HQ",
+  "center_name": "Headquarters",
+  "year": 2019,
+  "published": "2019-08-23T17:37:23.2570000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Groen, Frank",
+    "Everett, Chris",
+    "Hall, Anthony",
+    "Insley, Scott"
+  ],
+  "organizations": [
+    "NASA Headquarters",
+    "Information Systems Labs., Inc."
+  ],
+  "subject_categories": [
+    "Space Transportation And Safety"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/SP-2011-3423",
+    "HQ-STI-12-034",
+    "Report Number: NASA/SP-2011-3423",
+    "Report Number: HQ-STI-12-034"
+  ],
+  "funding_numbers": [
+    "NNH07CC13D"
+  ],
+  "abstract": "Catastrophic accidents are usually preceded by precursory events that, although observable, are not recognized as harbingers of a tragedy until after the fact. In the nuclear industry, the Three Mile Island accident was preceded by at least two events portending the potential for severe consequences from an underappreciated causal mechanism. Anomalies whose failure mechanisms were integral to the losses of Space Transportation Systems (STS) Challenger and Columbia had been occurring within the STS fleet prior to those accidents. Both the Rogers Commission Report and the Columbia Accident Investigation Board report found that processes in place at the time did not respond to the prior anomalies in a way that shed light on their true risk implications. This includes the concern that, in the words of the NASA Aerospace Safety Advisory Panel (ASAP), \"no process addresses the need to update a hazard analysis when anomalies occur\" At a broader level, the ASAP noted in 2007 that NASA \"could better gauge the likelihood of losses by developing leading indicators, rather than continue to depend on lagging indicators\". These observations suggest a need to revalidate prior assumptions and conclusions of existing safety (and reliability) analyses, as well as to consider the potential for previously unrecognized accident scenarios, when unexpected or otherwise undesired behaviors of the system are observed. This need is also discussed in NASA's system safety handbook, which advocates a view of safety assurance as driving a program to take steps that are necessary to establish and maintain a valid and credible argument for the safety of its missions. It is the premise of this handbook that making cases for safety more experience-based allows NASA to be better informed about the safety performance of its systems, and will ultimately help it to manage safety in a more effective manner. The APA process described in this handbook provides a systematic means of analyzing candidate accident precursors by evaluating anomaly occurrences for their system safety implications and, through both analytical and deliberative methods used to project to other circumstances, identifying those that portend more serious consequences to come if effective corrective action is not taken. APA builds upon existing safety analysis processes currently in practice within NASA, leveraging their results to provide an improved understanding of overall system risk. As such, APA represents an important dimension of safety evaluation; as operational experience is acquired, precursor information is generated such that it can be fed back into system safety analyses to risk-inform safety improvements. Importantly, APA utilizes anomaly data to predict risk whereas standard reliability and PRA approaches utilize failure data which often is limited and rare.",
+  "query_tag": "\"corrective action\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

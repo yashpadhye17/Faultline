@@ -1,0 +1,56 @@
+{
+  "doc_id": "20090033114",
+  "source": "NASA NTRS",
+  "pdf_filename": "20090033114_20090033114.pdf",
+  "pdf_path": "pdfs/20090033114_20090033114.pdf",
+  "metadata_path": "metadata/20090033114.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20090033114",
+  "title": "STS-114 Engine Cut-off Sensor Anomaly Technical Consultation Report",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Wilson, Timmy R.",
+    "Kichak, Robert A.",
+    "Ungar, Eugene K.",
+    "Cherney, Robert",
+    "Rickman, Steve L."
+  ],
+  "organizations": [
+    "NASA Langley Research Center",
+    "NASA Goddard Space Flight Center",
+    "NASA Johnson Space Center"
+  ],
+  "subject_categories": [
+    "Space Transportation And Safety"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/TM-2009-215567",
+    "LF99-8395",
+    "NESC-RP-05-125/05-045-E",
+    "L-19639",
+    "Report Number: NASA/TM-2009-215567",
+    "Report Number: LF99-8395",
+    "Report Number: NESC-RP-05-125/05-045-E",
+    "Report Number: L-19639"
+  ],
+  "funding_numbers": [
+    "WBS 869021.06.07.02.99"
+  ],
+  "abstract": "The NESC consultation team participated in real-time troubleshooting of the Main Propulsion System (MPS) Engine Cutoff (ECO) sensor system failures during STS-114 launch countdown. The team assisted with External Tank (ET) thermal and ECO Point Sensor Box (PSB) circuit analyses, and made real-time inputs to the Space Shuttle Program (SSP) problem resolution teams. Several long-term recommendations resulted. One recommendation was to conduct cryogenic tests of the ECO sensors to validate, or disprove, the theory that variations in circuit impedance due to cryogenic effects on swaged connections within the sensor were the root cause of STS-114 failures.",
+  "query_tag": "\"root cause\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "doc_id": "19990052628",
+  "source": "NASA NTRS",
+  "pdf_filename": "19990052628_19990052628.pdf",
+  "pdf_path": "pdfs/19990052628_19990052628.pdf",
+  "metadata_path": "metadata/19990052628.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19990052628",
+  "title": "Progressive Failure Analysis Methodology for Laminated Composite Structures",
+  "sti_type": "TECHNICAL_PUBLICATION",
+  "sti_type_details": "Technical Publication (TP)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-06-27T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Sleight, David W."
+  ],
+  "organizations": [
+    "NASA Langley Research Center"
+  ],
+  "subject_categories": [
+    "Structural Mechanics"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NAS 1.60:209107",
+    "NASA/TP-1999-209107",
+    "L-17660",
+    "Report Number: NAS 1.60:209107",
+    "Report Number: NASA/TP-1999-209107",
+    "Report Number: L-17660"
+  ],
+  "funding_numbers": [
+    "RTOP 538-13-12-04"
+  ],
+  "abstract": "A progressive failure analysis method has been developed for predicting the failure of laminated composite structures under geometrically nonlinear deformations. The progressive failure analysis uses C(exp 1) shell elements based on classical lamination theory to calculate the in-plane stresses. Several failure criteria, including the maximum strain criterion, Hashin's criterion, and Christensen's criterion, are used to predict the failure mechanisms and several options are available to degrade the material properties after failures. The progressive failure analysis method is implemented in the COMET finite element analysis code and can predict the damage and response of laminated composite structures from initial loading to final failure. The different failure criteria and material degradation methods are compared and assessed by performing analyses of several laminated composite structures. Results from the progressive failure method indicate good correlation with the existing test data except in structural applications where interlaminar stresses are important which may cause failure mechanisms such as debonding or delaminations.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

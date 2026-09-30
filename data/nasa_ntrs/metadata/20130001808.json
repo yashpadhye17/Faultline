@@ -1,0 +1,48 @@
+{
+  "doc_id": "20130001808",
+  "source": "NASA NTRS",
+  "pdf_filename": "20130001808_20130001808.pdf",
+  "pdf_path": "pdfs/20130001808_20130001808.pdf",
+  "metadata_path": "metadata/20130001808.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20130001808",
+  "title": "Boiling Experiment Facility (BXF): Post Flight Assessment Anomaly Investigation Report",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-11T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Booth, Wendell H."
+  ],
+  "organizations": [
+    "ZIN Technologies, Inc."
+  ],
+  "subject_categories": [
+    "Quality Assurance And Reliability"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/CR-2012-216036",
+    "E-18378",
+    "60081-RPT-0402",
+    "GRC-E-DAA-TN5491",
+    "Report Number: NASA/CR-2012-216036",
+    "Report Number: E-18378",
+    "Report Number: 60081-RPT-0402",
+    "Report Number: GRC-E-DAA-TN5491"
+  ],
+  "funding_numbers": [
+    "NNC09BA02B"
+  ],
+  "abstract": "This document serves as the report for presenting the results and conclusions of investigation activities that were performed to determine the root causes of the anomaly, camera misalignment, and dissolved gas concentration issues and to verify the calibration and accuracy of the pressure and temperature measurements.",
+  "query_tag": "\"anomaly investigation\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca"
+  ]
+}

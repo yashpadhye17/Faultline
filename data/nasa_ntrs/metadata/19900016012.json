@@ -1,0 +1,51 @@
+{
+  "doc_id": "19900016012",
+  "source": "NASA NTRS",
+  "pdf_filename": "19900016012_19900016012.pdf",
+  "pdf_path": "pdfs/19900016012_19900016012.pdf",
+  "metadata_path": "metadata/19900016012.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19900016012",
+  "title": "Failure of the ERBE scanner instrument aboard NOAA 10 spacecraft and results of failure analysis",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-24T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Miller, J. B.",
+    "Weaver, W. L.",
+    "Kopia, L. P.",
+    "Howerton, C. E.",
+    "Payton, M. G.",
+    "Harris, C. J."
+  ],
+  "organizations": [
+    "NASA Langley Research Center",
+    "ST Systems Corp."
+  ],
+  "subject_categories": [
+    "Instrumentation And Photography"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-102661",
+    "NAS 1.15:102661",
+    "Report Number: NASA-TM-102661",
+    "Report Number: NAS 1.15:102661"
+  ],
+  "funding_numbers": [
+    "RTOP 665-45-20-01"
+  ],
+  "abstract": "The Earth Radiation Budget Experiment (ERBE) scanner instrument on the NOAA 10 spacecraft malfunctioned on May 22, 1989, after more than 4 years of in-flight operation. After the failure, all instrument operational mode commands were tested and the resulting data analyzed. Details of the tests and analysis of output data are discussed therein. The radiometric and housekeeping data appear to be valid. However, the instrument will not correctly execute operational scan mode commands or the preprogrammed calibration sequences. The data indicate the problem is the result of a failure in the internal address decoding circuity in one of the ROM (read only memory) chips of the instrument computer.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

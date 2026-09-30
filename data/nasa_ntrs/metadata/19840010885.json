@@ -1,0 +1,52 @@
+{
+  "doc_id": "19840010885",
+  "source": "NASA NTRS",
+  "pdf_filename": "19840010885_19840010885.pdf",
+  "pdf_path": "pdfs/19840010885_19840010885.pdf",
+  "metadata_path": "metadata/19840010885.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19840010885",
+  "title": "Development and analysis of the Software Implemented Fault-Tolerance (SIFT) computer",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-24T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Goldberg, J.",
+    "Kautz, W. H.",
+    "Melliar-Smith, P. M.",
+    "Green, M. W.",
+    "Levitt, K. N.",
+    "Schwartz, R. L.",
+    "Weinstock, C. B."
+  ],
+  "organizations": [
+    "SRI International Corp."
+  ],
+  "subject_categories": [
+    "Computer Systems"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-CR-172146",
+    "NAS 1.26:172146",
+    "Report Number: NASA-CR-172146",
+    "Report Number: NAS 1.26:172146"
+  ],
+  "funding_numbers": [
+    "NAS1-15428"
+  ],
+  "abstract": "SIFT (Software Implemented Fault Tolerance) is an experimental, fault-tolerant computer system designed to meet the extreme reliability requirements for safety-critical functions in advanced aircraft. Errors are masked by performing a majority voting operation over the results of identical computations, and faulty processors are removed from service by reassigning computations to the nonfaulty processors. This scheme has been implemented in a special architecture using a set of standard Bendix BDX930 processors, augmented by a special asynchronous-broadcast communication interface that provides direct, processor to processor communication among all processors. Fault isolation is accomplished in hardware; all other fault-tolerance functions, together with scheduling and synchronization are implemented exclusively by executive system software. The system reliability is predicted by a Markov model. Mathematical consistency of the system software with respect to the reliability model has been partially verified, using recently developed tools for machine-aided proof of program correctness.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "doc_id": "20120016538",
+  "source": "NASA NTRS",
+  "pdf_filename": "20120016538_20120016538.pdf",
+  "pdf_path": "pdfs/20120016538_20120016538.pdf",
+  "metadata_path": "metadata/20120016538.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20120016538",
+  "title": "An Integrated Approach for Aircraft Engine Performance Estimation and Fault Diagnostics",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-12T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "imon, Donald L.",
+    "Armstrong, Jeffrey B."
+  ],
+  "organizations": [
+    "NASA Glenn Research Center",
+    "ASRC Aerospace Corp."
+  ],
+  "subject_categories": [
+    "Aircraft Propulsion And Power"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/TM-2012-217725",
+    "GT2012-69905",
+    "E-18439",
+    "Report Number: NASA/TM-2012-217725",
+    "Report Number: GT2012-69905",
+    "Report Number: E-18439"
+  ],
+  "funding_numbers": [],
+  "abstract": "A Kalman filter-based approach for integrated on-line aircraft engine performance estimation and gas path fault diagnostics is presented. This technique is specifically designed for underdetermined estimation problems where there are more unknown system parameters representing deterioration and faults than available sensor measurements. A previously developed methodology is applied to optimally design a Kalman filter to estimate a vector of tuning parameters, appropriately sized to enable estimation. The estimated tuning parameters can then be transformed into a larger vector of health parameters representing system performance deterioration and fault effects. The results of this study show that basing fault isolation decisions solely on the estimated health parameter vector does not provide ideal results. Furthermore, expanding the number of the health parameters to address additional gas path faults causes a decrease in the estimation accuracy of those health parameters representative of turbomachinery performance deterioration. However, improved fault isolation performance is demonstrated through direct analysis of the estimated tuning parameters produced by the Kalman filter. This was found to provide equivalent or superior accuracy compared to the conventional fault isolation approach based on the analysis of sensed engine outputs, while simplifying online implementation requirements. Results from the application of these techniques to an aircraft engine simulation are presented and discussed.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

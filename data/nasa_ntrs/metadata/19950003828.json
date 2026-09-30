@@ -1,0 +1,52 @@
+{
+  "doc_id": "19950003828",
+  "source": "NASA NTRS",
+  "pdf_filename": "19950003828_19950003828.pdf",
+  "pdf_path": "pdfs/19950003828_19950003828.pdf",
+  "metadata_path": "metadata/19950003828.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19950003828",
+  "title": "Advanced composites structural concepts and materials technologies for primary aircraft structures: Structural response and failure analysis",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-07-12T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Dorris, William J.",
+    "Hairr, John W.",
+    "Huang, Jui-Tien",
+    "Ingram, J. Edward",
+    "Shah, Bharat M."
+  ],
+  "organizations": [
+    "Lockheed Aeronautical Systems Co."
+  ],
+  "subject_categories": [
+    "Aircraft Design, Testing And Performance"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NAS 1.26:4448",
+    "NASA-CR-4448",
+    "LG92ER0035",
+    "Report Number: NAS 1.26:4448",
+    "Report Number: NASA-CR-4448",
+    "Report Number: LG92ER0035"
+  ],
+  "funding_numbers": [
+    "RTOP 510-02-13-01",
+    "NAS1-18888"
+  ],
+  "abstract": "Non-linear analysis methods were adapted and incorporated in a finite element based DIAL code. These methods are necessary to evaluate the global response of a stiffened structure under combined in-plane and out-of-plane loading. These methods include the Arc Length method and target point analysis procedure. A new interface material model was implemented that can model elastic-plastic behavior of the bond adhesive. Direct application of this method is in skin/stiffener interface failure assessment. Addition of the AML (angle minus longitudinal or load) failure procedure and Hasin's failure criteria provides added capability in the failure predictions. Interactive Stiffened Panel Analysis modules were developed as interactive pre-and post-processors. Each module provides the means of performing self-initiated finite elements based analysis of primary structures such as a flat or curved stiffened panel; a corrugated flat sandwich panel; and a curved geodesic fuselage panel. This module brings finite element analysis into the design of composite structures without the requirement for the user to know much about the techniques and procedures needed to actually perform a finite element analysis from scratch. An interactive finite element code was developed to predict bolted joint strength considering material and geometrical non-linearity. The developed method conducts an ultimate strength failure analysis using a set of material degradation models.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

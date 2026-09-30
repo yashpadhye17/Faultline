@@ -1,0 +1,50 @@
+{
+  "doc_id": "19890010856",
+  "source": "NASA NTRS",
+  "pdf_filename": "19890010856_19890010856.pdf",
+  "pdf_path": "pdfs/19890010856_19890010856.pdf",
+  "metadata_path": "metadata/19890010856.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19890010856",
+  "title": "Failure analysis of a Stirling engine heat pipe",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-24T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Moore, Thomas J.",
+    "Cairelli, James E.",
+    "Khalili, Kaveh"
+  ],
+  "organizations": [
+    "NASA Lewis Research Center",
+    "Stirling Thermal Motors, Inc., Ann Arbor"
+  ],
+  "subject_categories": [
+    "Metallic Materials"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-101418",
+    "E-4516",
+    "NAS 1.15:101418",
+    "Report Number: NASA-TM-101418",
+    "Report Number: E-4516",
+    "Report Number: NAS 1.15:101418"
+  ],
+  "funding_numbers": [
+    "RTOP 586-01-11"
+  ],
+  "abstract": "Failure analysis was conducted on a heat pipe from a Stirling Engine test rig which was designed to operate at 1073 K. Premature failure had occurred due to localized overheating at the leading edge of the evaporator fin. It was found that a crack had allowed air to enter the fin and react with the sodium coolant. The origin of the crack was found to be located at the inner surface of the Inconel 600 fin where severe intergranular corrosion had taken place.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

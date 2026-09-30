@@ -1,0 +1,45 @@
+{
+  "doc_id": "20040129673",
+  "source": "NASA NTRS",
+  "pdf_filename": "20040129673_20040129673.pdf",
+  "pdf_path": "pdfs/20040129673_20040129673.pdf",
+  "metadata_path": "metadata/20040129673.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20040129673",
+  "title": "Buckling and Failure of Compression-Loaded Composite Cylindrical Shells With Geometric and Material Imperfections",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-07-09T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Hilburger, Mark W.",
+    "Starnes, James H., Jr."
+  ],
+  "organizations": [
+    "NASA Langley Research Center"
+  ],
+  "subject_categories": [
+    "Composite Materials"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "L-19010",
+    "NASA/TM-2004-212677",
+    "Report Number: L-19010",
+    "Report Number: NASA/TM-2004-212677"
+  ],
+  "funding_numbers": [
+    "719-20-30"
+  ],
+  "abstract": "The results of an experimental and numerical study of the effects of initial imperfections on the buckling response and failure of unstiffened thin-walled compression-loaded graphite-epoxy cylindrical shells are presented. The shells considered in the study have six different orthotropic or quasi-isotropic shell-wall laminates and two different shell-radius-to-thickness ratios. The numerical results include the effects of geometric shell-wall mid-surface imperfections, shell-wall thickness variations, local shell-wall ply-gaps associated with the fabrication process, shell-end geometric imperfections, nonuniform end loads, and the effects of elastic boundary conditions. Selected cylinder parameter uncertainties were also considered. Results that illustrate the effects of imperfections and uncertainties on the nonlinear response characteristics, buckling loads and failure the shells are presented. In addition, a common failure analysis is used to predict material failures in the shells.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "rca",
+    "research"
+  ]
+}

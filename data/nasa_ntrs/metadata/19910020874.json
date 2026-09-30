@@ -1,0 +1,41 @@
+{
+  "doc_id": "19910020874",
+  "source": "NASA NTRS",
+  "pdf_filename": "19910020874_19910020874.pdf",
+  "pdf_path": "pdfs/19910020874_19910020874.pdf",
+  "metadata_path": "metadata/19910020874.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19910020874",
+  "title": "STS-35 scrub 3 hydrogen leak analysis",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-25T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Seymour, Dave"
+  ],
+  "organizations": [
+    "NASA Marshall Space Flight Center"
+  ],
+  "subject_categories": [
+    "Space Transportation"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-103548",
+    "NAS 1.15:103548",
+    "Report Number: NASA-TM-103548",
+    "Report Number: NAS 1.15:103548"
+  ],
+  "funding_numbers": [],
+  "abstract": "During the summer of 1990, space shuttle Columbia experienced both an external tank/orbiter disconnect hydrogen leak and multiple internal aft compartment hydrogen leaks. After the third scrub of STS-35, a leak investigation team was organized. In support of this team, an analysis of the data obtained during scrub 3 was performed. Based on this analysis, the engine 2 prevalve was concluded to be the most likely leak location and to account for most of the observed leakage.",
+  "query_tag": "leak investigation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "rca"
+  ]
+}

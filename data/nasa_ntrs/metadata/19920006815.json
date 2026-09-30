@@ -1,0 +1,44 @@
+{
+  "doc_id": "19920006815",
+  "source": "NASA NTRS",
+  "pdf_filename": "19920006815_19920006815.pdf",
+  "pdf_path": "pdfs/19920006815_19920006815.pdf",
+  "metadata_path": "metadata/19920006815.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19920006815",
+  "title": "Progressive failure analysis of fibrous composite materials and structures",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-25T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Bahei-El-din, Yehia A."
+  ],
+  "organizations": [
+    "Cairo Univ."
+  ],
+  "subject_categories": [
+    "Composite Materials"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-CR-189784",
+    "NAS 1.26:189784",
+    "Report Number: NASA-CR-189784",
+    "Report Number: NAS 1.26:189784"
+  ],
+  "funding_numbers": [
+    "NAG1-1274"
+  ],
+  "abstract": "A brief description is given of the modifications implemented in the PAFAC finite element program for the simulation of progressive failure in fibrous composite materials and structures. Details of the memory allocation, input data, and the new subroutines are given. Also, built-in failure criteria for homogeneous and fibrous composite materials are described.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "rca",
+    "research"
+  ]
+}

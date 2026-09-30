@@ -1,0 +1,53 @@
+{
+  "doc_id": "20090037582",
+  "source": "NASA NTRS",
+  "pdf_filename": "20090037582_20090037582.pdf",
+  "pdf_path": "pdfs/20090037582_20090037582.pdf",
+  "metadata_path": "metadata/20090037582.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20090037582",
+  "title": "Shuttle Gaseous Hydrogen Venting Risk from Flow Control Valve Failure",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Drummond, J. Philip",
+    "Baurle, Robert A.",
+    "Gafney, Richard L.",
+    "Norris, Andrew T.",
+    "Pellett, Gerald L.",
+    "Rock, Kenneth E."
+  ],
+  "organizations": [
+    "NASA Langley Research Center"
+  ],
+  "subject_categories": [
+    "Spacecraft Design, Testing And Performance"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "L-19767",
+    "NASA/TM-2009-215942",
+    "LF99-8616",
+    "Report Number: L-19767",
+    "Report Number: NASA/TM-2009-215942",
+    "Report Number: LF99-8616"
+  ],
+  "funding_numbers": [
+    "WBS 378343.10.01.05.08"
+  ],
+  "abstract": "This paper describes a series of studies to assess the potential risk associated with the failure of one of three gaseous hydrogen flow control valves in the orbiter's main propulsion system during the launch of Shuttle Endeavour (STS-126) in November 2008. The studies focused on critical issues associated with the possibility of combustion resulting from release of gaseous hydrogen from the external tank into the atmosphere during assent. The Shuttle Program currently assumes hydrogen venting from the external tank will result in a critical failure. The current effort was conducted to increase understanding of the risk associated with venting hydrogen given the flow control valve failure scenarios being considered in the Integrated In-Flight Anomaly Investigation being conducted by NASA.",
+  "query_tag": "\"anomaly investigation\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

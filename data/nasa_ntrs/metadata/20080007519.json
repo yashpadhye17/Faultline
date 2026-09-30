@@ -1,0 +1,51 @@
+{
+  "doc_id": "20080007519",
+  "source": "NASA NTRS",
+  "pdf_filename": "20080007519_20080007519.pdf",
+  "pdf_path": "pdfs/20080007519_20080007519.pdf",
+  "metadata_path": "metadata/20080007519.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20080007519",
+  "title": "International Space Station (ISS) S-Band Corona Discharge Anomaly Consultation",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Kichak, Robert A.",
+    "Leidecker, Henning",
+    "Battel, Steven",
+    "Ruitberg, Arthur",
+    "Sank, Victor"
+  ],
+  "organizations": [
+    "NASA Goddard Space Flight Center",
+    "Battel Engineering"
+  ],
+  "subject_categories": [
+    "Communications And Radar"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "L-19440",
+    "NESC-RP-06-115/06-028-E",
+    "NASA/TM-2008-215100",
+    "Report Number: L-19440",
+    "Report Number: NESC-RP-06-115/06-028-E",
+    "Report Number: NASA/TM-2008-215100"
+  ],
+  "funding_numbers": [
+    "WBS 510505.06.07.03.99"
+  ],
+  "abstract": "The Assembly and Contingency Radio Frequency Group (ACRFG) onboard the International Space Station (ISS) is used for command and control communications and transmits (45 dBm or 32 watts) and receives at S-band. The system is nominally pressurized with gaseous helium (He) and nitrogen (N2) at 8 pounds per square inch absolute (psia). MacDonald, Dettwiler and Associates Ltd. (MDA) was engaged to analyze the operational characteristics of this unit in an effort to determine if the anomalous behavior was a result of a corona event. Based on this analysis, MDA did not recommend continued use of this ACRFG. The NESC was requested to provide expert support in the area of high-voltage corona and multipactoring in an S-Band RF system and to assess the probability of corona occurring in the ACRFG during the planned EVA. The NESC recommended minimal continued use of S/N 002 ACRFG until a replacement unit can be installed. Following replacement, S/N 002 will be subjected to destructive failure analysis in an effort to determine the proximate and root cause(s) of the anomalous behavior.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "rca",
+    "research"
+  ]
+}

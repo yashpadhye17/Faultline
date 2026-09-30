@@ -1,0 +1,37 @@
+{
+  "doc_id": "19710010483",
+  "source": "NASA NTRS",
+  "pdf_filename": "19710010483_19710010483.pdf",
+  "pdf_path": "pdfs/19710010483_19710010483.pdf",
+  "metadata_path": "metadata/19710010483.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19710010483",
+  "title": "MSC Apollo 13 investigation team.  Panel 5B - Corrective action study and implementation for lunar module  Final report",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-17T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [],
+  "organizations": [],
+  "subject_categories": [
+    "Space Vehicles"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-X-66929",
+    "Report Number: NASA-TM-X-66929"
+  ],
+  "funding_numbers": [],
+  "abstract": "Evaluation of corrective actions and hardware implementation for lunar module based on Apollo 13 flight incident",
+  "query_tag": "\"corrective action\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

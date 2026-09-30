@@ -1,0 +1,44 @@
+{
+  "doc_id": "19710009642",
+  "source": "NASA NTRS",
+  "pdf_filename": "19710009642_19710009642.pdf",
+  "pdf_path": "pdfs/19710009642_19710009642.pdf",
+  "metadata_path": "metadata/19710009642.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19710009642",
+  "title": "Fault isolation computer methods",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-17T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Garzia, R. F."
+  ],
+  "organizations": [
+    "Computer Sciences Corp."
+  ],
+  "subject_categories": [
+    "Computers"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "TR-1",
+    "NASA-CR-1758",
+    "Report Number: TR-1",
+    "Report Number: NASA-CR-1758"
+  ],
+  "funding_numbers": [
+    "NAS8-18405"
+  ],
+  "abstract": "Computer methods for fault isolation in systems checkout",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "doc_id": "19940018869",
+  "source": "NASA NTRS",
+  "pdf_filename": "19940018869_19940018869.pdf",
+  "pdf_path": "pdfs/19940018869_19940018869.pdf",
+  "metadata_path": "metadata/19940018869.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19940018869",
+  "title": "Review of the probabilistic failure analysis methodology and other probabilistic approaches for application in aerospace structural design",
+  "sti_type": "TECHNICAL_PUBLICATION",
+  "sti_type_details": "Technical Publication (TP)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-26T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Townsend, J.",
+    "Meyers, C.",
+    "Ortega, R.",
+    "Peck, J.",
+    "Rheinfurth, M.",
+    "Weinstock, B."
+  ],
+  "organizations": [
+    "NASA Marshall Space Flight Center",
+    "Vitro Corp."
+  ],
+  "subject_categories": [
+    "Structural Mechanics"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "M-734",
+    "NAS 1.60:3434",
+    "NASA-TP-3434",
+    "Report Number: M-734",
+    "Report Number: NAS 1.60:3434",
+    "Report Number: NASA-TP-3434"
+  ],
+  "funding_numbers": [],
+  "abstract": "Probabilistic structural analyses and design methods are steadily gaining acceptance within the aerospace industry. The safety factor approach to design has long been the industry standard, and it is believed by many to be overly conservative and thus, costly. A probabilistic approach to design may offer substantial cost savings. This report summarizes several probabilistic approaches: the probabilistic failure analysis (PFA) methodology developed by Jet Propulsion Laboratory, fast probability integration (FPI) methods, the NESSUS finite element code, and response surface methods. Example problems are provided to help identify the advantages and disadvantages of each method.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

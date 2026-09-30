@@ -1,0 +1,129 @@
+{% extends "layouts/marketing.html" %}
+{% from "partials/icons.html" import icon %}
+{% block page_id %}home{% endblock %}
+{% block title %}Reliability Copilot · Cited answers from NASA engineering reports{% endblock %}
+{% block content %}
+<section class="hero">
+  <div class="mk-container hero-grid">
+    <div>
+      <span class="eyebrow-pill">{{ icon("layers") }} Built on the NASA Technical Reports Server</span>
+      <h1>Find the root cause faster, with <span class="grad">NASA-grade evidence</span>.</h1>
+      <p class="hero-lede">
+        Reliability Copilot reads decades of NASA failure, repair, and anomaly reports so your team can
+        diagnose incidents, troubleshoot equipment, and compare approaches, with every answer cited.
+      </p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary btn-lg" href="/research">Open the app {{ icon("arrow") }}</a>
+        <a class="btn btn-secondary btn-lg" href="#how">See how it works</a>
+      </div>
+      <p class="hero-note">No sign-up. Runs on your own index of NTRS technical reports.</p>
+    </div>
+
+    <div class="mockup" aria-hidden="true">
+      <div class="mockup-bar"><span></span><span></span><span></span><em>Root cause analysis</em></div>
+      <div class="mockup-body">
+        <div class="mockup-q">ISS SARJ bearing showed degradation signatures. What recovery actions are reported?</div>
+        <div class="mockup-a">
+          <h4>Analysis</h4>
+          <p>Reports trace the degradation to race-ring surface damage from inadequate lubrication under high contact stress.</p>
+          <ol>
+            <li>Inspect race ring for debris and spalling</li>
+            <li>Apply grease lubrication to the trundle bearings</li>
+            <li>Reduce joint rotation until repair is verified</li>
+          </ol>
+          <div class="mockup-sources">
+            <span class="source-pill"><span class="source-num">1</span><span class="source-title">SARJ anomaly investigation</span></span>
+            <span class="source-pill"><span class="source-num">2</span><span class="source-title">Lessons learned: ISS mechanisms</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="proof-bar" aria-label="Live index statistics">
+  <div class="mk-container proof-grid" id="proof-bar">
+    <div class="proof-item"><strong class="skeleton" data-proof="docs">—</strong><span>Technical reports indexed</span></div>
+    <div class="proof-item"><strong class="skeleton" data-proof="chunks">—</strong><span>Searchable passages</span></div>
+    <div class="proof-item"><strong class="skeleton" data-proof="retrieval">—</strong><span>Retrieval</span></div>
+    <div class="proof-item"><strong class="skeleton" data-proof="rerank">—</strong><span>Reranking</span></div>
+  </div>
+</section>
+
+<section class="mk-section" id="product">
+  <div class="mk-container">
+    <div class="section-head">
+      <span class="eyebrow-pill">Product</span>
+      <h2>Four copilots for reliability work</h2>
+      <p>Each copilot is tuned for a specific engineering job, and every answer links back to the NASA report it came from.</p>
+    </div>
+    <div class="feature-grid">
+      <a class="feature-card" href="/rca">
+        <span class="feature-icon">{{ icon("target") }}</span>
+        <h3>Root cause analysis</h3>
+        <p>Turn an incident description into ranked likely causes, checks to run, and corrective actions.</p>
+        <span class="feature-example">"Capacitors failed repeatedly during NEXT PPU testing. What caused it?"</span>
+        <span class="feature-cta">Try root cause analysis {{ icon("arrow") }}</span>
+      </a>
+      <a class="feature-card" href="/maintenance">
+        <span class="feature-icon">{{ icon("wrench") }}</span>
+        <h3>Maintenance troubleshooting</h3>
+        <p>Get step-by-step diagnostic guidance drawn from maintenance and health-management reports.</p>
+        <span class="feature-example">"What early-warning signs indicate impending bearing failure?"</span>
+        <span class="feature-cta">Try maintenance {{ icon("arrow") }}</span>
+      </a>
+      <a class="feature-card" href="/comparison">
+        <span class="feature-icon">{{ icon("columns") }}</span>
+        <h3>Engineering comparison</h3>
+        <p>Compare two methods, designs, or test approaches: similarities, differences, risks, and a recommendation.</p>
+        <span class="feature-example">"Top-down FMEA vs exhaustive component-level FMEA"</span>
+        <span class="feature-cta">Try comparison {{ icon("arrow") }}</span>
+      </a>
+      <a class="feature-card" href="/research#q=Summarize%20lessons%20learned%20from%20Space%20Shuttle%20missions%20that%20relate%20to%20failure%20investigation%20and%20corrective%20action.">
+        <span class="feature-icon">{{ icon("search") }}</span>
+        <h3>Research copilot</h3>
+        <p>Ask open questions across the corpus, filtered by NASA center and publication year.</p>
+        <span class="feature-example">"Summarize Shuttle lessons learned on failure investigation."</span>
+        <span class="feature-cta">Try research {{ icon("arrow") }}</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="mk-section alt" id="how">
+  <div class="mk-container">
+    <div class="section-head center">
+      <span class="eyebrow-pill">How it works</span>
+      <h2>From question to cited answer</h2>
+      <p>A retrieval pipeline built for technical documents, not generic web search.</p>
+    </div>
+    <div class="steps">
+      <div class="step-card">
+        <h3>Hybrid retrieval</h3>
+        <p>Keyword search (BM25) and semantic vector search run together, so exact part numbers and related concepts are both found.</p>
+        <span class="mono">BM25 + HNSW · reciprocal rank fusion</span>
+      </div>
+      <div class="step-card">
+        <h3>Reranking</h3>
+        <p>A cross-encoder rescores every candidate passage against your question and keeps only the most relevant evidence.</p>
+        <span class="mono">bge-reranker · fetch_k → top_k</span>
+      </div>
+      <div class="step-card">
+        <h3>Cited answer</h3>
+        <p>The model writes a structured answer from that evidence only, and citation enforcement links each claim to its source report.</p>
+        <span class="mono">citation enforcement · run metadata</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mk-section" style="padding-top: 0;">
+  <div class="mk-container">
+    <div class="cta-band">
+      <h2>Start with a real incident</h2>
+      <p>Paste an anomaly description and get ranked causes with sources in under a minute.</p>
+      <a class="btn btn-primary btn-lg" href="/rca">Run a root cause analysis {{ icon("arrow") }}</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

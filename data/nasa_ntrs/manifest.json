@@ -1,0 +1,1051 @@
+{
+  "source": "NASA NTRS OpenAPI",
+  "base_url": "https://ntrs.nasa.gov/api",
+  "corpus_focus": "technical_repair_reports",
+  "queries": [
+    "\"failure investigation\"",
+    "\"failure analysis\"",
+    "\"anomaly investigation\"",
+    "\"mishap investigation\"",
+    "\"root cause\"",
+    "\"corrective action\"",
+    "\"lessons learned\" failure",
+    "hardware anomaly",
+    "component repair",
+    "fault isolation",
+    "problem reporting corrective",
+    "bearing failure",
+    "leak investigation",
+    "fire test report",
+    "damage assessment repair",
+    "nonconformance",
+    "incident investigation",
+    "troubleshoot maintenance"
+  ],
+  "sti_types": [
+    "TECHNICAL_MEMORANDUM",
+    "TECHNICAL_PUBLICATION",
+    "CONTRACTOR_REPORT",
+    "SPECIAL_PUBLICATION"
+  ],
+  "repair_only": true,
+  "total_limit": 250,
+  "per_query_limit": 35,
+  "saved_count": 110,
+  "new_since_run_start": 110,
+  "downloaded": 110,
+  "reused_existing_pdfs": 0,
+  "metadata_written": 110,
+  "pruned_non_repair": 0,
+  "failed": 0,
+  "pdf_dir": "/Users/yash/Desktop/Document_Portal/data/nasa_ntrs/pdfs",
+  "metadata_dir": "/Users/yash/Desktop/Document_Portal/data/nasa_ntrs/metadata",
+  "metadata_file": "/Users/yash/Desktop/Document_Portal/data/nasa_ntrs/metadata.jsonl",
+  "filterable_fields": [
+    "doc_id",
+    "sti_type",
+    "center_code",
+    "center_name",
+    "year",
+    "authors",
+    "subject_categories",
+    "keywords",
+    "report_numbers",
+    "source",
+    "query_tag",
+    "corpus_focus"
+  ],
+  "attribution": "Data provided by NASA Scientific and Technical Information Program (https://ntrs.nasa.gov/api/openapi/)",
+  "records": [
+    {
+      "doc_id": "19650012945",
+      "title": "Saturn c-1 failure effect analysis for sa-5 and complex 37-b",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19650012945_19650012945.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19650012945"
+    },
+    {
+      "doc_id": "19660005419",
+      "title": "Investigation of hydrotest failure of Thiokol Chemical Corporation 260-inch-diameter SL-1 motor case",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19660005419_19660005419.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19660005419"
+    },
+    {
+      "doc_id": "19660010838",
+      "title": "A detailed failure analysis of the ball bearings from a model 1631 tape recorder Final report, 1 Dec. 1964 - 1 Nov. 1965",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19660010838_19660010838.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19660010838"
+    },
+    {
+      "doc_id": "19660023388",
+      "title": "Reliability analysis and corrective action summary for the Saturn V hydrodynamic support equipment",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19660023388_19660023388.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19660023388"
+    },
+    {
+      "doc_id": "19710002424",
+      "title": "Apollo 10 recovery flashing beacon failure, anomaly report no. 2",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19710002424_19710002424.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19710002424"
+    },
+    {
+      "doc_id": "19710006957",
+      "title": "Fault isolation and diagnostic test techniques for large scale arrays in sequential digital networks  Final technical report",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19710006957_19710006957.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19710006957"
+    },
+    {
+      "doc_id": "19710009642",
+      "title": "Fault isolation computer methods",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19710009642_19710009642.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19710009642"
+    },
+    {
+      "doc_id": "19710010479",
+      "title": "MSC Apollo 13 investigation team.  Panel 1 - Spacecraft incident investigation. Volume 1 - Anomaly investigation  Final report",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19710010479_19710010479.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19710010479"
+    },
+    {
+      "doc_id": "19710010480",
+      "title": "MSC Apollo 13 investigation team.  Panel 1 - Spacecraft incident investigation. Volume 3 - Reports of analyses and tests performed in support of the cryogenic oxygen tank 2 anomaly investigation",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19710010480_19710010480.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19710010480"
+    },
+    {
+      "doc_id": "19710010483",
+      "title": "MSC Apollo 13 investigation team.  Panel 5B - Corrective action study and implementation for lunar module  Final report",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19710010483_19710010483.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19710010483"
+    },
+    {
+      "doc_id": "19710010484",
+      "title": "MSC Apollo 13 investigation team. Panel 5C - Corrective action study and implementation for government furnished equipment  Final report",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19710010484_19710010484.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19710010484"
+    },
+    {
+      "doc_id": "19710010490",
+      "title": "MSC Apollo 13 investigation team.  Panel 5A - Corrective action study and implementation for Command and Service Modules /CSM/",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19710010490_19710010490.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19710010490"
+    },
+    {
+      "doc_id": "19710010494",
+      "title": "MSC Apollo 13 investigation team.  Panel 1 - Spacecraft incident investigation. Volume 2 - Manufacturing and test history of oxygen tank  Final report",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19710010494_19710010494.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19710010494"
+    },
+    {
+      "doc_id": "19720020576",
+      "title": "Apollo 14 mission circuit breaker anomaly",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19720020576_19720020576.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19720020576"
+    },
+    {
+      "doc_id": "19720020851",
+      "title": "Design and fabrication of prototype system for early warning of impending bearing failure",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19720020851_19720020851.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19720020851"
+    },
+    {
+      "doc_id": "19720026092",
+      "title": "Failure analysis of solid rocket apogee motors",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19720026092_19720026092.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19720026092"
+    },
+    {
+      "doc_id": "19730012100",
+      "title": "Reaction control system helium pressure regulator filter failure",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19730012100_19730012100.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19730012100"
+    },
+    {
+      "doc_id": "19740020847",
+      "title": "Design and fabrication of prototype system for early warning of impending bearing failure",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19740020847_19740020847.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19740020847"
+    },
+    {
+      "doc_id": "19740026235",
+      "title": "Shuttle active thermal control system development testing.  Volume 8:  Tube anomaly investigation",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19740026235_19740026235.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19740026235"
+    },
+    {
+      "doc_id": "19740078908",
+      "title": "Apollo 6, Anomaly Report No. 6: Abnormal Structural Performance During Launch Phase",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "JSC",
+      "year": 2019,
+      "pdf_filename": "19740078908_19740078908.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19740078908"
+    },
+    {
+      "doc_id": "19750009611",
+      "title": "ATM CMG bearing failure analysis",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19750009611_19750009611.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19750009611"
+    },
+    {
+      "doc_id": "19760008374",
+      "title": "A study of the use of vibration and stress wave sensing for the detection of bearing failure",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19760008374_19760008374.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19760008374"
+    },
+    {
+      "doc_id": "19760008977",
+      "title": "OH-58 helicopter transmission failure analysis",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19760008977_19760008977.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19760008977"
+    },
+    {
+      "doc_id": "19800012380",
+      "title": "Mod 1 wind turbine generator failure modes and effects analysis",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19800012380_19800012380.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19800012380"
+    },
+    {
+      "doc_id": "19820003311",
+      "title": "Failure analysis of a tool steel torque shaft",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19820003311_19820003311.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19820003311"
+    },
+    {
+      "doc_id": "19820021473",
+      "title": "STS-3 main parachute failure",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19820021473_19820021473.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19820021473"
+    },
+    {
+      "doc_id": "19840010885",
+      "title": "Development and analysis of the Software Implemented Fault-Tolerance (SIFT) computer",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19840010885_19840010885.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19840010885"
+    },
+    {
+      "doc_id": "19840024366",
+      "title": "Failure analysis of a graphite/epoxy laminate subjected to bolt bearing loads",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19840024366_19840024366.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19840024366"
+    },
+    {
+      "doc_id": "19850022395",
+      "title": "Development and evaluation of a Fault-Tolerant Multiprocessor (FTMP) computer.  Volume 3:  FTMP test and evaluation",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19850022395_19850022395.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19850022395"
+    },
+    {
+      "doc_id": "19860000811",
+      "title": "Analytical investigation of solid rocket nozzle failure",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19860000811_19860000811.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19860000811"
+    },
+    {
+      "doc_id": "19860007082",
+      "title": "Earth Radiation Budget Experiment (ERBE) scanner instrument anomaly investigation",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19860007082_19860007082.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19860007082"
+    },
+    {
+      "doc_id": "19870017097",
+      "title": "Expert systems applied to fault isolation and energy storage management, phase 2",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19870017097_19870017097.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19870017097"
+    },
+    {
+      "doc_id": "19880003114",
+      "title": "Analysis of 7- X 10-foot high speed wind tunnel shaft loads in support of fan blade failure investigation",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19880003114_19880003114.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19880003114"
+    },
+    {
+      "doc_id": "19880010988",
+      "title": "Ply-level failure analysis of a graphite/epoxy laminate under bearing-bypass loading",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19880010988_19880010988.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19880010988"
+    },
+    {
+      "doc_id": "19890010856",
+      "title": "Failure analysis of a Stirling engine heat pipe",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19890010856_19890010856.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19890010856"
+    },
+    {
+      "doc_id": "19900001286",
+      "title": "Documentation of the current fault detection, isolation and reconfiguration software of the AIPS fault-tolerant processor",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19900001286_19900001286.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19900001286"
+    },
+    {
+      "doc_id": "19900008304",
+      "title": "Analysis of the National Transonic Facility mishap",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19900008304_19900008304.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19900008304"
+    },
+    {
+      "doc_id": "19900012098",
+      "title": "Compendium of fracture mechanics problems",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19900012098_19900012098.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19900012098"
+    },
+    {
+      "doc_id": "19900016012",
+      "title": "Failure of the ERBE scanner instrument aboard NOAA 10 spacecraft and results of failure analysis",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19900016012_19900016012.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19900016012"
+    },
+    {
+      "doc_id": "19910008300",
+      "title": "Evaluation of an expert system for fault detection, isolation, and recovery in the manned maneuvering unit",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19910008300_19910008300.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19910008300"
+    },
+    {
+      "doc_id": "19910016366",
+      "title": "An autonomous fault detection, isolation, and recovery system for a 20-kHz electric power distribution test bed",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19910016366_19910016366.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19910016366"
+    },
+    {
+      "doc_id": "19910020874",
+      "title": "STS-35 scrub 3 hydrogen leak analysis",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19910020874_19910020874.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19910020874"
+    },
+    {
+      "doc_id": "19920004061",
+      "title": "High-frequency data observations from space shuttle main engine low pressure fuel turbopump discharge duct flex joint tripod failure investigation",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19920004061_19920004061.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19920004061"
+    },
+    {
+      "doc_id": "19920006815",
+      "title": "Progressive failure analysis of fibrous composite materials and structures",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19920006815_19920006815.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19920006815"
+    },
+    {
+      "doc_id": "19920008654",
+      "title": "Hubble Space Telescope: SRM/QA observations and lessons learned",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19920008654_19920008654.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19920008654"
+    },
+    {
+      "doc_id": "19920012992",
+      "title": "The role of failure/problems in engineering: A commentary of failures experienced - lessons learned",
+      "sti_type": "TECHNICAL_PUBLICATION",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19920012992_19920012992.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19920012992"
+    },
+    {
+      "doc_id": "19920016862",
+      "title": "Advanced information processing system: Fault injection study and results",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19920016862_19920016862.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19920016862"
+    },
+    {
+      "doc_id": "19920024627",
+      "title": "Fault isolation detection expert (FIDEX). Part 1: Expert system diagnostics for a 30/20 Gigahertz satellite transponder",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19920024627_19920024627.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19920024627"
+    },
+    {
+      "doc_id": "19940018869",
+      "title": "Review of the probabilistic failure analysis methodology and other probabilistic approaches for application in aerospace structural design",
+      "sti_type": "TECHNICAL_PUBLICATION",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19940018869_19940018869.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19940018869"
+    },
+    {
+      "doc_id": "19950003828",
+      "title": "Advanced composites structural concepts and materials technologies for primary aircraft structures: Structural response and failure analysis",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19950003828_19950003828.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19950003828"
+    },
+    {
+      "doc_id": "19950003830",
+      "title": "Advanced composites structural concepts and materials technologies for primary aircraft structures. Structural response and failure analysis: ISPAN modules users manual",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19950003830_19950003830.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19950003830"
+    },
+    {
+      "doc_id": "19950021842",
+      "title": "Developmental problems and their solution for the Space Shuttle main engine alternate liquid oxygen high-pressure turbopump: Anomaly or failure investigation the key",
+      "sti_type": "TECHNICAL_PUBLICATION",
+      "center_code": "CDMS",
+      "year": 2019,
+      "pdf_filename": "19950021842_19950021842.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19950021842"
+    },
+    {
+      "doc_id": "19960017281",
+      "title": "Modeling, Monitoring and Fault Diagnosis of Spacecraft Air Contaminants",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "HQ",
+      "year": 2019,
+      "pdf_filename": "19960017281_19960017281.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19960017281"
+    },
+    {
+      "doc_id": "19970011947",
+      "title": "TSS-1R Mission Failure Investigation Board",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "HQ",
+      "year": 2019,
+      "pdf_filename": "19970011947_19970011947.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19970011947"
+    },
+    {
+      "doc_id": "19970016700",
+      "title": "Advanced Technology Composite Fuselage - Repair and Damage Assessment Supporting Maintenance",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "19970016700_19970016700.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19970016700"
+    },
+    {
+      "doc_id": "19980096374",
+      "title": "Multiple Fault Isolation in Redundant Systems",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "ARC",
+      "year": 2019,
+      "pdf_filename": "19980096374_19980096374.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19980096374"
+    },
+    {
+      "doc_id": "19990052628",
+      "title": "Progressive Failure Analysis Methodology for Laminated Composite Structures",
+      "sti_type": "TECHNICAL_PUBLICATION",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "19990052628_19990052628.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/19990052628"
+    },
+    {
+      "doc_id": "20000031324",
+      "title": "What Operation Failure Discovered? Hot-Fire Test",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "MSFC",
+      "year": 2019,
+      "pdf_filename": "20000031324_20000031324.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20000031324"
+    },
+    {
+      "doc_id": "20000120144",
+      "title": "Software Fault Tolerance: A Tutorial",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "20000120144_20000120144.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20000120144"
+    },
+    {
+      "doc_id": "20020050369",
+      "title": "Failure Analysis of a Helicopter External Fuel-Tank Pylon",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "20020050369_20020050369.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20020050369"
+    },
+    {
+      "doc_id": "20030014592",
+      "title": "Space Station Power Generation in Support of the Beta Gimbal Anomaly Resolution",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20030014592_20030014592.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20030014592"
+    },
+    {
+      "doc_id": "20030032975",
+      "title": "Aircraft Engine Sensor/Actuator/Component Fault Diagnosis Using a Bank of Kalman Filters",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20030032975_20030032975.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20030032975"
+    },
+    {
+      "doc_id": "20030067984",
+      "title": "Application of a Bank of Kalman Filters for Aircraft Engine Fault Diagnostics",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20030067984_20030067984.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20030067984"
+    },
+    {
+      "doc_id": "20040084794",
+      "title": "Parameter Transient Behavior Analysis on Fault Tolerant Control System",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "20040084794_20040084794.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20040084794"
+    },
+    {
+      "doc_id": "20040110846",
+      "title": "Evaluation of an Enhanced Bank of Kalman Filters for In-Flight Aircraft Engine Sensor Fault Diagnostics",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20040110846_20040110846.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20040110846"
+    },
+    {
+      "doc_id": "20040129673",
+      "title": "Buckling and Failure of Compression-Loaded Composite Cylindrical Shells With Geometric and Material Imperfections",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "20040129673_20040129673.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20040129673"
+    },
+    {
+      "doc_id": "20060045866",
+      "title": "Tapered Roller Bearing Damage Detection Using Decision Fusion Analysis",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20060045866_20060045866.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20060045866"
+    },
+    {
+      "doc_id": "20060050035",
+      "title": "The Apollo Experience Lessons Learned for Constellation Lunar Dust Management",
+      "sti_type": "TECHNICAL_PUBLICATION",
+      "center_code": "JSC",
+      "year": 2020,
+      "pdf_filename": "20060050035_20060050035.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20060050035"
+    },
+    {
+      "doc_id": "20070000534",
+      "title": "User-Defined Material Model for Progressive Failure Analysis",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "20070000534_20070000534.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20070000534"
+    },
+    {
+      "doc_id": "20070003591",
+      "title": "Lessons Learned from Seven Space Shuttle Missions",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "JSC",
+      "year": 2019,
+      "pdf_filename": "20070003591_20070003591.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20070003591"
+    },
+    {
+      "doc_id": "20070010750",
+      "title": "A Procedure for Modeling Structural Component/Attachment Failure Using Transient Finite Element Analysis",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "20070010750_20070010750.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20070010750"
+    },
+    {
+      "doc_id": "20070035083",
+      "title": "Independent Review Support for Phoenix Mars Mission Robotic Arm Brush Motor Failure",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "20070035083_20070035083.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20070035083"
+    },
+    {
+      "doc_id": "20070035101",
+      "title": "Wiring Damage Analyses for STS OV-103",
+      "sti_type": "TECHNICAL_PUBLICATION",
+      "center_code": "GSFC",
+      "year": 2019,
+      "pdf_filename": "20070035101_20070035101.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20070035101"
+    },
+    {
+      "doc_id": "20080007519",
+      "title": "International Space Station (ISS) S-Band Corona Discharge Anomaly Consultation",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "20080007519_20080007519.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20080007519"
+    },
+    {
+      "doc_id": "20080043565",
+      "title": "Failure Analysis of Electrical Pin Connectors",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "20080043565_20080043565.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20080043565"
+    },
+    {
+      "doc_id": "20080045538",
+      "title": "Failure Analysis Study and Long-Term Reliability of Optical Assemblies with End-Face Damage",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "20080045538_20080045538.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20080045538"
+    },
+    {
+      "doc_id": "20080047309",
+      "title": "User-defined Material Model for Thermo-mechanical Progressive Failure Analysis",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "20080047309_20080047309.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20080047309"
+    },
+    {
+      "doc_id": "20090018336",
+      "title": "The Development of Directional Decohesion Finite Elements for Multiscale Failure Analysis of Metallic Polycrystals",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "20090018336_20090018336.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20090018336"
+    },
+    {
+      "doc_id": "20090029912",
+      "title": "Analytic Confusion Matrix Bounds for Fault Detection and Isolation Using a Sum-of-Squared- Residuals Approach",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20090029912_20090029912.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20090029912"
+    },
+    {
+      "doc_id": "20090033114",
+      "title": "STS-114 Engine Cut-off Sensor Anomaly Technical Consultation Report",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "20090033114_20090033114.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20090033114"
+    },
+    {
+      "doc_id": "20090037582",
+      "title": "Shuttle Gaseous Hydrogen Venting Risk from Flow Control Valve Failure",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "20090037582_20090037582.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20090037582"
+    },
+    {
+      "doc_id": "20090041557",
+      "title": "Multiscale Failure Analysis of Laminated Composite Panels Subjected to Blast Loading Using FEAMAC/Explicit",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20090041557_20090041557.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20090041557"
+    },
+    {
+      "doc_id": "20100000129",
+      "title": "Failure Analysis of Sapphire Refractive Secondary Concentrators",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20100000129_20100000129.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20100000129"
+    },
+    {
+      "doc_id": "20100008953",
+      "title": "Current Space Station Experiments Investigating Component Level Electronics Repair",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20100008953_20100008953.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20100008953"
+    },
+    {
+      "doc_id": "20100021126",
+      "title": "Predicting Failure Progression and Failure Loads in Composite Open-Hole Tension Coupons",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "20100021126_20100021126.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20100021126"
+    },
+    {
+      "doc_id": "20100026760",
+      "title": "Analysis of Space Shuttle Ground Support System Fault Detection, Isolation, and Recovery Processes and Resources",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "ARC",
+      "year": 2019,
+      "pdf_filename": "20100026760_20100026760.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20100026760"
+    },
+    {
+      "doc_id": "20100033105",
+      "title": "Approach to In Situ Component Level Electronics Assembly Repair (CLEAR) for Constellation",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20100033105_20100033105.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20100033105"
+    },
+    {
+      "doc_id": "20110006369",
+      "title": "Recommendations for Enabling Manual Component Level Electronic Repair for Future Space Missions",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20110006369_20110006369.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20110006369"
+    },
+    {
+      "doc_id": "20110007007",
+      "title": "Component-Level Electronic-Assembly Repair (CLEAR) Spacecraft Circuit Diagnostics by Analog and Complex Signature Analysis",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20110007007_20110007007.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20110007007"
+    },
+    {
+      "doc_id": "20110007099",
+      "title": "Component-Level Electronic-Assembly Repair (CLEAR) Synthetic Instrument Capabilities Assessment and Test Report",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20110007099_20110007099.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20110007099"
+    },
+    {
+      "doc_id": "20110007100",
+      "title": "Component-Level Electronic-Assembly Repair (CLEAR) Analysis of the Problem Reporting and Corrective Action (PRACA) Database of the International Space Station On-Orbit Electrical Systems",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20110007100_20110007100.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20110007100"
+    },
+    {
+      "doc_id": "20110007101",
+      "title": "Component-Level Electronic-Assembly Repair (CLEAR) Operational Concept",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20110007101_20110007101.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20110007101"
+    },
+    {
+      "doc_id": "20110007102",
+      "title": "Component-Level Electronic-Assembly Repair (CLEAR) System Architecture",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20110007102_20110007102.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20110007102"
+    },
+    {
+      "doc_id": "20110015384",
+      "title": "ISS Solar Array Alpha Rotary Joint (SARJ) Bearing Failure and Recovery: Technical and Project Management Lessons Learned",
+      "sti_type": "TECHNICAL_PUBLICATION",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20110015384_20110015384.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20110015384"
+    },
+    {
+      "doc_id": "20110022528",
+      "title": "Logistics Lessons Learned in NASA Space Flight",
+      "sti_type": "TECHNICAL_PUBLICATION",
+      "center_code": "KSC",
+      "year": 2019,
+      "pdf_filename": "20110022528_20110022528.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20110022528"
+    },
+    {
+      "doc_id": "20120003292",
+      "title": "NASA Accident Precursor Analysis Handbook, Version 1.0",
+      "sti_type": "SPECIAL_PUBLICATION",
+      "center_code": "HQ",
+      "year": 2019,
+      "pdf_filename": "20120003292_20120003292.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20120003292"
+    },
+    {
+      "doc_id": "20120003735",
+      "title": "Component Repair Experiment-1: An Experiment Evaluating Electronic Component-Level Repair During Spaceflight",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20120003735_20120003735.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20120003735"
+    },
+    {
+      "doc_id": "20120013473",
+      "title": "Systematic Destruction of Electronic Parts for Aid in Electronic Failure Analysis",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "MSFC",
+      "year": 2019,
+      "pdf_filename": "20120013473_20120013473.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20120013473"
+    },
+    {
+      "doc_id": "20120013869",
+      "title": "NASA's Evolutionary Xenon Thruster (NEXT) Power Processing Unit (PPU) Capacitor Failure Root Cause Analysis",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20120013869_20120013869.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20120013869"
+    },
+    {
+      "doc_id": "20120016538",
+      "title": "An Integrated Approach for Aircraft Engine Performance Estimation and Fault Diagnostics",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20120016538_20120016538.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20120016538"
+    },
+    {
+      "doc_id": "20130001808",
+      "title": "Boiling Experiment Facility (BXF): Post Flight Assessment Anomaly Investigation Report",
+      "sti_type": "CONTRACTOR_REPORT",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20130001808_20130001808.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20130001808"
+    },
+    {
+      "doc_id": "20150000899",
+      "title": "An Integrated Architecture for Aircraft Engine Performance Monitoring and Fault Diagnostics: Engine Test Results",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20150000899_20150000899.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20150000899"
+    },
+    {
+      "doc_id": "20170002627",
+      "title": "Lessons Learned: Mechanical Component and Tribology Activities in Support of Return to Flight",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20170002627_20170002627.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20170002627"
+    },
+    {
+      "doc_id": "20170007245",
+      "title": "Influence of Shear Stiffness Degradation on Crack Paths in Uni-Directional Composite Laminates",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "LaRC",
+      "year": 2019,
+      "pdf_filename": "20170007245_20170007245.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20170007245"
+    },
+    {
+      "doc_id": "20180002070",
+      "title": "Advanced Stirling Radioisotope Generator Engineering Unit 2 Anomaly Investigation",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2019,
+      "pdf_filename": "20180002070_20180002070.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20180002070"
+    },
+    {
+      "doc_id": "20200000635",
+      "title": "Prognostic Launch Vehicle Probability of Failure Assessment Methodology for Conceptual Systems Predicated on Human Causal Factors",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2020,
+      "pdf_filename": "20200000635_20200000635.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20200000635"
+    },
+    {
+      "doc_id": "20205003145",
+      "title": "Progressive Failure Analysis Correlation with Notched Composite Laminate Test Data",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "LaRC",
+      "year": 2020,
+      "pdf_filename": "20205003145_NASA-TM-2020-5003145.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20205003145"
+    },
+    {
+      "doc_id": "20210017934",
+      "title": "Arecibo Observatory Auxiliary M4N Socket Termination Failure Investigation",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "LaRC",
+      "year": 2021,
+      "pdf_filename": "20210017934_20210017934 FINAL.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20210017934"
+    },
+    {
+      "doc_id": "20240013567",
+      "title": "Piloted Evaluation of a Fault Recovery System for an Aircraft with Distributed Electric Propulsion",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2025,
+      "pdf_filename": "20240013567_TM-20240013567.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20240013567"
+    },
+    {
+      "doc_id": "20250002545",
+      "title": "Progressive Damage and Failure Analysis Methods Applications for Aircraft Crashworthiness and Impact Energy Management",
+      "sti_type": "TECHNICAL_MEMORANDUM",
+      "center_code": "GRC",
+      "year": 2025,
+      "pdf_filename": "20250002545_TM-20250002545.pdf",
+      "citation_url": "https://ntrs.nasa.gov/citations/20250002545"
+    }
+  ]
+}

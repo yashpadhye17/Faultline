@@ -1,0 +1,46 @@
+{
+  "doc_id": "20090029912",
+  "source": "NASA NTRS",
+  "pdf_filename": "20090029912_20090029912.pdf",
+  "pdf_path": "pdfs/20090029912_20090029912.pdf",
+  "metadata_path": "metadata/20090029912.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20090029912",
+  "title": "Analytic Confusion Matrix Bounds for Fault Detection and Isolation Using a Sum-of-Squared- Residuals Approach",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Simon, Dan",
+    "Simon, Donald L."
+  ],
+  "organizations": [
+    "Cleveland State Univ.",
+    "NASA Glenn Research Center"
+  ],
+  "subject_categories": [
+    "Quality Assurance And Reliability"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "E-16998",
+    "NASA/TM-2009-215655",
+    "Report Number: E-16998",
+    "Report Number: NASA/TM-2009-215655"
+  ],
+  "funding_numbers": [
+    "WBS 645846.02.07.03.12"
+  ],
+  "abstract": "Given a system which can fail in 1 or n different ways, a fault detection and isolation (FDI) algorithm uses sensor data in order to determine which fault is the most likely to have occurred. The effectiveness  of an FDI algorithm can be quantified by a confusion matrix, which i ndicates the probability that each fault is isolated given that each fault has occurred. Confusion matrices are often generated with simulation data, particularly for complex systems. In this paper we perform  FDI using sums of squares of sensor residuals (SSRs). We assume that the sensor residuals are Gaussian, which gives the SSRs a chi-squared  distribution. We then generate analytic lower and upper bounds on the  confusion matrix elements. This allows for the generation of optimal sensor sets without numerical simulations. The confusion matrix bound s are verified with simulated aircraft engine data.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca"
+  ]
+}

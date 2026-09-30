@@ -1,0 +1,57 @@
+{
+  "doc_id": "20150000899",
+  "source": "NASA NTRS",
+  "pdf_filename": "20150000899_20150000899.pdf",
+  "pdf_path": "pdfs/20150000899_20150000899.pdf",
+  "metadata_path": "metadata/20150000899.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20150000899",
+  "title": "An Integrated Architecture for Aircraft Engine Performance Monitoring and Fault Diagnostics: Engine Test Results",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-12T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Rinehart, Aidan W.",
+    "Simon, Donald L."
+  ],
+  "organizations": [
+    "Vantage Partners, LLC",
+    "NASA Glenn Research Center"
+  ],
+  "subject_categories": [
+    "Aircraft Propulsion And Power"
+  ],
+  "keywords": [
+    "systems health monitoring",
+    "gas turbine engines",
+    "propulsion system performance"
+  ],
+  "report_numbers": [
+    "AIAA Paper 2014-3924",
+    "GRC-E-DAA-TN17165",
+    "E-19012",
+    "NASA/TM-2015-218448",
+    "Report Number: AIAA Paper 2014-3924",
+    "Report Number: GRC-E-DAA-TN17165",
+    "Report Number: E-19012",
+    "Report Number: NASA/TM-2015-218448"
+  ],
+  "funding_numbers": [
+    "NNC12BA01B",
+    "WBS 284848.02.04.03.02.01.03"
+  ],
+  "abstract": "This paper presents a model-based architecture for performance trend monitoring and gas path fault diagnostics designed for analyzing streaming transient aircraft engine measurement data. The technique analyzes residuals between sensed engine outputs and model predicted outputs for fault detection and isolation purposes. Diagnostic results from the application of the approach to test data acquired from an aircraft turbofan engine are presented. The approach is found to avoid false alarms when presented nominal fault-free data. Additionally, the approach is found to successfully detect and isolate gas path seeded-faults under steady-state operating scenarios although some fault misclassifications are noted during engine transients. Recommendations for follow-on maturation and evaluation of the technique are also presented.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

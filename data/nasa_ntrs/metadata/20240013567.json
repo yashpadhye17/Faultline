@@ -1,0 +1,58 @@
+{
+  "doc_id": "20240013567",
+  "source": "NASA NTRS",
+  "pdf_filename": "20240013567_TM-20240013567.pdf",
+  "pdf_path": "pdfs/20240013567_TM-20240013567.pdf",
+  "metadata_path": "metadata/20240013567.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20240013567",
+  "title": "Piloted Evaluation of a Fault Recovery System for an Aircraft with Distributed Electric Propulsion",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2025,
+  "published": "2025-01-10T05:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Jonathan S. Litt",
+    "Jonah J. Sachs-Wetstone",
+    "Thomas Shane Sowers",
+    "Albert Karl Owen",
+    "Sophia M. Bricker",
+    "Anna Schaldenbrand"
+  ],
+  "organizations": [
+    "Glenn Research Center",
+    "HX5, LLC",
+    "NovaTek Engineering"
+  ],
+  "subject_categories": [
+    "Aircraft Propulsion and Power",
+    "Aeronautics (General)"
+  ],
+  "keywords": [
+    "Electrified Aircraft Propulsion",
+    "integrated flight/propulsion control",
+    "failure recovery",
+    "reconfigurable control"
+  ],
+  "report_numbers": [
+    "AIAA 2025-1640",
+    "NASA/TM-20240013567",
+    "E-20279"
+  ],
+  "funding_numbers": [
+    "533127.02.22.03.05"
+  ],
+  "abstract": "Electrified aircraft powertrains contain multiple tightly coupled subsystems, making them much more \ncomplex than traditional aircraft propulsion systems, both in terms of integration and control. \nElectrification enables aircraft to have multiple distributed thrust-producing fans that the flight control \nsystem can utilize for enhanced maneuverability, further increasing the control complexity. The SUbsonic \nSingle Aft eNgine (SUSAN) Electrofan is a NASA concept aircraft that leverages this technology.\nSUSAN is a series/parallel partial hybrid electric single-aisle transport aircraft that takes advantage of its \nelectrified powertrain to provide fuel burn and emissions benefits when compared to the state-of-the-art. \nAchieving these benefits requires an appropriately designed control architecture that coordinates the \nvarious powertrain and flight control subsystems. As such, the SUSAN aircraft is designed with a high \nlevel of automation, allowing it to properly manage coupled subsystems and react rapidly to failures and \nanomalies. To do this effectively, algorithms that perform component health management, fault detection, \nisolation, and accommodation, and continuous optimization, must be developed, tested, validated, and \nimplemented. This paper describes a piloted evaluation of such an algorithm in scenarios with multiple \nfan failures, performed in a flight simulator, demonstrating failure recovery and continued safe operation \nup to the limits of the powertrain. These scenarios are subsequently related to certification requirements.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

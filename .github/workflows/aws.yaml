@@ -1,0 +1,74 @@
+# Continuous deployment to AWS (ECR + ECS Fargate).
+# Calls the reusable deploy definition in defination.yaml.
+
+name: AWS Deploy
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Target environment
+        required: true
+        type: choice
+        options:
+          - staging
+          - production
+        default: staging
+
+concurrency:
+  group: aws-deploy-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  ci-gate:
+    name: Require CI
+    uses: ./.github/workflows/ci.yaml
+
+  deploy-staging:
+    name: Deploy staging
+    needs: ci-gate
+    if: >
+      github.event_name == 'workflow_dispatch' && github.event.inputs.environment == 'staging'
+      || (github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'))
+    uses: ./.github/workflows/defination.yaml
+    with:
+      environment: staging
+      image_tag: staging-${{ github.sha }}
+      aws_region: ${{ vars.AWS_REGION || 'us-east-1' }}
+      ecr_repository: ${{ vars.ECR_REPOSITORY || 'eirc' }}
+      ecs_cluster: ${{ vars.ECS_CLUSTER_STAGING || 'eirc-cluster' }}
+      ecs_service: ${{ vars.ECS_SERVICE_STAGING || 'eirc-service-staging' }}
+      container_name: eirc
+      container_port: 8000
+      cpu: "1024"
+      memory: "2048"
+    secrets:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+
+  deploy-production:
+    name: Deploy production
+    needs: ci-gate
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.environment == 'production'
+    uses: ./.github/workflows/defination.yaml
+    with:
+      environment: production
+      image_tag: prod-${{ github.sha }}
+      aws_region: ${{ vars.AWS_REGION || 'us-east-1' }}
+      ecr_repository: ${{ vars.ECR_REPOSITORY || 'eirc' }}
+      ecs_cluster: ${{ vars.ECS_CLUSTER_PRODUCTION || 'eirc-cluster' }}
+      ecs_service: ${{ vars.ECS_SERVICE_PRODUCTION || 'eirc-service-production' }}
+      container_name: eirc
+      container_port: 8000
+      cpu: "2048"
+      memory: "4096"
+    secrets:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}

@@ -1,0 +1,48 @@
+{
+  "doc_id": "19660005419",
+  "source": "NASA NTRS",
+  "pdf_filename": "19660005419_19660005419.pdf",
+  "pdf_path": "pdfs/19660005419_19660005419.pdf",
+  "metadata_path": "metadata/19660005419.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19660005419",
+  "title": "Investigation of hydrotest failure of Thiokol Chemical Corporation 260-inch-diameter SL-1 motor case",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-05-28T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Esgar, J. B.",
+    "Srawley, J. E."
+  ],
+  "organizations": [
+    "NASA Lewis Research Center"
+  ],
+  "subject_categories": [
+    "Propulsion Systems"
+  ],
+  "keywords": [
+    "FAILURE MODE",
+    "SOLID PROPELLANT ROCKET ENGINE",
+    "MOTOR CASE",
+    "STRESS ANALYSIS",
+    "HYDROSTATIC PRESSURE"
+  ],
+  "report_numbers": [
+    "NASA-TM-X-1194",
+    "Report Number: NASA-TM-X-1194"
+  ],
+  "funding_numbers": [],
+  "abstract": "Hydrotest failure analysis of arc welded, solid propellant rocket motor case",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

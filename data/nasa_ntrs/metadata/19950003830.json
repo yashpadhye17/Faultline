@@ -1,0 +1,51 @@
+{
+  "doc_id": "19950003830",
+  "source": "NASA NTRS",
+  "pdf_filename": "19950003830_19950003830.pdf",
+  "pdf_path": "pdfs/19950003830_19950003830.pdf",
+  "metadata_path": "metadata/19950003830.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19950003830",
+  "title": "Advanced composites structural concepts and materials technologies for primary aircraft structures. Structural response and failure analysis: ISPAN modules users manual",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-07-12T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Hairr, John W.",
+    "Huang, Jui-Ten",
+    "Ingram, J. Edward",
+    "Shah, Bharat M."
+  ],
+  "organizations": [
+    "Lockheed Aeronautical Systems Co."
+  ],
+  "subject_categories": [
+    "Aircraft Design, Testing And Performance"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-CR-4449",
+    "LG92ER0036",
+    "NAS 1.26:4449",
+    "Report Number: NASA-CR-4449",
+    "Report Number: LG92ER0036",
+    "Report Number: NAS 1.26:4449"
+  ],
+  "funding_numbers": [
+    "RTOP 510-02-13-01",
+    "NAS1-18888"
+  ],
+  "abstract": "The ISPAN Program (Interactive Stiffened Panel Analysis) is an interactive design tool that is intended to provide a means of performing simple and self contained preliminary analysis of aircraft primary structures made of composite materials. The program combines a series of modules with the finite element code DIAL as its backbone. Four ISPAN Modules were developed and are documented. These include: (1) flat stiffened panel; (2) curved stiffened panel; (3) flat tubular panel; and (4) curved geodesic panel. Users are instructed to input geometric and material properties, load information and types of analysis (linear, bifurcation buckling, or post-buckling) interactively. The program utilizing this information will generate finite element mesh and perform analysis. The output in the form of summary tables of stress or margins of safety, contour plots of loads or stress, and deflected shape plots may be generalized and used to evaluate specific design.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

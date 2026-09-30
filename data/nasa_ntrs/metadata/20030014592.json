@@ -1,0 +1,52 @@
+{
+  "doc_id": "20030014592",
+  "source": "NASA NTRS",
+  "pdf_filename": "20030014592_20030014592.pdf",
+  "pdf_path": "pdfs/20030014592_20030014592.pdf",
+  "metadata_path": "metadata/20030014592.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20030014592",
+  "title": "Space Station Power Generation in Support of the Beta Gimbal Anomaly Resolution",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-12T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Delleur, Ann M.",
+    "Propp, Timothy W."
+  ],
+  "organizations": [
+    "NASA Glenn Research Center",
+    "Boeing Co."
+  ],
+  "subject_categories": [
+    "Spacecraft Instrumentation And Astrionics"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NAS 1.15:212012",
+    "AIAA Paper 2003-0758",
+    "NASA/TM-2003-212012",
+    "E-13701",
+    "Report Number: NAS 1.15:212012",
+    "Report Number: AIAA Paper 2003-0758",
+    "Report Number: NASA/TM-2003-212012",
+    "Report Number: E-13701"
+  ],
+  "funding_numbers": [
+    "RTOP 575-15-69"
+  ],
+  "abstract": "The International Space Station (ISS) is the largest and most complex spacecraft ever assembled and operated in orbit. The first U.S. photovoltaic (PV) module, containing two solar arrays, was launched, installed, and activated in early December 2000. After the first week of continuously rotating the U.S. solar arrays, engineering personnel in the ISS Mission Evaluation Room (MER) observed higher than expected electrical currents on the drive motor in one of the Beta Gimbal Assemblies (BGA), the mechanism used to maneuver a U.S. solar array. The magnitude of the motor currents continued to increase over time on both BGA's, creating concerns about the ability of the gimbals to continue pointing the solar arrays towards the sun, a function critical for continued assembly of the ISS. A number of engineering disciplines convened in May 2001 to address this on-orbit hardware anomaly. This paper reviews the ISS electrical power system (EPS) analyses performed to develop viable operational workarounds that would minimize BGA use while maintaining sufficient solar array power to continue assembly of the ISS. Additionally, EPS analyses performed in support of on-orbit BGA troubleshooting exercises is reviewed. EPS capability analyses were performed using SPACE, a computer code developed by NASA Glenn Research Center (GRC) for the ISS program office.",
+  "query_tag": "hardware anomaly",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "doc_id": "19750009611",
+  "source": "NASA NTRS",
+  "pdf_filename": "19750009611_19750009611.pdf",
+  "pdf_path": "pdfs/19750009611_19750009611.pdf",
+  "metadata_path": "metadata/19750009611.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19750009611",
+  "title": "ATM CMG bearing failure analysis",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-19T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [],
+  "organizations": [],
+  "subject_categories": [
+    "Mechanical Engineering"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-CR-120607",
+    "REPT-6401-75-R06",
+    "Report Number: NASA-CR-120607",
+    "Report Number: REPT-6401-75-R06"
+  ],
+  "funding_numbers": [
+    "NAS8-20661"
+  ],
+  "abstract": "The cause or causes for the failure of ATM CMG S/N 5 (Skylab 1) and the anomalies associated with ATM CMG S/N 6 (Skylab 2) were investigated. Skylab telemetry data were reviewed and presented in the form of parameter distributions. The theory that the problems were caused by marginal bearing lubrication was studied along with the effects of orbital conditions on lubricants. Bearing tests were performed to investigate the effect of lubricant or lack of lubricant in the ATM CMG bearings and the dispersion and migration of the lubricant. The vacuum and weightless conditions of space were simulated in the bearing tests. Analysis of the results of the tests conducted points to inadequate lubrication as the predominant factor causing the failure of ATM CMG S/N 5 (Skylab 1) and the anomalies associated with ATM CMG S/N 6 (Skylab 2).",
+  "query_tag": "bearing failure",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

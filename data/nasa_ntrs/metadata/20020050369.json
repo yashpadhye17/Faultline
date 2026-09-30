@@ -1,0 +1,52 @@
+{
+  "doc_id": "20020050369",
+  "source": "NASA NTRS",
+  "pdf_filename": "20020050369_20020050369.pdf",
+  "pdf_path": "pdfs/20020050369_20020050369.pdf",
+  "metadata_path": "metadata/20020050369.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20020050369",
+  "title": "Failure Analysis of a Helicopter External Fuel-Tank Pylon",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-07-09T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Newman, John A.",
+    "Piascik, Robert S.",
+    "Lindenberg, Richard A."
+  ],
+  "organizations": [
+    "Army Research Lab.",
+    "NASA Langley Research Center",
+    "Coast Guard"
+  ],
+  "subject_categories": [
+    "Metals And Metallic Materials"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NAS 1.15:211645",
+    "L-18164",
+    "ARL-TR-2711",
+    "NASA/TM-2002-211645",
+    "Report Number: NAS 1.15:211645",
+    "Report Number: L-18164",
+    "Report Number: ARL-TR-2711",
+    "Report Number: NASA/TM-2002-211645"
+  ],
+  "funding_numbers": [
+    "RTOP 706-61-11-03"
+  ],
+  "abstract": "An eight-inch-long (0.2 m) crack was found in an external fuel-tank pylon of a U.S. Coast Guard HH-60 helicopter. The damaged pylon was removed from service and destructively examined at NASA Langley Research Center (LaRC) to determine the cause of the crack. Results of the analysis revealed that crack initiation occurred at corrosion pits in a fastener hole and crack propagation was a result of cyclic loading.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "rca",
+    "research"
+  ]
+}

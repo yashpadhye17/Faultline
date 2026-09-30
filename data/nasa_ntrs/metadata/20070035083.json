@@ -1,0 +1,57 @@
+{
+  "doc_id": "20070035083",
+  "source": "NASA NTRS",
+  "pdf_filename": "20070035083_20070035083.pdf",
+  "pdf_path": "pdfs/20070035083_20070035083.pdf",
+  "metadata_path": "metadata/20070035083.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20070035083",
+  "title": "Independent Review Support for Phoenix Mars Mission Robotic Arm Brush Motor Failure",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "McManamen, John P.",
+    "Pellicciotti, Joseph",
+    "DeKramer, Cornelis",
+    "Dube, Michael J.",
+    "Peeler, Deborah",
+    "Muirhead, Brian K.",
+    "Sevilla, Donald R.",
+    "Sabahi, Dara",
+    "Knopp, Michael D."
+  ],
+  "organizations": [
+    "NASA Langley Research Center",
+    "NASA Goddard Space Flight Center",
+    "Wright Lab.",
+    "Jet Propulsion Lab., California Inst. of Tech."
+  ],
+  "subject_categories": [
+    "Space Transportation And Safety"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "L-19419",
+    "NESC-RP-07-13/06-050-E",
+    "NASA/TM-2007- 215084",
+    "Report Number: L-19419",
+    "Report Number: NESC-RP-07-13/06-050-E",
+    "Report Number: NASA/TM-2007- 215084"
+  ],
+  "funding_numbers": [
+    "WBS 510505.01.07.01.06"
+  ],
+  "abstract": "The Phoenix Project requested the NASA Engineering and Safety Center (NESC) perform an independent peer review of the Robotic Arm (RA) Direct Current (DC) motor brush anomalies that originated during the Mars Exploration Rover (MER) Project and recurred during the Phoenix Project. The request was to evaluate the Phoenix Project investigation efforts and provide an independent risk assessment. This includes a recommendation for additional work and assessment of the flight worthiness of the RA DC motors. Based on the investigation and findings contained within this report, the IRT concurs with the risk assessment Failure Cause / Corrective Action (FC/CA) by the project, \"Failure Effect Rating \"3\"; Major Degradation or Total Loss of Function, Failure Cause/Corrective Action Rating Currently \"4\"; Unknown Cause, Uncertainty in Corrective Action.\"",
+  "query_tag": "\"corrective action\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca"
+  ]
+}

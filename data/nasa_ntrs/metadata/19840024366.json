@@ -1,0 +1,47 @@
+{
+  "doc_id": "19840024366",
+  "source": "NASA NTRS",
+  "pdf_filename": "19840024366_19840024366.pdf",
+  "pdf_path": "pdfs/19840024366_19840024366.pdf",
+  "metadata_path": "metadata/19840024366.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19840024366",
+  "title": "Failure analysis of a graphite/epoxy laminate subjected to bolt bearing loads",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-24T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Crews, J. H., Jr.",
+    "Naik, R. V. A."
+  ],
+  "organizations": [
+    "NASA Langley Research Center",
+    "Old Dominion Univ."
+  ],
+  "subject_categories": [
+    "Composite Materials"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NAS 1.15:86297",
+    "NASA-TM-86297",
+    "Report Number: NAS 1.15:86297",
+    "Report Number: NASA-TM-86297"
+  ],
+  "funding_numbers": [
+    "RTOP 505-33-33-05"
+  ],
+  "abstract": "Quasi-isotropic graphite/epoxy laminates (T300/5208) were tested under bolt bearing loads to study failure modes, strengths, and failure energy. Specimens had a range of configurations to produce failures by the three nominal failure modes: tension, shearout, and bearing. Radiographs were made after damage onset and after ultimate load to examine the failure modes. Also, the laminate stresses near the bolt hole calculated for each test specimen configuration, and then used with a failure criterion to analyze the test data. Failures involving extensive bearing damage were found to dissipate significantly more energy than tension dominated failures. The specimen configuration influenced the failure modes and therefore also influenced the failure energy. In the width-to-diameter ratio range of 4 to 5, which is typical of structural joints, a transition from the tension mode to the bearing mode was shown to cause a large increase in failure energy. The failure modes associated with ultimate strength were usually different from those associated with the damage onset. Typical damage sequences involved bearing damage onset at the hole boundary followed by tension damage progressing from the hole boundary.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

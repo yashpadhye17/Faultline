@@ -1,0 +1,38 @@
+{
+  "doc_id": "19710010480",
+  "source": "NASA NTRS",
+  "pdf_filename": "19710010480_19710010480.pdf",
+  "pdf_path": "pdfs/19710010480_19710010480.pdf",
+  "metadata_path": "metadata/19710010480.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19710010480",
+  "title": "MSC Apollo 13 investigation team.  Panel 1 - Spacecraft incident investigation. Volume 3 - Reports of analyses and tests performed in support of the cryogenic oxygen tank 2 anomaly investigation",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-17T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [],
+  "organizations": [],
+  "subject_categories": [
+    "Space Vehicles"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-X-66934",
+    "Report Number: NASA-TM-X-66934"
+  ],
+  "funding_numbers": [],
+  "abstract": "Thermodynamic analysis of Apollo 13 oxygen tank to describe stratification phenomenon preceding tank failure",
+  "query_tag": "\"anomaly investigation\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

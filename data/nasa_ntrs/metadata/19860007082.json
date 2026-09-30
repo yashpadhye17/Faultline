@@ -1,0 +1,53 @@
+{
+  "doc_id": "19860007082",
+  "source": "NASA NTRS",
+  "pdf_filename": "19860007082_19860007082.pdf",
+  "pdf_path": "pdfs/19860007082_19860007082.pdf",
+  "metadata_path": "metadata/19860007082.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19860007082",
+  "title": "Earth Radiation Budget Experiment (ERBE) scanner instrument anomaly investigation",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-24T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Watson, N. D.",
+    "Miller, J. B.",
+    "Taylor, L. V.",
+    "Lovell, J. B.",
+    "Cox, J. W.",
+    "Fedors, J. C.",
+    "Kopia, L. P.",
+    "Holloway, R. M.",
+    "Bradley, O. H."
+  ],
+  "organizations": [
+    "NASA Langley Research Center"
+  ],
+  "subject_categories": [
+    "Instrumentation And Photography"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-87636",
+    "NAS 1.15:87636",
+    "Report Number: NASA-TM-87636",
+    "Report Number: NAS 1.15:87636"
+  ],
+  "funding_numbers": [
+    "RTOP 619-12-01-01"
+  ],
+  "abstract": "The results of an ad-hoc committee investigation of in-Earth orbit operational anomalies noted on two identical Earth Radiation Budget Experiment (ERBE) Scanner instruments on two different spacecraft busses is presented. The anomalies are attributed to the bearings and the lubrication scheme for the bearings. A detailed discussion of the pertinent instrument operations, the approach of the investigation team and the current status of the instruments now in Earth orbit is included. The team considered operational changes for these instruments, rework possibilities for the one instrument which is waiting to be launched, and preferable lubrication considerations for specific space operational requirements similar to those for the ERBE scanner bearings.",
+  "query_tag": "\"anomaly investigation\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

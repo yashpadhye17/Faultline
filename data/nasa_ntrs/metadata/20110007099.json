@@ -1,0 +1,49 @@
+{
+  "doc_id": "20110007099",
+  "source": "NASA NTRS",
+  "pdf_filename": "20110007099_20110007099.pdf",
+  "pdf_path": "pdfs/20110007099_20110007099.pdf",
+  "metadata_path": "metadata/20110007099.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20110007099",
+  "title": "Component-Level Electronic-Assembly Repair (CLEAR) Synthetic Instrument Capabilities Assessment and Test Report",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-11T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Oeftering, Richard C.",
+    "Bradish, Martin A."
+  ],
+  "organizations": [
+    "NASA Glenn Research Center"
+  ],
+  "subject_categories": [
+    "Spacecraft Instrumentation And Astrionics"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/TM-2011-216953",
+    "E-17558",
+    "CLEAR-RPT-004",
+    "Report Number: NASA/TM-2011-216953",
+    "Report Number: E-17558",
+    "Report Number: CLEAR-RPT-004"
+  ],
+  "funding_numbers": [
+    "WBS 825855.01.03.03.03"
+  ],
+  "abstract": "The role of synthetic instruments (SIs) for Component-Level Electronic-Assembly Repair (CLEAR) is to provide an external lower-level diagnostic and functional test capability beyond the built-in-test capabilities of spacecraft electronics. Built-in diagnostics can report faults and symptoms, but isolating the root cause and performing corrective action requires specialized instruments. Often a fault can be revealed by emulating the operation of external hardware. This implies complex hardware that is too massive to be accommodated in spacecraft. The SI strategy is aimed at minimizing complexity and mass by employing highly reconfigurable instruments that perform diagnostics and emulate external functions. In effect, SI can synthesize an instrument on demand. The SI architecture section of this document summarizes the result of a recent program diagnostic and test needs assessment based on the International Space Station. The SI architecture addresses operational issues such as minimizing crew time and crew skill level, and the SI data transactions between the crew and supporting ground engineering searching for the root cause and formulating corrective actions. SI technology is described within a teleoperations framework. The remaining sections describe a lab demonstration intended to show that a single SI circuit could synthesize an instrument in hardware and subsequently clear the hardware and synthesize a completely different instrument on demand. An analysis of the capabilities and limitations of commercially available SI hardware and programming tools is included. Future work in SI technology is also described.",
+  "query_tag": "\"root cause\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

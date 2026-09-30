@@ -1,0 +1,37 @@
+{
+  "doc_id": "19710002424",
+  "source": "NASA NTRS",
+  "pdf_filename": "19710002424_19710002424.pdf",
+  "pdf_path": "pdfs/19710002424_19710002424.pdf",
+  "metadata_path": "metadata/19710002424.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19710002424",
+  "title": "Apollo 10 recovery flashing beacon failure, anomaly report no. 2",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-17T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [],
+  "organizations": [],
+  "subject_categories": [
+    "Space Vehicles"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "MSC-02623",
+    "NASA-TM-X-66485",
+    "Report Number: MSC-02623",
+    "Report Number: NASA-TM-X-66485"
+  ],
+  "funding_numbers": [],
+  "abstract": "Failure analysis of recovery flasing xenon lamp on Apollo 10 flight",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "rca"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "doc_id": "20060050035",
+  "source": "NASA NTRS",
+  "pdf_filename": "20060050035_20060050035.pdf",
+  "pdf_path": "pdfs/20060050035_20060050035.pdf",
+  "metadata_path": "metadata/20060050035.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20060050035",
+  "title": "The Apollo Experience Lessons Learned for Constellation Lunar Dust Management",
+  "sti_type": "TECHNICAL_PUBLICATION",
+  "sti_type_details": "Technical Publication (TP)",
+  "center_code": "JSC",
+  "center_name": "Johnson Space Center",
+  "year": 2020,
+  "published": "2020-05-07T16:46:04.1100000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Wagner, Sandra"
+  ],
+  "organizations": [
+    "NASA Johnson Space Center"
+  ],
+  "subject_categories": [
+    "Lunar And Planetary Science And Exploration"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "JSC-CN-10841",
+    "NASA/TP-2006-213726",
+    "Report Number: JSC-CN-10841",
+    "Report Number: NASA/TP-2006-213726"
+  ],
+  "funding_numbers": [],
+  "abstract": "Lunar dust will present significant challenges to NASA's Lunar Exploration Missions. The challenges can be overcome by using best practices in system engineering design. For successful lunar surface missions, all systems that come into contact with lunar dust must consider the effects throughout the entire design process. Interfaces between all these systems with other systems also must be considered. Incorporating dust management into Concept of Operations and Requirements development are the best place to begin to mitigate the risks presented by lunar dust. However, that is only the beginning. To be successful, every person who works on NASA's Constellation lunar missions must be mindful of this problem. Success will also require fiscal responsibility. NASA must learn from Apollo the root cause of problems caused by dust, and then find the most cost-effective solutions to address each challenge. This will require a combination of common sense existing technologies and promising, innovative technical solutions",
+  "query_tag": "\"root cause\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

@@ -1,0 +1,41 @@
+{% from "partials/icons.html" import icon %}
+{% macro workspace(endpoint, icon_name, heading, subtitle, examples, send_label="Send") -%}
+<div class="ws">
+  <div class="ws-scroll" id="ws-scroll">
+    <div class="ws-inner">
+      <section class="empty-hero" id="empty-state">
+        <span class="feature-icon">{{ icon(icon_name) }}</span>
+        <h1>{{ heading }}</h1>
+        <p>{{ subtitle }}</p>
+        <div class="example-grid">
+          {% for ex in examples %}
+          <button type="button" class="example-card" data-fill='{{ ex.fill | tojson }}'>
+            <span class="example-title">{{ ex.title }}</span>
+            <span class="example-body">{{ ex.body }}</span>
+          </button>
+          {% endfor %}
+        </div>
+      </section>
+      <div class="thread" id="thread" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <div class="composer-wrap">
+    <form id="copilot-form" class="composer" data-endpoint="{{ endpoint }}" novalidate>
+      {{ caller() }}
+      <div class="composer-bar">
+        <div class="composer-left">
+          <button type="button" class="btn btn-ghost btn-sm" id="attach-btn" title="Attach a PDF as extra context">{{ icon("clip") }} Attach PDF</button>
+          <input type="file" id="upload-input" accept=".pdf" hidden />
+          <span class="attach-chip" id="attach-chip" hidden></span>
+        </div>
+        <div class="composer-right">
+          <span class="kbd-hint"><kbd>⌘</kbd> <kbd>Enter</kbd> to send</span>
+          <button class="btn btn-primary btn-sm" type="submit" id="send-btn">{{ send_label }} {{ icon("arrow") }}</button>
+        </div>
+      </div>
+    </form>
+    <p class="composer-foot">Answers are generated from NASA NTRS reports and include citations. Verify before acting on them.</p>
+  </div>
+</div>
+{%- endmacro %}

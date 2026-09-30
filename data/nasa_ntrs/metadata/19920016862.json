@@ -1,0 +1,48 @@
+{
+  "doc_id": "19920016862",
+  "source": "NASA NTRS",
+  "pdf_filename": "19920016862_19920016862.pdf",
+  "pdf_path": "pdfs/19920016862_19920016862.pdf",
+  "metadata_path": "metadata/19920016862.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19920016862",
+  "title": "Advanced information processing system: Fault injection study and results",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-25T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Burkhardt, Laura F.",
+    "Masotto, Thomas K.",
+    "Lala, Jaynarayan H."
+  ],
+  "organizations": [
+    "Draper (Charles Stark) Lab., Inc."
+  ],
+  "subject_categories": [
+    "Computer Systems"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-CR-189590",
+    "NAS 1.26:189590",
+    "Report Number: NASA-CR-189590",
+    "Report Number: NAS 1.26:189590"
+  ],
+  "funding_numbers": [
+    "RTOP 506-59-61-03",
+    "NAS1-18565"
+  ],
+  "abstract": "The objective of the AIPS program is to achieve a validated fault tolerant distributed computer system. The goals of the AIPS fault injection study were: (1) to present the fault injection study components addressing the AIPS validation objective; (2) to obtain feedback for fault removal from the design implementation; (3) to obtain statistical data regarding fault detection, isolation, and reconfiguration responses; and (4) to obtain data regarding the effects of faults on system performance. The parameters are described that must be varied to create a comprehensive set of fault injection tests, the subset of test cases selected, the test case measurements, and the test case execution. Both pin level hardware faults using a hardware fault injector and software injected memory mutations were used to test the system. An overview is provided of the hardware fault injector and the associated software used to carry out the experiments. Detailed specifications are given of fault and test results for the I/O Network and the AIPS Fault Tolerant Processor, respectively. The results are summarized and conclusions are given.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "doc_id": "20060045866",
+  "source": "NASA NTRS",
+  "pdf_filename": "20060045866_20060045866.pdf",
+  "pdf_path": "pdfs/20060045866_20060045866.pdf",
+  "metadata_path": "metadata/20060045866.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20060045866",
+  "title": "Tapered Roller Bearing Damage Detection Using Decision Fusion Analysis",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Dempsey, Paula J.",
+    "Kreider, Gary",
+    "Fichter, Thomas"
+  ],
+  "organizations": [
+    "NASA Glenn Research Center",
+    "Timken Co."
+  ],
+  "subject_categories": [
+    "Aircraft Propulsion And Power"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/TM-2006-214380",
+    "E-15658",
+    "Report Number: NASA/TM-2006-214380",
+    "Report Number: E-15658"
+  ],
+  "funding_numbers": [
+    "WBS 581-02-07-03-03"
+  ],
+  "abstract": "A diagnostic tool was developed for detecting fatigue damage of tapered roller bearings. Tapered roller bearings are used in helicopter transmissions and have potential for use in high bypass advanced gas turbine aircraft engines. A diagnostic tool was developed and evaluated experimentally by collecting oil debris data from failure progression tests conducted using health monitoring hardware. Failure progression tests were performed with tapered roller bearings under simulated engine load conditions. Tests were performed on one healthy bearing and three pre-damaged bearings. During each test, data from an on-line, in-line, inductance type oil debris sensor and three accelerometers were monitored and recorded for the occurrence of bearing failure. The bearing was removed and inspected periodically for damage progression throughout testing. Using data fusion techniques, two different monitoring technologies, oil debris analysis and vibration, were integrated into a health monitoring system for detecting bearing surface fatigue pitting damage. The data fusion diagnostic tool was evaluated during bearing failure progression tests under simulated engine load conditions. This integrated system showed improved detection of fatigue damage and health assessment of the tapered roller bearings as compared to using individual health monitoring technologies.",
+  "query_tag": "bearing failure",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

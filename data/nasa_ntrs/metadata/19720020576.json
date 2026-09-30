@@ -1,0 +1,38 @@
+{
+  "doc_id": "19720020576",
+  "source": "NASA NTRS",
+  "pdf_filename": "19720020576_19720020576.pdf",
+  "pdf_path": "pdfs/19720020576_19720020576.pdf",
+  "metadata_path": "metadata/19720020576.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19720020576",
+  "title": "Apollo 14 mission circuit breaker anomaly",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-17T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [],
+  "organizations": [],
+  "subject_categories": [
+    "Electronic Equipment"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-X-68391",
+    "MSC-05814",
+    "Report Number: NASA-TM-X-68391",
+    "Report Number: MSC-05814"
+  ],
+  "funding_numbers": [],
+  "abstract": "Continuity through the circuit breaker in the mechanically closed condition was prevented by a foreign substance on the contact surface onboard Apollo 14. It was concluded that this was the only failure of this type in over 3400 units that were flown, and since no circuit breaker is a single-point failure for crew safety or mission success, no corrective action was taken.",
+  "query_tag": "\"corrective action\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca"
+  ]
+}

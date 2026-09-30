@@ -1,0 +1,48 @@
+{
+  "doc_id": "20070003591",
+  "source": "NASA NTRS",
+  "pdf_filename": "20070003591_20070003591.pdf",
+  "pdf_path": "pdfs/20070003591_20070003591.pdf",
+  "metadata_path": "metadata/20070003591.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20070003591",
+  "title": "Lessons Learned from Seven Space Shuttle Missions",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "JSC",
+  "center_name": "Johnson Space Center",
+  "year": 2019,
+  "published": "2019-06-10T15:10:44.1900000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Goodman, John"
+  ],
+  "organizations": [
+    "United Space Alliance"
+  ],
+  "subject_categories": [
+    "Spacecraft Design, Testing And Performance"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "JSC-E-DAA-TN61364",
+    "NASA/CR-2007-213697",
+    "S-994",
+    "Report Number: JSC-E-DAA-TN61364",
+    "Report Number: NASA/CR-2007-213697",
+    "Report Number: S-994"
+  ],
+  "funding_numbers": [
+    "NNJ06VA01C"
+  ],
+  "abstract": "Much can be learned from well-written descriptions of the technical and organizational factors that lead to an accident. Subsequent analysis by third parties of investigation reports and associated evidence collected during the investigations can lead to additional insight. Much can also be learned from documented close calls that do not result in loss of life or a spacecraft, such as the Mars Exploration Rover Spirit software anomaly, the SOHO mission interruption, and the NEAR burn anomaly. Seven space shuttle incidents fall into the latter category: Rendezvous Target Failure On STS-41B; Rendezvous Radar Anomaly and Trajectory Dispersion-STS-32 ;Rendezvous Lambert Targeting Anomaly-STS-49; Rendezvous Lambert Targeting Anomaly-STS-51; Zero Doppler Steering Maneuver Anomaly-STS-59; Excessive Propellant Consumption During Rendezvous-STS-69; Global Positioning System Receiver and Associated Shuttle Flight Software Anomalies-STS-91 Procedural work-arounds or software changes prevented them from threatening mission success. Extensive investigations, which included the independent recreation of the anomalies by multiple Shuttle Program organizations, were the key to determining the cause, accurately assessing risk, and identifying software and software process improvements. Lessons learned from these incidents not only validated long-standing operational best practices, but serve to promote discussion and mentoring among Program personnel and are applicable to future space flight programs.",
+  "query_tag": "\"lessons learned\" failure",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

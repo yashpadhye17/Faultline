@@ -1,0 +1,46 @@
+{
+  "doc_id": "19720026092",
+  "source": "NASA NTRS",
+  "pdf_filename": "19720026092_19720026092.pdf",
+  "pdf_path": "pdfs/19720026092_19720026092.pdf",
+  "metadata_path": "metadata/19720026092.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19720026092",
+  "title": "Failure analysis of solid rocket apogee motors",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-17T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Martin, P. J."
+  ],
+  "organizations": [
+    "Stanford Research Inst."
+  ],
+  "subject_categories": [
+    "Propulsion Systems"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-CR-128354",
+    "Report Number: NASA-CR-128354"
+  ],
+  "funding_numbers": [
+    "NAS7-100",
+    "SRI PROJ. 1614",
+    "JPL-953298"
+  ],
+  "abstract": "The analysis followed five selected motors through initial design, development, test, qualification, manufacture, and final flight reports. An audit was conducted at the manufacturing plants to complement the literature search with firsthand observations of the current philosophies and practices that affect reliability of the motors. A second literature search emphasized acquisition of spacecraft and satellite data bearing on solid motor reliability. It was concluded that present practices at the plants yield highly reliable flight hardware. Reliability can be further improved by new developments of aft-end bonding and initiator/igniter nondestructive test methods, a safe/arm device, and an insulation formulation. Minimum diagnostic instrumentation is recommended for all motor flights. Surplus motors should be used in margin testing. Criteria should be established for pressure and zone curing. The motor contractor should be represented at launch. New design analyses should be made of stretched motors and spacecraft/motor pairs.",
+  "query_tag": "bearing failure",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

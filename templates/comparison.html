@@ -1,0 +1,46 @@
+{% extends "layouts/app.html" %}
+{% from "partials/copilot_workspace.html" import workspace %}
+{% block page_id %}comparison{% endblock %}
+{% block title %}Engineering comparison · Reliability Copilot{% endblock %}
+{% block page_title %}Engineering comparison{% endblock %}
+{% block content_class %}is-workspace{% endblock %}
+{% block content %}
+{% set examples = [
+  {"title": "FMEA strategies", "body": "Top-down critical-failure prioritization vs exhaustive component FMEA.",
+   "fill": {"topic_a": "FMEA top-down critical-failure prioritization", "topic_b": "component-by-component exhaustive FMEA"}},
+  {"title": "Bearing damage detection", "body": "Vibration and stress-wave detection vs decision-fusion detection.",
+   "fill": {"topic_a": "vibration/stress-wave bearing failure detection", "topic_b": "decision-fusion tapered roller bearing damage detection"}}
+] %}
+{% call workspace("/api/v1/comparison", "columns", "Compare two approaches", "Enter two methods, designs, or test approaches. You will get similarities, differences, risks, and a recommendation grounded in NASA evidence.", examples, "Compare") %}
+  <div class="compare-inputs">
+    <input name="topic_a" required placeholder="Topic A, e.g., top-down FMEA" aria-label="Topic A" />
+    <span class="compare-vs">vs</span>
+    <input name="topic_b" required placeholder="Topic B, e.g., exhaustive FMEA" aria-label="Topic B" />
+  </div>
+  <details class="composer-options">
+    <summary>Comparison focus</summary>
+    <div class="options-grid">
+      <label class="field wide">What should the comparison emphasize?
+        <input name="focus" value="reliability method, evidence strength, risks, and recommendations" />
+      </label>
+    </div>
+  </details>
+{% endcall %}
+{% endblock %}
+{% block scripts %}
+<script>
+  initCopilot({
+    feature: "comparison",
+    primaryField: "topic_a",
+    clearFields: ["topic_a", "topic_b"],
+    buildPayload: (form, sessionId) => ({
+      topic_a: form.topic_a.value,
+      topic_b: form.topic_b.value,
+      focus: form.focus.value,
+      session_id: sessionId,
+    }),
+    userText: (p) => `${p.topic_a} vs ${p.topic_b}`,
+    render: renderComparison,
+  });
+</script>
+{% endblock %}

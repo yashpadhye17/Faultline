@@ -1,0 +1,59 @@
+{
+  "doc_id": "19970016700",
+  "source": "NASA NTRS",
+  "pdf_filename": "19970016700_19970016700.pdf",
+  "pdf_path": "pdfs/19970016700_19970016700.pdf",
+  "metadata_path": "metadata/19970016700.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19970016700",
+  "title": "Advanced Technology Composite Fuselage - Repair and Damage Assessment Supporting Maintenance",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-06-27T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Flynn, B. W.",
+    "Bodine, J. B.",
+    "Dopker, B.",
+    "Finn, S. R.",
+    "Griess, K. H.",
+    "Hanson, C. T.",
+    "Harris, C. G.",
+    "Nelson, K. M.",
+    "Walker, T. H.",
+    "Kennedy, T. C.",
+    "Nahan, M. F."
+  ],
+  "organizations": [
+    "Boeing Co.",
+    "Oregon State Univ."
+  ],
+  "subject_categories": [
+    "Composite Materials"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NAS 1.26:4733",
+    "NASA-CR-4733",
+    "Report Number: NAS 1.26:4733",
+    "Report Number: NASA-CR-4733"
+  ],
+  "funding_numbers": [
+    "RTOP 510-02-13-01",
+    "NAS1-18889",
+    "NAS1-20013"
+  ],
+  "abstract": "Under the NASA-sponsored contracts for Advanced Technology Composite Aircraft Structures (ATCAS) and Materials Development Omnibus Contract (MDOC), Boeing is studying the technologies associated with the application of composite materials to commercial transport fuselage structure. Included in the study is the incorporation of maintainability and repairability requirements of composite primary structure into the design. This contractor report describes activities performed to address maintenance issues in composite fuselage applications. A key aspect of the study was the development of a maintenance philosophy which included consideration of maintenance issues early in the design cycle, multiple repair options, and airline participation in design trades. Fuselage design evaluations considered trade-offs between structural weight, damage resistance/tolerance (repair frequency), and inspection burdens. Analysis methods were developed to assess structural residual strength in the presence of damage, and to evaluate repair design concepts. Repair designs were created with a focus on mechanically fastened concepts for skin/stringer structure and bonded concepts for sandwich structure. Both a large crown (skintstringer) and keel (sandwich) panel were repaired. A compression test of the keel panel indicated the demonstrated repairs recovered ultimate load capability. In conjunction with the design and manufacturing developments, inspection methods were investigated for their potential to evaluate damaged structure and verify the integrity of completed repairs.",
+  "query_tag": "damage assessment repair",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "doc_id": "20040110846",
+  "source": "NASA NTRS",
+  "pdf_filename": "20040110846_20040110846.pdf",
+  "pdf_path": "pdfs/20040110846_20040110846.pdf",
+  "metadata_path": "metadata/20040110846.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20040110846",
+  "title": "Evaluation of an Enhanced Bank of Kalman Filters for In-Flight Aircraft Engine Sensor Fault Diagnostics",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-12T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Kobayashi, Takahisa",
+    "Simon, Donald L."
+  ],
+  "organizations": [
+    "QSS Group, Inc.",
+    "Army Research Lab."
+  ],
+  "subject_categories": [
+    "Aircraft Stability And Control"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "E-14712",
+    "ARL-TR-3252",
+    "GT2004-53640",
+    "NASA/TM-2004-213203",
+    "Report Number: E-14712",
+    "Report Number: ARL-TR-3252",
+    "Report Number: GT2004-53640",
+    "Report Number: NASA/TM-2004-213203"
+  ],
+  "funding_numbers": [
+    "WBS 22-728-30-05",
+    "DA Proj. 1L1-61102-AF-20"
+  ],
+  "abstract": "In this paper, an approach for in-flight fault detection and isolation (FDI) of aircraft engine sensors based on a bank of Kalman filters is developed. This approach utilizes multiple Kalman filters, each of which is designed based on a specific fault hypothesis. When the propulsion system experiences a fault, only one Kalman filter with the correct hypothesis is able to maintain the nominal estimation performance. Based on this knowledge, the isolation of faults is achieved. Since the propulsion system may experience component and actuator faults as well, a sensor FDI system must be robust in terms of avoiding misclassifications of any anomalies. The proposed approach utilizes a bank of (m+1) Kalman filters where m is the number of sensors being monitored. One Kalman filter is used for the detection of component and actuator faults while each of the other m filters detects a fault in a specific sensor. With this setup, the overall robustness of the sensor FDI system to anomalies is enhanced. Moreover, numerous component fault events can be accounted for by the FDI system. The sensor FDI system is applied to a commercial aircraft engine simulation, and its performance is evaluated at multiple power settings at a cruise operating point using various fault scenarios.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

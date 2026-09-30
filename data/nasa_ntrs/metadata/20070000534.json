@@ -1,0 +1,45 @@
+{
+  "doc_id": "20070000534",
+  "source": "NASA NTRS",
+  "pdf_filename": "20070000534_20070000534.pdf",
+  "pdf_path": "pdfs/20070000534_20070000534.pdf",
+  "metadata_path": "metadata/20070000534.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20070000534",
+  "title": "User-Defined Material Model for Progressive Failure Analysis",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Knight, Norman F. Jr.",
+    "Reeder, James R."
+  ],
+  "organizations": [
+    "General Dynamics Advanced Technology Systems",
+    "NASA Langley Research Center"
+  ],
+  "subject_categories": [
+    "Composite Materials"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/CR-2006-214526",
+    "Report Number: NASA/CR-2006-214526"
+  ],
+  "funding_numbers": [
+    "WBS 759.07.09",
+    "NNL06AA48T"
+  ],
+  "abstract": "An overview of different types of composite material system architectures and a brief review of progressive failure material modeling methods used for structural analysis including failure initiation and material degradation are presented. Different failure initiation criteria and material degradation models are described that define progressive failure formulations. These progressive failure formulations are implemented in a user-defined material model (or UMAT) for use with the ABAQUS/Standard1 nonlinear finite element analysis tool. The failure initiation criteria include the maximum stress criteria, maximum strain criteria, the Tsai-Wu failure polynomial, and the Hashin criteria. The material degradation model is based on the ply-discounting approach where the local material constitutive coefficients are degraded. Applications and extensions of the progressive failure analysis material model address two-dimensional plate and shell finite elements and three-dimensional solid finite elements. Implementation details and use of the UMAT subroutine are described in the present paper. Parametric studies for composite structures are discussed to illustrate the features of the progressive failure modeling methods that have been implemented.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "rca",
+    "research"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "doc_id": "20120013473",
+  "source": "NASA NTRS",
+  "pdf_filename": "20120013473_20120013473.pdf",
+  "pdf_path": "pdfs/20120013473_20120013473.pdf",
+  "metadata_path": "metadata/20120013473.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20120013473",
+  "title": "Systematic Destruction of Electronic Parts for Aid in Electronic Failure Analysis",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "MSFC",
+  "center_name": "Marshall Space Flight Center",
+  "year": 2019,
+  "published": "2019-07-11T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Decker, S. E.",
+    "Rolin, T. D.",
+    "McManus, P. D."
+  ],
+  "organizations": [
+    "NASA Marshall Space Flight Center"
+  ],
+  "subject_categories": [
+    "Electronics And Electrical Engineering"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/TM-2012-217462",
+    "M-1338",
+    "Report Number: NASA/TM-2012-217462",
+    "Report Number: M-1338"
+  ],
+  "funding_numbers": [],
+  "abstract": "NASA analyzes electrical, electronic, and electromechanical (EEE) parts used in space vehicles to understand failure modes of these components. Operational amplifiers and transistors are two examples of EEE parts critical to NASA missions that can fail due to electrical overstress (EOS). EOS is the result of voltage or current over time conditions that exceeds a component s specification limit. The objective of this study was to provide known voltage pulses over well-defined time intervals to determine the type and extent of damage imparted to the device. The amount of current was not controlled but measured so that pulse energy was determined. The damage was ascertained electrically using curve trace plots and optically using various metallographic techniques. The resulting data can be used to build a database of physical evidence to compare to damaged components removed from flight avionics. The comparison will provide the avionics failure analyst necessary information about voltage and times that caused flight or test failures when no other electrical data is available.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

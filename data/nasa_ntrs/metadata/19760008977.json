@@ -1,0 +1,46 @@
+{
+  "doc_id": "19760008977",
+  "source": "NASA NTRS",
+  "pdf_filename": "19760008977_19760008977.pdf",
+  "pdf_path": "pdfs/19760008977_19760008977.pdf",
+  "metadata_path": "metadata/19760008977.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19760008977",
+  "title": "OH-58 helicopter transmission failure analysis",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-20T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Townsend, D. P.",
+    "Coy, J. J.",
+    "Hatvani, B. R."
+  ],
+  "organizations": [
+    "NASA Lewis Research Center",
+    "Army Air Mobility Res. and Develop. Lab."
+  ],
+  "subject_categories": [
+    "Aircraft Design, Testing And Performance"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-X-71867",
+    "E-8633",
+    "Report Number: NASA-TM-X-71867",
+    "Report Number: E-8633"
+  ],
+  "funding_numbers": [],
+  "abstract": "The OH-58 main transmission gearbox was run at varying output torques, speeds, and oil cooling rates. The gearbox was subsequently run to destruction by draining the oil from the gearbox while operating at a speed of 6200 revs per minute and 36,000 inch-pounds output torque. Primary cause of gearbox failure was overheating and melting of the planet bearing aluminum cages. Complete failure of the gearbox occurred in 28 1/2 minutes after the oil pressure dropped to zero. The alternating and maximum stresses in the gearbox top case were approximately 10 percent of the endurance limit for the material. Deflection of the bevel gear at 67000 inch-pounds output torque indicate a marginal stiffness for the bevel gear supporting system.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

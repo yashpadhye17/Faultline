@@ -1,0 +1,89 @@
+app:
+  name: "Engineering Intelligence & Reliability Copilot"
+  version: "1.1.0"
+  env: "development"
+
+faiss_db:
+  collection_name: "nasa_reports"
+  path: "data/vectorstore/nasa_faiss"
+  use_hnsw: true
+  hnsw_m: 32
+  hnsw_ef_search: 64
+  hnsw_ef_construction: 200
+
+embedding_model:
+  provider: "huggingface"
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  model_type: "sentence-transformers"
+  model_version: "1.0.0"
+
+retriever:
+  top_k: 6
+  fetch_k: 20
+  score_threshold: 0.0
+  feature_tag_filters:
+    rca: ["rca"]
+    maintenance: ["maintenance"]
+    comparison: ["comparison", "research"]
+    research: ["research", "comparison", "rca", "maintenance"]
+  hybrid:
+    enabled: true
+    rrf_k: 60
+  reranker:
+    enabled: true
+    provider: "huggingface"
+    model_name: "BAAI/bge-reranker-base"
+  citation_enforcement:
+    enabled: true
+    append_sources_if_missing: true
+
+chunking:
+  size: 1000
+  overlap: 200
+  max_chars_per_doc: 16000
+
+uploads:
+  max_mb: 25
+  allowed_extensions: [".pdf"]
+  temp_dir: "data/uploads"
+
+corpus:
+  pdf_dir: "data/nasa_ntrs/pdfs"
+  metadata_dir: "data/nasa_ntrs/metadata"
+  metadata_jsonl: "data/nasa_ntrs/metadata.jsonl"
+
+llm:
+  provider: "groq"
+  model_name: "openai/gpt-oss-20b"
+  temperature: 0.2
+  max_tokens: 2048
+
+evaluation:
+  dataset_path: "data/evaluation/datasets/nasa_rag_v1.jsonl"
+  runs_dir: "data/evaluation/runs"
+  metrics:
+    - answer_relevancy
+    - context_precision
+    - context_recall
+    - answer_correctness
+  thresholds:
+    answer_relevancy: 0.5
+    context_precision: 0.5
+    context_recall: 0.5
+    answer_correctness: 0.5
+  sample_limit: 8
+  catalog:
+    llms:
+      - id: "openai/gpt-oss-20b"
+        label: "Groq GPT-OSS 20B (default)"
+      - id: "llama-3.1-8b-instant"
+        label: "Llama 3.1 8B Instant"
+      - id: "llama-3.3-70b-versatile"
+        label: "Llama 3.3 70B Versatile"
+      - id: "gemma2-9b-it"
+        label: "Gemma2 9B Instruct"
+
+llmops:
+  tracing_enabled: false
+  store_run_meta: true
+  prompts_manifest: "prompts/manifest.yaml"

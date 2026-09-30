@@ -1,0 +1,37 @@
+{
+  "doc_id": "19710010494",
+  "source": "NASA NTRS",
+  "pdf_filename": "19710010494_19710010494.pdf",
+  "pdf_path": "pdfs/19710010494_19710010494.pdf",
+  "metadata_path": "metadata/19710010494.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19710010494",
+  "title": "MSC Apollo 13 investigation team.  Panel 1 - Spacecraft incident investigation. Volume 2 - Manufacturing and test history of oxygen tank  Final report",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-17T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [],
+  "organizations": [],
+  "subject_categories": [
+    "Space Vehicles"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-X-66921",
+    "Report Number: NASA-TM-X-66921"
+  ],
+  "funding_numbers": [],
+  "abstract": "Analysis of fabrication records of oxygen tank used on Apollo 13 flight",
+  "query_tag": "incident investigation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

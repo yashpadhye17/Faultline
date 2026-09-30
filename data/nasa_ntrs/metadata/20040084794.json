@@ -1,0 +1,48 @@
+{
+  "doc_id": "20040084794",
+  "source": "NASA NTRS",
+  "pdf_filename": "20040084794_20040084794.pdf",
+  "pdf_path": "pdfs/20040084794_20040084794.pdf",
+  "metadata_path": "metadata/20040084794.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20040084794",
+  "title": "Parameter Transient Behavior Analysis on Fault Tolerant Control System",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-07-09T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Belcastro, Christine",
+    "Shin, Jong-Yeob"
+  ],
+  "organizations": [
+    "NASA Langley Research Center",
+    "National Inst. of Aerospace"
+  ],
+  "subject_categories": [
+    "Mathematical And Computer Sciences (General)"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/CR-2003-212682",
+    "NIA-2003-05",
+    "Report Number: NASA/CR-2003-212682",
+    "Report Number: NIA-2003-05"
+  ],
+  "funding_numbers": [
+    "NAS1-02117",
+    "NCC1-02043",
+    "WU 762-60-31-02"
+  ],
+  "abstract": "In a fault tolerant control (FTC) system, a parameter varying FTC law is reconfigured based on fault parameters estimated by fault detection and isolation (FDI) modules. FDI modules require some time to detect fault occurrences in aero-vehicle dynamics. This paper illustrates analysis of a FTC system based on estimated fault parameter transient behavior which may include false fault detections during a short time interval. Using Lyapunov function analysis, the upper bound of an induced-L2 norm of the FTC system performance is calculated as a function of a fault detection time and the exponential decay rate of the Lyapunov function.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca"
+  ]
+}

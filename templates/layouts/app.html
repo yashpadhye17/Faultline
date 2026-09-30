@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% from "partials/icons.html" import icon %}
+{% block body_class %}app-body{% endblock %}
+{% block body %}
+{% set path = request.url.path %}
+{% set copilot_paths = ["/research", "/rca", "/maintenance", "/comparison"] %}
+<div class="app">
+  <div class="rail-backdrop" id="rail-backdrop" hidden></div>
+  <aside class="rail" id="rail" aria-label="App navigation">
+    <div class="rail-head">
+      <a class="logo" href="/">
+        <span class="logo-mark">E</span>
+        <span class="logo-text">Reliability Copilot</span>
+      </a>
+    </div>
+
+    {% if path in copilot_paths %}
+    <button type="button" class="btn btn-secondary rail-new" id="new-chat">{{ icon("plus") }} New chat</button>
+    {% endif %}
+
+    <nav class="rail-nav">
+      <p class="rail-label">Copilots</p>
+      <a class="rail-link{% if path == '/research' %} active{% endif %}" href="/research">{{ icon("search") }} Research</a>
+      <a class="rail-link{% if path == '/rca' %} active{% endif %}" href="/rca">{{ icon("target") }} Root cause</a>
+      <a class="rail-link{% if path == '/maintenance' %} active{% endif %}" href="/maintenance">{{ icon("wrench") }} Maintenance</a>
+      <a class="rail-link{% if path == '/comparison' %} active{% endif %}" href="/comparison">{{ icon("columns") }} Comparison</a>
+    </nav>
+
+    <div class="rail-section" id="recent-section" hidden>
+      <div class="rail-label-row">
+        <p class="rail-label">Recent</p>
+        <button type="button" class="link-btn small" id="clear-history">Clear</button>
+      </div>
+      <ul class="recent-list" id="recent-list"></ul>
+    </div>
+
+    <div class="rail-foot">
+      <a class="rail-link" href="/">{{ icon("home") }} Back to site</a>
+    </div>
+  </aside>
+
+  <div class="app-main">
+    <header class="app-top">
+      <button type="button" class="btn btn-icon btn-ghost rail-toggle" id="rail-toggle" aria-label="Open navigation" aria-expanded="false">{{ icon("menu") }}</button>
+      <div class="app-title">{% block page_title %}{% endblock %}</div>
+      <div class="app-top-right">
+        <div class="system-pills" id="system-pills" aria-live="polite"><span class="badge skeleton">Checking index…</span></div>
+        <button type="button" class="btn btn-icon btn-ghost" data-theme-toggle aria-label="Toggle dark mode">{{ icon("moon") }}</button>
+      </div>
+    </header>
+    <div class="app-content {% block content_class %}{% endblock %}">
+      {% block content %}{% endblock %}
+    </div>
+  </div>
+</div>
+{% endblock %}

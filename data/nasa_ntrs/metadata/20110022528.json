@@ -1,0 +1,47 @@
+{
+  "doc_id": "20110022528",
+  "source": "NASA NTRS",
+  "pdf_filename": "20110022528_20110022528.pdf",
+  "pdf_path": "pdfs/20110022528_20110022528.pdf",
+  "metadata_path": "metadata/20110022528.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20110022528",
+  "title": "Logistics Lessons Learned in NASA Space Flight",
+  "sti_type": "TECHNICAL_PUBLICATION",
+  "sti_type_details": "Technical Publication (TP)",
+  "center_code": "KSC",
+  "center_name": "Kennedy Space Center",
+  "year": 2019,
+  "published": "2019-07-11T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Evans, William A.",
+    "DeWeck, Olivier",
+    "Laufer, Deanna",
+    "Shull, Sarah"
+  ],
+  "organizations": [
+    "United Space Alliance",
+    "Massachusetts Inst. of Tech."
+  ],
+  "subject_categories": [
+    "Administration And Management"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/TP-2006-214203",
+    "Report Number: NASA/TP-2006-214203"
+  ],
+  "funding_numbers": [
+    "NNK050A50C"
+  ],
+  "abstract": "The Vision for Space Exploration sets out a number of goals, involving both strategic and tactical objectives. These include returning the Space Shuttle to flight, completing the International Space Station, and conducting human expeditions to the Moon by 2020. Each of these goals has profound logistics implications. In the consideration of these objectives,a need for a study on NASA logistics lessons learned was recognized. The study endeavors to identify both needs for space exploration and challenges in the development of past logistics architectures, as well as in the design of space systems. This study may also be appropriately applied as guidance in the development of an integrated logistics architecture for future human missions to the Moon and Mars. This report first summarizes current logistics practices for the Space Shuttle Program (SSP) and the International Space Station (ISS) and examines the practices of manifesting, stowage, inventory tracking, waste disposal, and return logistics. The key findings of this examination are that while the current practices do have many positive aspects, there are also several shortcomings. These shortcomings include a high-level of excess complexity, redundancy of information/lack of a common database, and a large human-in-the-loop component. Later sections of this report describe the methodology and results of our work to systematically gather logistics lessons learned from past and current human spaceflight programs as well as validating these lessons through a survey of the opinions of current space logisticians. To consider the perspectives on logistics lessons, we searched several sources within NASA, including organizations with direct and indirect connections with the system flow in mission planning. We utilized crew debriefs, the John Commonsense lessons repository for the JSC Mission Operations Directorate, and the Skylab Lessons Learned. Additionally, we searched the public version of the Lessons Learned Information System (LLIS) and verified that we received the same result using the internal version of LLIS for our logistics lesson searches. In conducting the research, information from multiple databases was consolidated into a single spreadsheet of 300 lessons learned. Keywords were applied for the purpose of sorting and evaluation. Once the lessons had been compiled, an analysis of the resulting data was performed, first sorting it by keyword, then finding duplication and root cause, and finally sorting by root cause. The data was then distilled into the top 7 lessons learned across programs, centers, and activities.",
+  "query_tag": "\"root cause\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

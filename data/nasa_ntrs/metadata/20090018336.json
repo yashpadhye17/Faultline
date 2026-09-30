@@ -1,0 +1,47 @@
+{
+  "doc_id": "20090018336",
+  "source": "NASA NTRS",
+  "pdf_filename": "20090018336_20090018336.pdf",
+  "pdf_path": "pdfs/20090018336_20090018336.pdf",
+  "metadata_path": "metadata/20090018336.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20090018336",
+  "title": "The Development of Directional Decohesion Finite Elements for Multiscale Failure Analysis of Metallic Polycrystals",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Saether, Erik",
+    "Glaessgen, Edward H."
+  ],
+  "organizations": [
+    "NASA Langley Research Center"
+  ],
+  "subject_categories": [
+    "Metals And Metallic Materials"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "LF99-8507",
+    "NASA/TM-2009-215715",
+    "L-19610",
+    "Report Number: LF99-8507",
+    "Report Number: NASA/TM-2009-215715",
+    "Report Number: L-19610"
+  ],
+  "funding_numbers": [
+    "WBS 698259.02.07.07.03.01"
+  ],
+  "abstract": "Atomistic simulations of intergranular fracture have indicated that grain-scale crack growth in polycrystalline metals can be direction dependent. At these material length scales, the atomic environment greatly influences the nature of intergranular crack propagation, through either brittle or ductile mechanisms, that are a function of adjacent grain orientation and direction of crack propagation. Methods have been developed to obtain cohesive zone models (CZM) directly from molecular dynamics simulations. These CZMs may be incorporated into decohesion finite element formulations to simulate fracture at larger length scales. A new directional decohesion element is presented that calculates the direction of Mode I opening and incorporates a material criterion for dislocation emission based on the local crystallographic environment to automatically select the CZM that best represents crack growth. The simulation of fracture in 2-D and 3-D aluminum polycrystals is used to illustrate the effect of parameterized CZMs and the effectiveness of directional decohesion finite elements.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "rca",
+    "research"
+  ]
+}

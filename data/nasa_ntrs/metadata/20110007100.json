@@ -1,0 +1,50 @@
+{
+  "doc_id": "20110007100",
+  "source": "NASA NTRS",
+  "pdf_filename": "20110007100_20110007100.pdf",
+  "pdf_path": "pdfs/20110007100_20110007100.pdf",
+  "metadata_path": "metadata/20110007100.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20110007100",
+  "title": "Component-Level Electronic-Assembly Repair (CLEAR) Analysis of the Problem Reporting and Corrective Action (PRACA) Database of the International Space Station On-Orbit Electrical Systems",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-11T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Oeftering, Richard C.",
+    "Bradish, Martin A.",
+    "Juergens, Jeffrey R.",
+    "Lewis, Michael J."
+  ],
+  "organizations": [
+    "NASA Glenn Research Center"
+  ],
+  "subject_categories": [
+    "Electronics And Electrical Engineering"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "E-17559",
+    "CLEAR-DOC-005",
+    "NASA/TM-2011-216954",
+    "Report Number: E-17559",
+    "Report Number: CLEAR-DOC-005",
+    "Report Number: NASA/TM-2011-216954"
+  ],
+  "funding_numbers": [
+    "WBS 825855.01.03.03.03"
+  ],
+  "abstract": "The NASA Constellation Program is investigating and developing technologies to support human exploration of the Moon and Mars. The Component-Level Electronic-Assembly Repair (CLEAR) task is part of the Supportability Project managed by the Exploration Technology Development Program. CLEAR is aimed at enabling a flight crew to diagnose and repair electronic circuits in space yet minimize logistics spares, equipment, and crew time and training. For insight into actual space repair needs, in early 2008 the project examined the operational experience of the International Space Station (ISS) program. CLEAR examined the ISS on-orbit Problem Reporting and Corrective Action database for electrical and electronic system problems. The ISS has higher than predicted reliability yet, as expected, it has persistent problems. A goal was to identify which on-orbit electrical problems could be resolved by a component-level replacement. A further goal was to identify problems that could benefit from the additional diagnostic and test capability that a component-level repair capability could provide. The study indicated that many problems stem from a small set of root causes that also represent distinct component problems. The study also determined that there are certain recurring problems where the current telemetry instrumentation and built-in tests are unable to completely resolve the problem. As a result, the root cause is listed as unknown. Overall, roughly 42 percent of on-orbit electrical problems on ISS could be addressed with a component-level repair. Furthermore, 63 percent of on-orbit electrical problems on ISS could benefit from additional external diagnostic and test capability. These results indicate that in situ component-level repair in combination with diagnostic and test capability can be expected to increase system availability and reduce logistics. The CLEAR approach can increase the flight crew s ability to act decisively to resolve problems while reducing dependency on Earth-supplied logistics for future Constellation Program missions.",
+  "query_tag": "\"root cause\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

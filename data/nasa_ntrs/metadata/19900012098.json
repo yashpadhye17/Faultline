@@ -1,0 +1,48 @@
+{
+  "doc_id": "19900012098",
+  "source": "NASA NTRS",
+  "pdf_filename": "19900012098_19900012098.pdf",
+  "pdf_path": "pdfs/19900012098_19900012098.pdf",
+  "metadata_path": "metadata/19900012098.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19900012098",
+  "title": "Compendium of fracture mechanics problems",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-24T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Stallworth, R.",
+    "Wilson, C.",
+    "Meyers, C."
+  ],
+  "organizations": [
+    "NASA Marshall Space Flight Center"
+  ],
+  "subject_categories": [
+    "Structural Mechanics"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NAS 1.15:100393",
+    "NASA-TM-100393",
+    "Report Number: NAS 1.15:100393",
+    "Report Number: NASA-TM-100393"
+  ],
+  "funding_numbers": [
+    "RTOP 590-21-11-300"
+  ],
+  "abstract": "Fracture mechanics analysis results are presented from the following structures/components analyzed at Marshall Space Flight Center (MSFC) between 1982 and 1989: space shuttle main engine (SSME), Hubble Space Telescope (HST), external tank attach ring, B-1 stand LOX inner tank, and solid rocket booster (SRB). Results from the SSME high pressure fuel turbopump (HPFTP) second stage blade parametric analysis determine a critical flaw size for a wide variety of stress intensity values. The engine 0212 failure analysis was a time dependent fracture life assessment. Results indicated that the disk ruptured due to an overspeed condition. Results also indicated that very small flaws in the curvic coupling area could propagate and lead to failure under normal operating conditions. It was strongly recommended that a nondestructive evaluation inspection schedule be implemented. The main ring of the HST, scheduled to launch in 1990, was analyzed by safe-life and fail-safe analyses. First safe-life inspection criteria curves for the ring inner and outer skins and the fore and aft channels were derived. Afterwards the skins and channels were determined to be fail-safe by analysis. A conservative safe-life analysis was done on the 270 redesign external tank attach ring. Results from the analysis were used to determine the nondestructive evaluation technique required.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

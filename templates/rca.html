@@ -1,0 +1,44 @@
+{% extends "layouts/app.html" %}
+{% from "partials/copilot_workspace.html" import workspace %}
+{% block page_id %}rca{% endblock %}
+{% block title %}Root cause analysis · Reliability Copilot{% endblock %}
+{% block page_title %}Root cause analysis{% endblock %}
+{% block content_class %}is-workspace{% endblock %}
+{% block content %}
+{% set examples = [
+  {"title": "NEXT PPU capacitor failures", "body": "Capacitors failed repeatedly during power processing unit testing.",
+   "fill": {"incident_description": "During NEXT PPU testing, capacitors failed repeatedly. What root-cause approach and findings are documented for the capacitor failures?"}},
+  {"title": "Apollo 13 anomaly", "body": "Summarize the investigation approach and corrective-action themes.",
+   "fill": {"incident_description": "Apollo 13 experienced a spacecraft anomaly. Summarize the investigation approach and corrective-action themes from the MSC investigation panels."}},
+  {"title": "ISS SARJ bearing degradation", "body": "Degradation and failure signatures on the Solar Array Alpha Rotary Joint.",
+   "fill": {"incident_description": "ISS Solar Array Alpha Rotary Joint (SARJ) bearing showed degradation and failure signatures. What lessons learned and recovery actions are reported?"}}
+] %}
+{% call workspace("/api/v1/rca", "target", "What failed?", "Describe the anomaly and its conditions. You will get ranked likely causes, checks to run, and corrective actions, each backed by NASA reports.", examples, "Analyze") %}
+  <textarea class="composer-input" name="incident_description" rows="1" required data-autogrow
+    placeholder="What failed, when, and under what operating conditions?"></textarea>
+  <details class="composer-options">
+    <summary>System context</summary>
+    <div class="options-grid">
+      <label class="field wide">Platform, subsystem, environment
+        <textarea name="system_context" rows="2" placeholder="e.g., ISS power system, thermal vacuum, 28 V bus…"></textarea>
+      </label>
+    </div>
+  </details>
+{% endcall %}
+{% endblock %}
+{% block scripts %}
+<script>
+  initCopilot({
+    feature: "rca",
+    primaryField: "incident_description",
+    clearFields: ["incident_description"],
+    buildPayload: (form, sessionId) => ({
+      incident_description: form.incident_description.value,
+      system_context: form.system_context.value,
+      session_id: sessionId,
+    }),
+    userText: (p) => p.incident_description,
+    render: renderRCA,
+  });
+</script>
+{% endblock %}

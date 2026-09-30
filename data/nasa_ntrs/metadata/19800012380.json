@@ -1,0 +1,41 @@
+{
+  "doc_id": "19800012380",
+  "source": "NASA NTRS",
+  "pdf_filename": "19800012380_19800012380.pdf",
+  "pdf_path": "pdfs/19800012380_19800012380.pdf",
+  "metadata_path": "metadata/19800012380.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19800012380",
+  "title": "Mod 1 wind turbine generator failure modes and effects analysis",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-21T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [],
+  "organizations": [],
+  "subject_categories": [
+    "Energy Production And Conversion"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "DOE/NASA/0058-79/1",
+    "NASA-CR-159494",
+    "Report Number: DOE/NASA/0058-79/1",
+    "Report Number: NASA-CR-159494"
+  ],
+  "funding_numbers": [
+    "EX-77-A-29-1010",
+    "NAS3-20058"
+  ],
+  "abstract": "A failure modes and effects analysis (FMEA) was directed primarily at identifying those critical failure modes that would be hazardous to life or would result in major damage to the system. Each subsystem was approached from the top down, and broken down to successive lower levels where it appeared that the criticality of the failure mode warranted more detail analysis. The results were reviewed by specialists from outside the Mod 1 program, and corrective action taken wherever recommended.",
+  "query_tag": "\"corrective action\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca"
+  ]
+}

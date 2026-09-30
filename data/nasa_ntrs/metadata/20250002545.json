@@ -1,0 +1,85 @@
+{
+  "doc_id": "20250002545",
+  "source": "NASA NTRS",
+  "pdf_filename": "20250002545_TM-20250002545.pdf",
+  "pdf_path": "pdfs/20250002545_TM-20250002545.pdf",
+  "metadata_path": "metadata/20250002545.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20250002545",
+  "title": "Progressive Damage and Failure Analysis Methods Applications for Aircraft Crashworthiness and Impact Energy Management",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2025,
+  "published": "2025-04-29T04:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Mostafa Rassaian",
+    "J Michael Pereira",
+    "Alan Byar",
+    "Aswini Kona Ravi",
+    "Rudy Haluza",
+    "Daniel O Adams",
+    "Reza Vaziri",
+    "Johannes Reiner",
+    "Rajaneesh Anantharaju",
+    "Matthias Waimer",
+    "Thomas Feser",
+    "Erin Blessing",
+    "Maria Pia Falaschetti",
+    "Francesco Rondina",
+    "Patrick de Luca",
+    "Sebastian Müller",
+    "Sharon Xiao",
+    "Juan Pedro Berro Ramirez",
+    "Paolo Feraboli",
+    "Bonnie Wade",
+    "Alastair Johnson",
+    "Akhil Bhasin",
+    "Luis Gomez"
+  ],
+  "organizations": [
+    "Boeing Research and Technology",
+    "Glenn Research Center",
+    "Boeing Impact Simulation Group",
+    "National Institute for Aviation Research",
+    "Pennsylvania State University",
+    "University of Utah",
+    "University of British Columbia",
+    "GDTech",
+    "German Aerospace Center",
+    "University of Bologna",
+    "ESI Group (France)",
+    "Michigan State University",
+    "Altair Engineering Inc.",
+    "Advanced Composite Structures Laboratory ",
+    "Advanced Composite Structures Laboratory"
+  ],
+  "subject_categories": [
+    "Research and Support Facilities (Air)",
+    "Air Transportation and Safety"
+  ],
+  "keywords": [
+    "Progressive Damage Analysis",
+    "Composite Materials",
+    "Aircraft Safety",
+    "Crashworthiness"
+  ],
+  "report_numbers": [
+    "NASA/TM-20250002545",
+    "E-20163"
+  ],
+  "funding_numbers": [
+    "664817.02.03.03.03.03 "
+  ],
+  "abstract": "This report presents a range of analysis methods for performing progressive damage and failure analysis (PDFA) of composite structures with application to crashworthiness analyses and impact event simulation. The report reflects research efforts by the Composite Materials Handbook 17 (CMH–17) Crashworthiness Working Group toward advancing the state of the art in analysis methods and tools. As such, this report serves as a repository of various PDFA methods that users can apply to replicate benchmark problems, incorporating lessons learned to avoid repeating those same errors. Detailed modeling and testing guidelines, along with best practices as the means of compliance subject to regulatory requirements, are deferred to Revision H of CMH–17, Volume 3, Chapter 16, Crashworthiness and Energy Management. The objective of this report is to describe a selection of PDFA methods and show how they are applied in simulating component-level tests involving progressive failure and to present an overall approach for calibrating, evaluating, and validating these PDFA methods. The general intended application of PDFA in this case is aircraft crashworthiness, and therefore the tests are intended to represent aircraft structural features that could be used to manage energy for crashworthiness. Simulation results are compared with flat coupon and C-channel test data for multiple methods, and each of these methods is described in detail, including calibration and material characterization testing requirements. The multiple benefits in using PDFA include the ability to guide testing, reduce design risk, provide response data in support of certification, optimize design features, and perform detailed assessments of structural responses that are difficult to obtain through testing outputs. As with all finite element methods, use of PDFA requires testing for calibration and validation, and test requirements are presented in detail for a range of PDFA methods. Additionally, modeling guidance is provided on strengths, limitations, and recommended practices for several PDFA simulation methods.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

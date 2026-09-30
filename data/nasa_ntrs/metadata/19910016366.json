@@ -1,0 +1,50 @@
+{
+  "doc_id": "19910016366",
+  "source": "NASA NTRS",
+  "pdf_filename": "19910016366_19910016366.pdf",
+  "pdf_path": "pdfs/19910016366_19910016366.pdf",
+  "metadata_path": "metadata/19910016366.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19910016366",
+  "title": "An autonomous fault detection, isolation, and recovery system for a 20-kHz electric power distribution test bed",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-25T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Quinn, Todd M.",
+    "Walters, Jerry L."
+  ],
+  "organizations": [
+    "Sverdrup Technology, Inc., Brook Park",
+    "NASA Lewis Research Center"
+  ],
+  "subject_categories": [
+    "Computer Programming And Software"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-104344",
+    "E-6118",
+    "NAS 1.15:104344",
+    "Report Number: NASA-TM-104344",
+    "Report Number: E-6118",
+    "Report Number: NAS 1.15:104344"
+  ],
+  "funding_numbers": [
+    "NAS3-25266",
+    "RTOP 505-12-33"
+  ],
+  "abstract": "Future space explorations will require long term human presence in space. Space environments that provide working and living quarters for manned missions are becoming increasingly larger and more sophisticated. Monitor and control of the space environment subsystems by expert system software, which emulate human reasoning processes, could maintain the health of the subsystems and help reduce the human workload. The autonomous power expert (APEX) system was developed to emulate a human expert's reasoning processes used to diagnose fault conditions in the domain of space power distribution. APEX is a fault detection, isolation, and recovery (FDIR) system, capable of autonomous monitoring and control of the power distribution system. APEX consists of a knowledge base, a data base, an inference engine, and various support and interface software. APEX provides the user with an easy-to-use interactive interface. When a fault is detected, APEX will inform the user of the detection. The user can direct APEX to isolate the probable cause of the fault. Once a fault has been isolated, the user can ask APEX to justify its fault isolation and to recommend actions to correct the fault. APEX implementation and capabilities are discussed.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

@@ -1,0 +1,52 @@
+{% extends "layouts/app.html" %}
+{% from "partials/copilot_workspace.html" import workspace %}
+{% block page_id %}research{% endblock %}
+{% block title %}Research · Reliability Copilot{% endblock %}
+{% block page_title %}Research{% endblock %}
+{% block content_class %}is-workspace{% endblock %}
+{% block content %}
+{% set examples = [
+  {"title": "Wind turbine FMEA", "body": "Key learnings from the Mod 1 wind turbine generator failure modes analysis.",
+   "fill": {"question": "What key learnings come from the Mod 1 wind turbine generator failure modes and effects analysis?"}},
+  {"title": "SSME turbopump anomalies", "body": "Developmental problems on the alternate LOX high-pressure turbopump.",
+   "fill": {"question": "What developmental problems and anomaly-investigation practices were documented for the Space Shuttle main engine alternate LOX high-pressure turbopump?"}},
+  {"title": "Shuttle lessons learned", "body": "Failure investigation and corrective action across missions.",
+   "fill": {"question": "Summarize lessons learned from Space Shuttle missions that relate to failure investigation and corrective action."}}
+] %}
+{% call workspace("/api/v1/research", "search", "Ask the NASA reports anything", "Search decades of NASA failure, repair, and anomaly reports. Every answer links to its sources.", examples, "Ask") %}
+  <textarea class="composer-input" name="question" rows="1" required data-autogrow
+    placeholder="Ask a question about NASA technical reports…"></textarea>
+  <details class="composer-options">
+    <summary>Filters</summary>
+    <div class="options-grid">
+      <label class="field">NASA center
+        <input name="center_code" placeholder="GRC, LaRC, MSFC…" />
+      </label>
+      <label class="field">From year
+        <input name="year_from" type="number" min="1900" max="2100" placeholder="1965" />
+      </label>
+      <label class="field">To year
+        <input name="year_to" type="number" min="1900" max="2100" placeholder="2026" />
+      </label>
+    </div>
+  </details>
+{% endcall %}
+{% endblock %}
+{% block scripts %}
+<script>
+  initCopilot({
+    feature: "research",
+    primaryField: "question",
+    clearFields: ["question"],
+    buildPayload: (form, sessionId) => ({
+      question: form.question.value,
+      center_code: form.center_code.value || null,
+      year_from: form.year_from.value ? Number(form.year_from.value) : null,
+      year_to: form.year_to.value ? Number(form.year_to.value) : null,
+      session_id: sessionId,
+    }),
+    userText: (p) => p.question,
+    render: renderResearch,
+  });
+</script>
+{% endblock %}

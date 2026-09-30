@@ -1,0 +1,47 @@
+{
+  "doc_id": "19910008300",
+  "source": "NASA NTRS",
+  "pdf_filename": "19910008300_19910008300.pdf",
+  "pdf_path": "pdfs/19910008300_19910008300.pdf",
+  "metadata_path": "metadata/19910008300.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19910008300",
+  "title": "Evaluation of an expert system for fault detection, isolation, and recovery in the manned maneuvering unit",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-25T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Rushby, John",
+    "Crow, Judith"
+  ],
+  "organizations": [
+    "SRI International Corp."
+  ],
+  "subject_categories": [
+    "Computer Programming And Software"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NAS 1.26:187466",
+    "NASA-CR-187466",
+    "Report Number: NAS 1.26:187466",
+    "Report Number: NASA-CR-187466"
+  ],
+  "funding_numbers": [
+    "NAS1-18226",
+    "RTOP 488-80-41"
+  ],
+  "abstract": "The authors explore issues in the specification, verification, and validation of artificial intelligence (AI) based software, using a prototype fault detection, isolation and recovery (FDIR) system for the Manned Maneuvering Unit (MMU). They use this system as a vehicle for exploring issues in the semantics of C-Language Integrated Production System (CLIPS)-style rule-based languages, the verification of properties relating to safety and reliability, and the static and dynamic analysis of knowledge based systems. This analysis reveals errors and shortcomings in the MMU FDIR system and raises a number of issues concerning software engineering in CLIPs. The authors came to realize that the MMU FDIR system does not conform to conventional definitions of AI software, despite the fact that it was intended and indeed presented as an AI system. The authors discuss this apparent disparity and related questions such as the role of AI techniques in space and aircraft operations and the suitability of CLIPS for critical applications.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "doc_id": "19740026235",
+  "source": "NASA NTRS",
+  "pdf_filename": "19740026235_19740026235.pdf",
+  "pdf_path": "pdfs/19740026235_19740026235.pdf",
+  "metadata_path": "metadata/19740026235.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19740026235",
+  "title": "Shuttle active thermal control system development testing.  Volume 8:  Tube anomaly investigation",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-19T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Reed, M. W."
+  ],
+  "organizations": [
+    "LTV Aerospace Corp."
+  ],
+  "subject_categories": [
+    "Space Vehicles"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-CR-140275",
+    "TI69-28-VOL-8",
+    "Report Number: NASA-CR-140275",
+    "Report Number: TI69-28-VOL-8"
+  ],
+  "funding_numbers": [
+    "NAS9-10534"
+  ],
+  "abstract": "A modular radiator system projected for use on the space shuttle has been tested. During thermal vacuum testing of the radiator panels leaks developed in the coolant fluid tubes containing the Freon 21 refrigerant. An analysis of thermal vacuum test conditions revealed that the test anomaly consisted of trapped Freon 21 fluid between frozen tube corners colder than the remainder of the panel. The trapped fluid expanded on further warming, causing high pressures to develop in the tubes. The pressure was sufficient to induce tube ruptures. Metallurgical analysis showed that concentric extrusion holes and heat treatment of the aluminum alloy to the -T6 condition would have prevented the ruptures. Thermal analysis indicates that attaching the tube corners to the radiator fin could eliminate the fluid trapping.",
+  "query_tag": "\"anomaly investigation\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

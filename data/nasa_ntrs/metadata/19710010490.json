@@ -1,0 +1,36 @@
+{
+  "doc_id": "19710010490",
+  "source": "NASA NTRS",
+  "pdf_filename": "19710010490_19710010490.pdf",
+  "pdf_path": "pdfs/19710010490_19710010490.pdf",
+  "metadata_path": "metadata/19710010490.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19710010490",
+  "title": "MSC Apollo 13 investigation team.  Panel 5A - Corrective action study and implementation for Command and Service Modules /CSM/",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-17T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [],
+  "organizations": [],
+  "subject_categories": [
+    "Space Vehicles"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-X-66932",
+    "Report Number: NASA-TM-X-66932"
+  ],
+  "funding_numbers": [],
+  "abstract": "Analysis of command and service module configurations and recommendations to prevent failures which occurred on Apollo 13 flight",
+  "query_tag": "\"corrective action\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca"
+  ]
+}

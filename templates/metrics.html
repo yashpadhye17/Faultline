@@ -1,0 +1,350 @@
+{% extends "layouts/app.html" %}
+{% from "partials/icons.html" import icon %}
+{% block page_id %}metrics{% endblock %}
+{% block title %}Evaluations · Reliability Copilot{% endblock %}
+{% block page_title %}Evaluations{% endblock %}
+{% block content %}
+<div class="page">
+  <div class="page-head">
+    <div>
+      <h1>Evaluations</h1>
+      <p>Score answer quality against the gold question set. Compare generation models on the same hybrid retrieval, reranker, and corpus embedding.</p>
+    </div>
+    <button type="button" class="btn btn-primary" id="new-eval-btn">{{ icon("plus") }} New evaluation</button>
+  </div>
+
+  <div class="job-banner" id="eval-job-banner" hidden>
+    <div class="job-banner-text">
+      <strong id="eval-job-title">Evaluation running</strong>
+      <span class="muted" id="eval-job-status"></span>
+    </div>
+    <div class="progress" id="eval-progress"><div class="progress-fill"></div></div>
+  </div>
+
+  <div data-tabs>
+    <div class="tabs" role="tablist">
+      <button type="button" class="tab active" data-tab="overview" role="tab" aria-selected="true">Overview</button>
+      <button type="button" class="tab" data-tab="runs" role="tab" aria-selected="false">Runs</button>
+      <button type="button" class="tab" data-tab="samples" role="tab" aria-selected="false">Per-sample</button>
+      <button type="button" class="tab" data-tab="report" role="tab" aria-selected="false">Report</button>
+    </div>
+
+    <section data-panel="overview">
+      <div class="overview-grid">
+        <div class="card card-pad">
+          <div class="card-head">
+            <h2 id="run-heading">Latest run</h2>
+            <span class="muted small" id="status">Loading…</span>
+          </div>
+          <div class="score-grid" id="agg-grid"></div>
+          <div id="matrix-wrap"></div>
+        </div>
+        <aside class="card card-pad">
+          <div class="card-head"><h2>System</h2></div>
+          <dl class="kv" id="ops-grid"><div><dt>Loading…</dt><dd></dd></div></dl>
+        </aside>
+      </div>
+    </section>
+
+    <section data-panel="runs" hidden>
+      <div class="card table-wrap">
+        <table class="table">
+          <thead><tr><th>Run</th><th>Type</th><th>Result</th></tr></thead>
+          <tbody id="run-table"><tr><td colspan="3" class="muted">Loading runs…</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section data-panel="samples" hidden>
+      <div class="card table-wrap" id="sample-table-wrap"></div>
+    </section>
+
+    <section data-panel="report" hidden>
+      <div class="card card-pad md-body" id="report-md"><p class="muted">No report for this run.</p></div>
+    </section>
+  </div>
+</div>
+
+<aside class="panel-drawer" id="eval-panel" aria-hidden="true" aria-labelledby="eval-panel-title">
+  <div class="panel-drawer-head">
+    <h2 id="eval-panel-title">New evaluation</h2>
+    <button type="button" class="btn btn-icon btn-ghost" data-panel-close aria-label="Close">{{ icon("x") }}</button>
+  </div>
+  <div class="panel-drawer-body">
+    <p class="muted small" id="catalog-note">Compare generation LLMs on the same BM25 + HNSW hybrid retrieval, reranker, and corpus embedding.</p>
+    <div class="form-section">
+      <h3>Generation models</h3>
+      <div id="llm-options" class="check-grid muted">Loading…</div>
+    </div>
+    <div class="form-section">
+      <h3>Metrics</h3>
+      <div id="metric-options" class="check-grid muted">Loading…</div>
+    </div>
+    <div class="form-section">
+      <h3>Settings</h3>
+      <div class="form-grid">
+        <label class="field">Copilot
+          <select id="eval-feature">
+            <option value="all">All copilots</option>
+            <option value="rca">Root cause</option>
+            <option value="maintenance">Maintenance</option>
+            <option value="comparison">Comparison</option>
+            <option value="research">Research</option>
+          </select>
+        </label>
+        <label class="field">Samples
+          <input id="eval-limit" type="number" min="1" max="50" value="4" />
+        </label>
+        <label class="field">Temperature
+          <input id="eval-temp" type="number" min="0" max="1.5" step="0.1" value="0.2" />
+        </label>
+        <label class="field">top_k
+          <input id="eval-topk" type="number" min="1" max="20" value="6" />
+        </label>
+        <label class="field">fetch_k
+          <input id="eval-fetchk" type="number" min="1" max="50" value="20" />
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="panel-drawer-foot">
+    <button type="button" class="btn btn-secondary" data-panel-close>Cancel</button>
+    <button type="button" class="btn btn-primary" id="run-eval-btn">Run evaluation</button>
+  </div>
+</aside>
+{% endblock %}
+{% block scripts %}
+<script>
+let evalPollTimer = null;
+let evalTickTimer = null;
+let evalStartedAt = null;
+let lastEvalState = { status: "idle" };
+let evalWatched = false;
+const evalRoot = document.querySelector("[data-tabs]");
+
+function checkedValues(containerId) {
+  return Array.from(document.querySelectorAll(`#${containerId} input[type=checkbox]:checked`)).map((el) => el.value);
+}
+
+async function loadCatalog() {
+  const catalog = await fetch("/api/v1/evaluation/catalog").then((r) => r.json());
+  const d = catalog.defaults || {};
+  const llms = catalog.llms || [];
+  document.getElementById("llm-options").innerHTML = llms.map((item, i) => {
+    const id = item.id || item;
+    const label = item.label || item;
+    const checked = id === d.llm || (!d.llm && i === 0) ? "checked" : "";
+    return `<label class="check-item"><input type="checkbox" value="${escapeHTML(id)}" ${checked}/> ${escapeHTML(label)}</label>`;
+  }).join("") || '<p class="muted small">No models configured.</p>';
+  document.getElementById("metric-options").innerHTML = (catalog.metrics || []).map((m) =>
+    `<label class="check-item"><input type="checkbox" value="${escapeHTML(m)}" checked/> ${escapeHTML(String(m).replaceAll("_", " "))}</label>`
+  ).join("");
+  if (d.limit) document.getElementById("eval-limit").value = d.limit;
+  if (d.temperature != null) document.getElementById("eval-temp").value = d.temperature;
+  if (d.top_k != null) document.getElementById("eval-topk").value = d.top_k;
+  if (d.fetch_k != null) document.getElementById("eval-fetchk").value = d.fetch_k;
+  if (catalog.notes && catalog.notes.retrieval) document.getElementById("catalog-note").textContent = catalog.notes.retrieval;
+}
+
+function onOff(value) {
+  return value ? '<span class="badge ok">On</span>' : '<span class="badge plain">Off</span>';
+}
+
+async function loadOps() {
+  const data = await fetchSystemMetrics();
+  const vs = data.vectorstore || {};
+  const rows = [
+    ["Reports indexed", escapeHTML(vs.doc_count ?? "—")],
+    ["Passages", escapeHTML(vs.chunk_count ?? "—")],
+    ["Index", escapeHTML(data.index_type || vs.index_type || "flat")],
+    ["Hybrid BM25 + HNSW", onOff(data.hybrid_search && data.bm25_enabled)],
+    ["Reranker", data.reranker_enabled ? `<span class="mono">${escapeHTML(data.reranker_model || "on")}</span>` : onOff(false)],
+    ["Citation enforcement", onOff(data.citation_enforcement)],
+    ["LLM", `<span class="mono">${escapeHTML(data.llm_model || "—")}</span>`],
+    ["Embeddings", `<span class="mono">${escapeHTML(data.embedding_model || "—")}</span>`],
+    ["top_k / fetch_k", escapeHTML(`${data.retriever_top_k ?? "—"} / ${data.retriever_fetch_k ?? "—"}`)],
+    ["Chunk overlap", escapeHTML(data.chunk_overlap ?? vs.chunk_overlap ?? "—")],
+    ["Index built", escapeHTML((vs.created_at || "—").slice(0, 16).replace("T", " "))],
+  ];
+  document.getElementById("ops-grid").innerHTML = rows.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join("");
+}
+
+let selectedRunId = null;
+
+async function loadRuns() {
+  const data = await fetch("/api/v1/evaluation/runs").then((r) => r.json());
+  const runs = data.runs || [];
+  const body = document.getElementById("run-table");
+  if (!runs.length) {
+    body.innerHTML = '<tr><td colspan="3"><div class="empty-state"><strong>No evaluation runs yet</strong><span>Start one with New evaluation.</span></div></td></tr>';
+    return;
+  }
+  body.innerHTML = runs.map((r) => `<tr class="clickable${r.run_id === selectedRunId ? " selected" : ""}" data-run="${escapeHTML(r.run_id)}">
+      <td class="mono">${escapeHTML(r.run_id)}</td>
+      <td>${r.experiment ? `Experiment · ${escapeHTML(r.cell_count || "?")} models` : escapeHTML(r.model_name || "Single run")}</td>
+      <td>${r.passed ? '<span class="badge ok">Passed</span>' : '<span class="badge danger">Failed</span>'}</td>
+    </tr>`).join("");
+}
+
+document.getElementById("run-table").addEventListener("click", (e) => {
+  const row = e.target.closest("[data-run]");
+  if (!row) return;
+  activateTab(evalRoot, "overview");
+  loadLatest(row.dataset.run);
+});
+
+function highlightRun(runId) {
+  selectedRunId = runId;
+  document.querySelectorAll("#run-table tr[data-run]").forEach((tr) => {
+    tr.classList.toggle("selected", tr.dataset.run === runId);
+  });
+}
+
+async function loadLatest(runId) {
+  setStatus("Loading…");
+  const url = runId ? `/api/v1/evaluation/latest?run_id=${encodeURIComponent(runId)}` : "/api/v1/evaluation/latest";
+  const data = await fetch(url).then((r) => r.json());
+  const aggGrid = document.getElementById("agg-grid");
+  const matrixWrap = document.getElementById("matrix-wrap");
+  if (!data || !data.run_id) {
+    setStatus("");
+    aggGrid.innerHTML = '<div class="empty-state"><strong>No evaluation runs yet</strong><span>Run your first evaluation to see quality scores here.</span></div>';
+    matrixWrap.innerHTML = "";
+    return;
+  }
+  highlightRun(data.run_id);
+  const manifest = data.manifest || {};
+  const metrics = data.metrics || {};
+  const thresholds = data.thresholds || {};
+  const cells = metrics.cells || [];
+  const { agg, label } = aggregateFromRun(data);
+
+  document.getElementById("run-heading").textContent = runId ? `Run ${data.run_id}` : "Latest run";
+  setStatus(`${label ? label + " · " : ""}${manifest.passed ? "Passed" : "Did not pass"}`);
+  const passingKeys = passingMetricKeys(agg, thresholds);
+  aggGrid.innerHTML = passingKeys.length
+    ? passingKeys.map((k) => scoreCardHTML(k, agg[k], thresholds[k])).join("")
+    : '<div class="empty-state"><strong>No metrics met their targets for this run</strong><span>Check Per-sample or Report for full scores.</span></div>';
+
+  if (cells.length > 1 || (cells.length && !metrics.aggregate)) {
+    const keys = ["answer_relevancy", "context_precision", "context_recall", "answer_correctness"];
+    matrixWrap.innerHTML = `<h3 style="font-size:14px;margin:24px 0 10px;">Model comparison</h3>
+      <div class="table-wrap"><table class="table">
+        <thead><tr><th>Model</th>${keys.map((k) => `<th class="num">${k.replaceAll("_", " ")}</th>`).join("")}<th>Result</th></tr></thead>
+        <tbody>${cells.map((c) => {
+          const a = c.aggregate || {};
+          return `<tr><td class="mono">${escapeHTML(c.llm_model)}</td>${keys.map((k) => `<td class="num">${formatScore(a[k])}</td>`).join("")}
+            <td>${c.passed ? '<span class="badge ok">Passed</span>' : '<span class="badge danger">Failed</span>'}</td></tr>`;
+        }).join("")}</tbody>
+      </table></div>`;
+  } else {
+    matrixWrap.innerHTML = "";
+  }
+
+  const per = metrics.per_sample || [];
+  const wrap = document.getElementById("sample-table-wrap");
+  if (per.length) {
+    const keys = Object.keys(per[0]).filter((k) => k !== "sample_id");
+    wrap.innerHTML = `<table class="table">
+      <thead><tr><th>Sample</th>${keys.map((k) => `<th class="num">${escapeHTML(k.replaceAll("_", " "))}</th>`).join("")}</tr></thead>
+      <tbody>${per.map((row) => `<tr><td class="mono">${escapeHTML(row.sample_id)}</td>${keys.map((k) => {
+        const thr = thresholds[k];
+        const v = row[k];
+        const cls = v != null && thr != null ? (Number(v) >= Number(thr) ? "" : ' style="color:var(--danger)"') : "";
+        return `<td class="num"${cls}>${v == null ? "—" : formatScore(v)}</td>`;
+      }).join("")}</tr>`).join("")}</tbody>
+    </table>`;
+  } else {
+    wrap.innerHTML = '<div class="empty-state"><span>No per-sample scores for this run.</span></div>';
+  }
+
+  document.getElementById("report-md").innerHTML = data.report_markdown
+    ? renderMarkdown(data.report_markdown)
+    : '<p class="muted">No report for this run.</p>';
+}
+
+function renderEvalState(state) {
+  lastEvalState = state;
+  const banner = document.getElementById("eval-job-banner");
+  const running = state.status === "running";
+  const failed = state.status === "failed";
+  const bits = [
+    state.run_id ? `run ${state.run_id}` : null,
+    failed ? null : state.message || null,
+    state.error || null,
+  ];
+  if (running && evalStartedAt) bits.push(`${Math.floor((Date.now() - evalStartedAt) / 1000)}s elapsed`);
+  document.getElementById("eval-job-status").textContent = bits.filter(Boolean).join(" · ");
+  document.getElementById("eval-job-title").textContent = running ? "Evaluation running" : failed ? "Evaluation failed" : "Evaluation";
+  document.getElementById("eval-progress").hidden = !running;
+  banner.classList.toggle("failed", failed);
+  banner.hidden = !(running || (failed && evalWatched));
+  document.getElementById("run-eval-btn").disabled = running;
+  document.getElementById("new-eval-btn").disabled = running;
+}
+
+function stopEvalTimers() {
+  clearInterval(evalPollTimer);
+  clearInterval(evalTickTimer);
+  evalPollTimer = null;
+  evalTickTimer = null;
+}
+
+async function refreshEvalStatus() {
+  const state = await fetch("/api/v1/evaluation/status").then((r) => r.json());
+  if (state.status === "running") {
+    evalWatched = true;
+    if (!evalStartedAt) evalStartedAt = Date.now();
+    renderEvalState(state);
+    if (!evalPollTimer) evalPollTimer = setInterval(refreshEvalStatus, 4000);
+    if (!evalTickTimer) evalTickTimer = setInterval(() => renderEvalState(lastEvalState), 1000);
+    return;
+  }
+  const wasRunning = evalPollTimer !== null;
+  stopEvalTimers();
+  evalStartedAt = null;
+  renderEvalState(state);
+  if (wasRunning && state.status === "completed" && state.run_id) {
+    showToast("Evaluation completed");
+    await loadRuns();
+    await loadLatest(state.run_id);
+  }
+  if (wasRunning && state.status === "failed") showToast(`Evaluation failed${state.error ? `: ${state.error}` : ""}`, "error");
+}
+
+document.getElementById("new-eval-btn").addEventListener("click", () => openPanel(document.getElementById("eval-panel")));
+
+document.getElementById("run-eval-btn").addEventListener("click", async () => {
+  const payload = {
+    feature: document.getElementById("eval-feature").value,
+    limit: Number(document.getElementById("eval-limit").value || 4),
+    temperature: Number(document.getElementById("eval-temp").value || 0.2),
+    top_k: Number(document.getElementById("eval-topk").value || 6),
+    fetch_k: Number(document.getElementById("eval-fetchk").value || 20),
+    llm_models: checkedValues("llm-options"),
+    metrics: checkedValues("metric-options"),
+  };
+  if (!payload.llm_models.length) {
+    showToast("Select at least one model", "error");
+    return;
+  }
+  closePanels();
+  evalWatched = true;
+  evalStartedAt = Date.now();
+  renderEvalState({ status: "running", message: "Starting…" });
+  try {
+    await postJSON("/api/v1/evaluation/run", payload);
+  } catch (err) {
+    renderEvalState({ status: "failed", error: err.message });
+    return;
+  }
+  if (!evalPollTimer) evalPollTimer = setInterval(refreshEvalStatus, 4000);
+  if (!evalTickTimer) evalTickTimer = setInterval(() => renderEvalState(lastEvalState), 1000);
+});
+
+loadCatalog();
+loadOps();
+loadRuns().then(() => loadLatest());
+refreshEvalStatus();
+</script>
+{% endblock %}

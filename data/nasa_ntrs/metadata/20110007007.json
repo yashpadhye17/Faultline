@@ -1,0 +1,51 @@
+{
+  "doc_id": "20110007007",
+  "source": "NASA NTRS",
+  "pdf_filename": "20110007007_20110007007.pdf",
+  "pdf_path": "pdfs/20110007007_20110007007.pdf",
+  "metadata_path": "metadata/20110007007.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20110007007",
+  "title": "Component-Level Electronic-Assembly Repair (CLEAR) Spacecraft Circuit Diagnostics by Analog and Complex Signature Analysis",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-11T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Oeftering, Richard C.",
+    "Wade, Raymond P.",
+    "Izadnegahdar, Alain"
+  ],
+  "organizations": [
+    "NASA Glenn Research Center",
+    "ASRC Aerospace Corp."
+  ],
+  "subject_categories": [
+    "Electronics And Electrical Engineering"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/TM-2011-216952",
+    "CLEAR-RPT-003",
+    "E-17557",
+    "Report Number: NASA/TM-2011-216952",
+    "Report Number: CLEAR-RPT-003",
+    "Report Number: E-17557"
+  ],
+  "funding_numbers": [
+    "WBS 835855.01.03.03.03."
+  ],
+  "abstract": "The Component-Level Electronic-Assembly Repair (CLEAR) project at the NASA Glenn Research Center is aimed at developing technologies that will enable space-flight crews to perform in situ component-level repair of electronics on Moon and Mars outposts, where there is no existing infrastructure for logistics spares. These technologies must provide effective repair capabilities yet meet the payload and operational constraints of space facilities. Effective repair depends on a diagnostic capability that is versatile but easy to use by crew members that have limited training in electronics. CLEAR studied two techniques that involve extensive precharacterization of \"known good\" circuits to produce graphical signatures that provide an easy-to-use comparison method to quickly identify faulty components. Analog Signature Analysis (ASA) allows relatively rapid diagnostics of complex electronics by technicians with limited experience. Because of frequency limits and the growing dependence on broadband technologies, ASA must be augmented with other capabilities. To meet this challenge while preserving ease of use, CLEAR proposed an alternative called Complex Signature Analysis (CSA). Tests of ASA and CSA were used to compare capabilities and to determine if the techniques provided an overlapping or complementary capability. The results showed that the methods are complementary.",
+  "query_tag": "component repair",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

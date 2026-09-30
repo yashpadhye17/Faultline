@@ -1,0 +1,48 @@
+{
+  "doc_id": "20100000129",
+  "source": "NASA NTRS",
+  "pdf_filename": "20100000129_20100000129.pdf",
+  "pdf_path": "pdfs/20100000129_20100000129.pdf",
+  "metadata_path": "metadata/20100000129.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20100000129",
+  "title": "Failure Analysis of Sapphire Refractive Secondary Concentrators",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Salem, Jonathan A.",
+    "Quinn, George D."
+  ],
+  "organizations": [
+    "NASA Glenn Research Center",
+    "National Inst. of Standards and Technology"
+  ],
+  "subject_categories": [
+    "Nonmetallic Materials"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "E-17063",
+    "NASA/TM-2009-215802",
+    "Report Number: E-17063",
+    "Report Number: NASA/TM-2009-215802"
+  ],
+  "funding_numbers": [
+    "WBS 441261.04.22.04.02",
+    "WBS 984754.02.07.03.16.03"
+  ],
+  "abstract": "Failure analysis was performed on two sapphire, refractive secondary concentrators (RSC) that failed during elevated temperature testing. Both concentrators failed from machining/handling damage on the lens face. The first concentrator, which failed during testing to 1300 C, exhibited a large r-plane twin extending from the lens through much of the cone. The second concentrator, which was an attempt to reduce temperature gradients and failed during testing to 649 C, exhibited a few small twins on the lens face. The twins were not located at the origin, but represent another mode of failure that needs to be considered in the design of sapphire components. In order to estimate the fracture stress from fractographic evidence, branching constants were measured on sapphire strength specimens. The fractographic analysis indicated radial tensile stresses of 44 to 65 MPa on the lens faces near the origins. Finite element analysis indicated similar stresses for the first RSC, but lower stresses for the second RSC. Better machining and handling might have prevented the fractures, however, temperature gradients and resultant thermal stresses need to be reduced to prevent twinning.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

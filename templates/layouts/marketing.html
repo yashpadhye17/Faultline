@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% from "partials/icons.html" import icon %}
+{% block body_class %}mk{% endblock %}
+{% block body %}
+<header class="mk-nav">
+  <div class="mk-container mk-nav-inner">
+    <a class="logo" href="/">
+      <span class="logo-mark">E</span>
+      <span class="logo-text">Reliability Copilot</span>
+    </a>
+    <nav class="mk-links" aria-label="Site">
+      <a href="#product">Product</a>
+      <a href="#how">How it works</a>
+    </nav>
+    <div class="mk-actions">
+      <button type="button" class="btn btn-icon btn-ghost" data-theme-toggle aria-label="Toggle dark mode">{{ icon("moon") }}</button>
+      <a class="btn btn-primary btn-sm" href="/research">Open app</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  {% block content %}{% endblock %}
+</main>
+
+<footer class="mk-footer">
+  <div class="mk-container mk-footer-inner">
+    <div>
+      <a class="logo" href="/">
+        <span class="logo-mark">E</span>
+        <span class="logo-text">Reliability Copilot</span>
+      </a>
+      <p class="muted small">Engineering Intelligence &amp; Reliability Copilot. Grounded on NASA NTRS technical reports.</p>
+    </div>
+    <div class="mk-footer-links">
+      <div>
+        <p class="mk-footer-title">Copilots</p>
+        <a href="/research">Research</a>
+        <a href="/rca">Root cause analysis</a>
+        <a href="/maintenance">Maintenance</a>
+        <a href="/comparison">Comparison</a>
+      </div>
+      <div>
+        <p class="mk-footer-title">Platform</p>
+        <a href="/docs">API docs</a>
+        <a href="/metrics">System metrics</a>
+      </div>
+    </div>
+  </div>
+</footer>
+{% endblock %}

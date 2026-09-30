@@ -1,0 +1,41 @@
+{
+  "doc_id": "19660010838",
+  "source": "NASA NTRS",
+  "pdf_filename": "19660010838_19660010838.pdf",
+  "pdf_path": "pdfs/19660010838_19660010838.pdf",
+  "metadata_path": "metadata/19660010838.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19660010838",
+  "title": "A detailed failure analysis of the ball bearings from a model 1631 tape recorder Final report, 1 Dec. 1964 - 1 Nov. 1965",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-05-28T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [],
+  "organizations": [],
+  "subject_categories": [
+    "Machine Elements And Processes"
+  ],
+  "keywords": [
+    "BALL BEARING",
+    "TAPE RECORDER"
+  ],
+  "report_numbers": [
+    "NASA-CR-71026",
+    "Report Number: NASA-CR-71026"
+  ],
+  "funding_numbers": [
+    "NAS5-9525"
+  ],
+  "abstract": "Nimbus tape recorder ball bearing failure analysis",
+  "query_tag": "bearing failure",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca"
+  ]
+}

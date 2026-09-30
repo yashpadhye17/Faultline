@@ -1,0 +1,46 @@
+{
+  "doc_id": "19760008374",
+  "source": "NASA NTRS",
+  "pdf_filename": "19760008374_19760008374.pdf",
+  "pdf_path": "pdfs/19760008374_19760008374.pdf",
+  "metadata_path": "metadata/19760008374.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19760008374",
+  "title": "A study of the use of vibration and stress wave sensing for the detection of bearing failure",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-20T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Ensor, L. C.",
+    "Feng, C. C."
+  ],
+  "organizations": [
+    "Endevco"
+  ],
+  "subject_categories": [
+    "Mechanical Engineering"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "ER-75-18-C",
+    "NASA-CR-144130",
+    "Report Number: ER-75-18-C",
+    "Report Number: NASA-CR-144130"
+  ],
+  "funding_numbers": [
+    "NAS8-29916"
+  ],
+  "abstract": "Results from an experimental study of vibrations and stress waves emitted from ball bearings are presented. Fatique tests were run with both high quality bearings and man faulted bearings, all of one size. Tests were instrumented with different sensors to detect the noises from 10 Hz to 1 MHz. Frequency spectrum plots are presented. The modulation characteristics of the ultrasonic noises were analyzed, and acoustic emission type measurements were conducted. Results are presented which show that there are usable acoustic signal levels even beyond 500 KHz. These signal levels are modulated by a low frequency carrier which is a function of the stress loading and acoustic transmissibility. The results were correlated to fault size in the bearings. The correlation shows that the sensor used for signals from 100 KHz to 1 MHz gave the best sensitivity and detected the generation of very small spalls or pits.",
+  "query_tag": "bearing failure",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

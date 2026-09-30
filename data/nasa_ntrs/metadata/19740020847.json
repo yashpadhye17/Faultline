@@ -1,0 +1,47 @@
+{
+  "doc_id": "19740020847",
+  "source": "NASA NTRS",
+  "pdf_filename": "19740020847_19740020847.pdf",
+  "pdf_path": "pdfs/19740020847_19740020847.pdf",
+  "metadata_path": "metadata/19740020847.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19740020847",
+  "title": "Design and fabrication of prototype system for early warning of impending bearing failure",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-19T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Meacher, J.",
+    "Chen, H. M."
+  ],
+  "organizations": [
+    "Mechanical Technology, Inc."
+  ],
+  "subject_categories": [
+    "Machine Elements And Processes"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "MTI-74TR34",
+    "NASA-CR-120294",
+    "Report Number: MTI-74TR34",
+    "Report Number: NASA-CR-120294"
+  ],
+  "funding_numbers": [
+    "MTI PROJ. 0250-40077",
+    "NAS8-25706"
+  ],
+  "abstract": "A test program was conducted with the objective of developing a method and equipment for on-line monitoring of installed ball bearings to detect deterioration or impending failure of the bearings. The program was directed at the spin-axis bearings of a control moment gyro. The bearings were tested at speeds of 6000 and 8000 rpm, thrust loads from 50 to 1000 pounds, with a wide range of lubrication conditions, with and without a simulated fatigue spall implanted in the inner race ball track. It was concluded that a bearing monitor system based on detection and analysis of modulations of a fault indicating bearing resonance frequency can provide a low threshold of sensitivity.",
+  "query_tag": "bearing failure",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

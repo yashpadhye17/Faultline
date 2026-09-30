@@ -1,0 +1,52 @@
+{
+  "doc_id": "20120013869",
+  "source": "NASA NTRS",
+  "pdf_filename": "20120013869_20120013869.pdf",
+  "pdf_path": "pdfs/20120013869_20120013869.pdf",
+  "metadata_path": "metadata/20120013869.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20120013869",
+  "title": "NASA's Evolutionary Xenon Thruster (NEXT) Power Processing Unit (PPU) Capacitor Failure Root Cause Analysis",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-12T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Soeder, James F.",
+    "Scheidegger, Robert J.",
+    "Pinero, Luis R.",
+    "Birchenough, Arthur J.",
+    "Dunning, John W."
+  ],
+  "organizations": [
+    "NASA Glenn Research Center",
+    "QinetiQ North America",
+    "Alphaport, Inc."
+  ],
+  "subject_categories": [
+    "Electronics And Electrical Engineering"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/TM-2012-217667",
+    "E-18344",
+    "Report Number: NASA/TM-2012-217667",
+    "Report Number: E-18344"
+  ],
+  "funding_numbers": [
+    "WBS 346620.04.08.02.02.01"
+  ],
+  "abstract": "The NASA s Evolutionary Xenon Thruster (NEXT) project is developing an advanced ion propulsion system for future NASA missions for solar system exploration. A critical element of the propulsion system is the Power Processing Unit (PPU) which supplies regulated power to the key components of the thruster. The PPU contains six different power supplies including the beam, discharge, discharge heater, neutralizer, neutralizer heater, and accelerator supplies. The beam supply is the largest and processes up to 93+% of the power. The NEXT PPU had been operated for approximately 200+ hr and has experienced a series of three capacitor failures in the beam supply. The capacitors are in the same, nominally non-critical location-the input filter capacitor to a full wave switching inverter. The three failures occurred after about 20, 30, and 135 hr of operation. This paper provides background on the NEXT PPU and the capacitor failures. It discusses the failure investigation approach, the beam supply power switching topology and its operating modes, capacitor characteristics and circuit testing. Finally, it identifies root cause of the failures to be the unusual confluence of circuit switching frequency, the physical layout of the power circuits, and the characteristics of the capacitor.",
+  "query_tag": "\"failure investigation\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

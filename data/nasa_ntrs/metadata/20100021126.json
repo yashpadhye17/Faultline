@@ -1,0 +1,49 @@
+{
+  "doc_id": "20100021126",
+  "source": "NASA NTRS",
+  "pdf_filename": "20100021126_20100021126.pdf",
+  "pdf_path": "pdfs/20100021126_20100021126.pdf",
+  "metadata_path": "metadata/20100021126.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20100021126",
+  "title": "Predicting Failure Progression and Failure Loads in Composite Open-Hole Tension Coupons",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Arunkumar, Satyanarayana",
+    "Przekop, Adam"
+  ],
+  "organizations": [
+    "ATK Space Systems",
+    "Analytical Services and Materials, Inc."
+  ],
+  "subject_categories": [
+    "Structural Mechanics"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NF1676L-10417",
+    "NASA/CR-2010-216700",
+    "Report Number: NF1676L-10417",
+    "Report Number: NASA/CR-2010-216700"
+  ],
+  "funding_numbers": [
+    "NNL07AA00B",
+    "WBS 984754.02.07.07.15.04",
+    "NNL07AM32T"
+  ],
+  "abstract": "Failure types and failure loads in carbon-epoxy [45n/90n/-45n/0n]ms laminate coupons with central circular holes subjected to tensile load are simulated using progressive failure analysis (PFA) methodology. The progressive failure methodology is implemented using VUMAT subroutine within the ABAQUS(TradeMark)/Explicit nonlinear finite element code. The degradation model adopted in the present PFA methodology uses an instantaneous complete stress reduction (COSTR) approach to simulate damage at a material point when failure occurs. In-plane modeling parameters such as element size and shape are held constant in the finite element models, irrespective of laminate thickness and hole size, to predict failure loads and failure progression. Comparison to published test data indicates that this methodology accurately simulates brittle, pull-out and delamination failure types. The sensitivity of the failure progression and the failure load to analytical loading rates and solvers precision is demonstrated.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

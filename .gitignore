@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+logs/
+data/nasa_ntrs/pdfs/
+data/nasa_ntrs/**/*.part
+data/uploads/
+data/vectorstore/
+*.faiss
+*.pkl

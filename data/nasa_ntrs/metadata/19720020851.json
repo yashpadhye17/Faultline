@@ -1,0 +1,47 @@
+{
+  "doc_id": "19720020851",
+  "source": "NASA NTRS",
+  "pdf_filename": "19720020851_19720020851.pdf",
+  "pdf_path": "pdfs/19720020851_19720020851.pdf",
+  "metadata_path": "metadata/19720020851.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19720020851",
+  "title": "Design and fabrication of prototype system for early warning of impending bearing failure",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-17T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Broderick, J. J.",
+    "Burchill, R. F.",
+    "Clark, H. L."
+  ],
+  "organizations": [
+    "Mechanical Technology, Inc."
+  ],
+  "subject_categories": [
+    "Machine Elements And Processes"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "MTI-71TR1",
+    "NASA-CR-123717",
+    "Report Number: MTI-71TR1",
+    "Report Number: NASA-CR-123717"
+  ],
+  "funding_numbers": [
+    "NAS8-25706"
+  ],
+  "abstract": "Ball bearing performance tests run on several identical ball bearings under a variety of load, speed, temperature, and lubrication conditions are reported. Bearing temperature, torque, vibration, noise, strain, cage speed, etc., were monitored to establish those measurements most suitable as indicators of ball bearing health. Tape records were made under steady-state conditions of a variety of speeds and loads. Sample sections were selected for narrowband spectral analysis with a real time analyzer. An artificial flow was created across the inner race surface of one bearing using an acid etch technique to produce the scratch. Tape records obtained before and after established a characteristic frequency response that identifies the presence of the flow. The signals found most useful as indicators of performance degradation were ultrasonic outputs.",
+  "query_tag": "bearing failure",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

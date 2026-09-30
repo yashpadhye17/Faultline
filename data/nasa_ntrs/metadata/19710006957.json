@@ -1,0 +1,39 @@
+{
+  "doc_id": "19710006957",
+  "source": "NASA NTRS",
+  "pdf_filename": "19710006957_19710006957.pdf",
+  "pdf_path": "pdfs/19710006957_19710006957.pdf",
+  "metadata_path": "metadata/19710006957.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19710006957",
+  "title": "Fault isolation and diagnostic test techniques for large scale arrays in sequential digital networks  Final technical report",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-17T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [],
+  "organizations": [],
+  "subject_categories": [
+    "Computers"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-CR-116199",
+    "Report Number: NASA-CR-116199"
+  ],
+  "funding_numbers": [
+    "NAS12-2201"
+  ],
+  "abstract": "Combination test generation program for any nonredundant fault in combinational logic net",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

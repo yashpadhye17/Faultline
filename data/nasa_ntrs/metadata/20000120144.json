@@ -1,0 +1,46 @@
+{
+  "doc_id": "20000120144",
+  "source": "NASA NTRS",
+  "pdf_filename": "20000120144_20000120144.pdf",
+  "pdf_path": "pdfs/20000120144_20000120144.pdf",
+  "metadata_path": "metadata/20000120144.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20000120144",
+  "title": "Software Fault Tolerance: A Tutorial",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-06-27T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Torres-Pomales, Wilfredo"
+  ],
+  "organizations": [
+    "NASA Langley Research Center"
+  ],
+  "subject_categories": [
+    "Computer Programming And Software"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NAS 1.15:210616",
+    "NASA/TM-2000-210616",
+    "L-18034",
+    "Report Number: NAS 1.15:210616",
+    "Report Number: NASA/TM-2000-210616",
+    "Report Number: L-18034"
+  ],
+  "funding_numbers": [
+    "RTOP 522-61-21-03"
+  ],
+  "abstract": "Because of our present inability to produce error-free software, software fault tolerance is and will continue to be an important consideration in software systems. The root cause of software design errors is the complexity of the systems. Compounding the problems in building correct software is the difficulty in assessing the correctness of software for highly complex systems. After a brief overview of the software development processes, we note how hard-to-detect design faults are likely to be introduced during development and how software faults tend to be state-dependent and activated by particular input sequences. Although component reliability is an important quality measure for system level analysis, software reliability is hard to characterize and the use of post-verification reliability estimates remains a controversial issue. For some applications software safety is more important than reliability, and fault tolerance techniques used in those applications are aimed at preventing catastrophes. Single version software fault tolerance techniques discussed include system structuring and closure, atomic actions, inline fault detection, exception handling, and others. Multiversion techniques are based on the assumption that software built differently should fail differently and thus, if one of the redundant versions fails, it is expected that at least one of the other versions will provide an acceptable output. Recovery blocks, N-version programming, and other multiversion techniques are reviewed.",
+  "query_tag": "\"root cause\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca"
+  ]
+}

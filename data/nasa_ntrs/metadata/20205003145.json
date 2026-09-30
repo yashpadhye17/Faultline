@@ -1,0 +1,45 @@
+{
+  "doc_id": "20205003145",
+  "source": "NASA NTRS",
+  "pdf_filename": "20205003145_NASA-TM-2020-5003145.pdf",
+  "pdf_path": "pdfs/20205003145_NASA-TM-2020-5003145.pdf",
+  "metadata_path": "metadata/20205003145.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20205003145",
+  "title": "Progressive Failure Analysis Correlation with Notched Composite Laminate Test Data",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2020,
+  "published": "2020-06-30T04:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Arunkumar Satyanarayana",
+    "Sandra P Walker",
+    "Kevin E Gould"
+  ],
+  "organizations": [
+    "Langley Research Center",
+    "Analytical Mechanics Associates (United States)"
+  ],
+  "subject_categories": [
+    "Composite Materials"
+  ],
+  "keywords": [
+    "Damage Model,Progressive Failure Analysis,Open Hole Tension,Open Hole Compression"
+  ],
+  "report_numbers": [],
+  "funding_numbers": [
+    "081876.01.07.05"
+  ],
+  "abstract": "Testing of small and intermediate laminate panels with notches was performed and Progressive Failure Analyses (PFA) models were developed for aid in test planning and for correlation with the test data. Two progressive damage failure models were included in the study: the commercially available Abaqus built-in damage model and COmplete STress Reduction (COSTR) damage model developed at NASA Langley Research Center (LaRC). The finite elements models used for the analysis were developed using shell elements. The pre-test PFA results obtained from the two damage models were compared to test data. Then a post-test PFA with updated material properties based on additional available material property data was executed with the COSTR damage model and compared to the test data. The panels tested in compression all exhibited less scatter in the failure load with self-similar failure behavior. The panels tested in tension exhibited more scatter in the failure load with a failure mode that included delamination of plies. However, a self-similar crack path was also observed as the overall failure mode for all panels tested. When comparing test data to the pre-test analysis results, both damage models with shell element models were considered adequate for predicting the behavior and failure load of both the small and intermediate panels when tested in compression. However, for the tension load cases, larger differences were observed between the test and analysis results. When comparing test data to the post-test analysis performed using the COSTR damage model, better correlation was observed. However, large discrepancies were still observed for the tension load cases. Consequently, a higher fidelity finite element model including solid elements for sub-laminates and the modeling of cohesive layers between sub-laminate layers is recommended for tension loading of notched composite laminates.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

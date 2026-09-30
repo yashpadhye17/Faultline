@@ -1,0 +1,44 @@
+{
+  "doc_id": "19920008654",
+  "source": "NASA NTRS",
+  "pdf_filename": "19920008654_19920008654.pdf",
+  "pdf_path": "pdfs/19920008654_19920008654.pdf",
+  "metadata_path": "metadata/19920008654.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19920008654",
+  "title": "Hubble Space Telescope: SRM/QA observations and lessons learned",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-08-26T18:47:25.5370000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Rodney, George A."
+  ],
+  "organizations": [
+    "NASA Headquarters"
+  ],
+  "subject_categories": [
+    "Astronomy"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-105505",
+    "NAS 1.15:105505",
+    "Report Number: NASA-TM-105505",
+    "Report Number: NAS 1.15:105505"
+  ],
+  "funding_numbers": [],
+  "abstract": "The Hubble Space Telescope (HST) Optical Systems Board of Investigation was established on July 2, 1990 to review, analyze, and evaluate the facts and circumstances regarding the manufacture, development, and testing of the HST Optical Telescope Assembly (OTA). Specifically, the board was tasked to ascertain what caused the spherical aberration and how it escaped notice until on-orbit operation. The error that caused the on-orbit spherical aberration in the primary mirror was traced to the assembly process of the Reflective Null Corrector, one of the three Null Correctors developed as special test equipment (STE) to measure and test the primary mirror. Therefore, the safety, reliability, maintainability, and quality assurance (SRM&QA) investigation covers the events and the overall product assurance environment during the manufacturing phase of the primary mirror and Null Correctors (from 1978 through 1981). The SRM&QA issues that were identified during the HST investigation are summarized. The crucial product assurance requirements (including nonconformance processing) for the HST are examined. The history of Quality Assurance (QA) practices at Perkin-Elmer (P-E) for the period under investigation are reviewed. The importance of the information management function is discussed relative to data retention/control issues. Metrology and other critical technical issues also are discussed. The SRM&QA lessons learned from the investigation are presented along with specific recommendations. Appendix A provides the MSFC SRM&QA report. Appendix B provides supplemental reference materials. Appendix C presents the findings of the independent optical consultants, Optical Research Associates (ORA). Appendix D provides further details of the fault-tree analysis portion of the investigation process.",
+  "query_tag": "nonconformance",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "doc_id": "20120003735",
+  "source": "NASA NTRS",
+  "pdf_filename": "20120003735_20120003735.pdf",
+  "pdf_path": "pdfs/20120003735_20120003735.pdf",
+  "metadata_path": "metadata/20120003735.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20120003735",
+  "title": "Component Repair Experiment-1: An Experiment Evaluating Electronic Component-Level Repair During Spaceflight",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-11T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Easton, John W.",
+    "Struk, Peter M."
+  ],
+  "organizations": [
+    "National Center for Space Exploration Research on Fluids and Combustion",
+    "NASA Glenn Research Center"
+  ],
+  "subject_categories": [
+    "Astronautics (General)"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/TM-2012-217022",
+    "CLEAR-RPT-007",
+    "E-17687",
+    "Report Number: NASA/TM-2012-217022",
+    "Report Number: CLEAR-RPT-007",
+    "Report Number: E-17687"
+  ],
+  "funding_numbers": [
+    "WBS 431767.04.01.03",
+    "NNC08BA08B"
+  ],
+  "abstract": "The Component Repair Experiment-1 (CRE-1) examines the capability for astronauts to perform electronics repair tasks in space. The goal is to determine the current capabilities and limits for the crew, and to make recommendations to improve and expand the range of work that astronauts may perform. CRE-1 provided two-layer, functional circuit boards and replacement components, a small tool kit, written and video training materials, and 1 hr of hands on training for the crew slated to perform the experiment approximately 7 months prior to the mission. Astronauts Michael Fincke and Sandra Magnus performed the work aboard the International Space Station (ISS) in February and March 2009. The astronauts were able to remove and replace components successfully, demonstrating the feasibility of performing component-level electronics repairs within a spacecraft. Several unsuccessful tasks demonstrated areas in need of improvement. These include improved and longer training prior to a mission, an improved soldering iron with a higher operating temperature and steady power source, video training and practice boards for refresher work or practice before a repair, and improved and varied hand tools and containment system.",
+  "query_tag": "component repair",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

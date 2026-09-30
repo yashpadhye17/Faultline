@@ -1,0 +1,36 @@
+{% extends "layouts/app.html" %}
+{% from "partials/copilot_workspace.html" import workspace %}
+{% block page_id %}maintenance{% endblock %}
+{% block title %}Maintenance troubleshooting · Reliability Copilot{% endblock %}
+{% block page_title %}Maintenance troubleshooting{% endblock %}
+{% block content_class %}is-workspace{% endblock %}
+{% block content %}
+{% set examples = [
+  {"title": "Fault isolation", "body": "Diagnostic methods for sequential digital networks and large arrays.",
+   "fill": {"message": "How should technicians approach fault isolation for sequential digital networks or large-scale arrays based on NASA diagnostic methods?"}},
+  {"title": "Bearing early warning", "body": "Signs and sensing methods for impending bearing failure.",
+   "fill": {"message": "What early-warning signs and sensing methods are recommended for detecting impending bearing failure in rotating machinery?"}},
+  {"title": "Composite damage repair", "body": "Damage assessment and repair steps for composite fuselage.",
+   "fill": {"message": "For composite fuselage damage, what repair and damage-assessment steps support maintenance decisions?"}}
+] %}
+{% call workspace("/api/v1/maintenance", "wrench", "What are you troubleshooting?", "Describe the symptom or maintenance question. You will get step-by-step guidance with the NASA reports it came from.", examples, "Troubleshoot") %}
+  <textarea class="composer-input" name="message" rows="1" required data-autogrow
+    placeholder="Describe the symptom or maintenance question…"></textarea>
+{% endcall %}
+{% endblock %}
+{% block scripts %}
+<script>
+  initCopilot({
+    feature: "maintenance",
+    primaryField: "message",
+    clearFields: ["message"],
+    buildPayload: (form, sessionId) => ({
+      message: form.message.value,
+      history: [],
+      session_id: sessionId,
+    }),
+    userText: (p) => p.message,
+    render: renderChat,
+  });
+</script>
+{% endblock %}

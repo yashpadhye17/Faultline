@@ -1,0 +1,41 @@
+{
+  "doc_id": "19650012945",
+  "source": "NASA NTRS",
+  "pdf_filename": "19650012945_19650012945.pdf",
+  "pdf_path": "pdfs/19650012945_19650012945.pdf",
+  "metadata_path": "metadata/19650012945.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19650012945",
+  "title": "Saturn c-1 failure effect analysis for sa-5 and complex 37-b",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-05-22T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [],
+  "organizations": [],
+  "subject_categories": [
+    "Facilities, Research, And Support"
+  ],
+  "keywords": [
+    "SATURN I LAUNCH VEHICLE",
+    "SATURN S-I STAGE",
+    "SYSTEM FAILURE",
+    "SATURN I /SA-5/ LAUNCH VEHICLE",
+    "SATURN S-IV STAGE"
+  ],
+  "report_numbers": [
+    "NASA-TM-X-56342",
+    "Report Number: NASA-TM-X-56342"
+  ],
+  "funding_numbers": [],
+  "abstract": "Failure analysis of component systems in Saturn  I launch vehicle, Saturn S-  I stage, Saturn S-  IV stage, and Saturn  I /SA-5/ LAUNCH vehicle",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "rca"
+  ]
+}

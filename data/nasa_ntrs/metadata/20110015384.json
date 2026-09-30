@@ -1,0 +1,49 @@
+{
+  "doc_id": "20110015384",
+  "source": "NASA NTRS",
+  "pdf_filename": "20110015384_20110015384.pdf",
+  "pdf_path": "pdfs/20110015384_20110015384.pdf",
+  "metadata_path": "metadata/20110015384.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20110015384",
+  "title": "ISS Solar Array Alpha Rotary Joint (SARJ) Bearing Failure and Recovery: Technical and Project Management Lessons Learned",
+  "sti_type": "TECHNICAL_PUBLICATION",
+  "sti_type_details": "Technical Publication (TP)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-11T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "DellaCorte, Christopher",
+    "Krantz, Timothy L.",
+    "Dube, Michael J."
+  ],
+  "organizations": [
+    "NASA Glenn Research Center",
+    "NASA Goddard Space Flight Center"
+  ],
+  "subject_categories": [
+    "Spacecraft Design, Testing And Performance"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/TP-2011-217116",
+    "E-17803",
+    "Report Number: NASA/TP-2011-217116",
+    "Report Number: E-17803"
+  ],
+  "funding_numbers": [
+    "WBS 869021.03.07.01.06"
+  ],
+  "abstract": "The photovoltaic solar panels on the International Space Station (ISS) track the Sun through continuous rotating motion enabled by large bearings on the main truss called solar array alpha rotary joints (SARJs). In late 2007, shortly after installation, the starboard SARJ had become hard to turn and had to be shut down after exceeding drive current safety limits. The port SARJ, of the same design, had been working well for over 2 years. An exhaustive failure investigation ensued that included multiple extravehicular activities to collect information and samples for engineering forensics, detailed structural and thermal analyses, and a careful review of the build records. The ultimate root cause was determined to be kinematic design vulnerability coupled with inadequate lubrication, and manufacturing flaws; this was corroborated through ground tests, metallurgical studies, and modeling. A highly successful recovery plan was developed and implemented that included replacing worn and damaged components in orbit and applying space-compatible grease to improve lubrication. Beyond the technical aspects, however, lie several key programmatic lessons learned. These lessons, such as running ground tests to intentional failure to experimentally verify failure modes, are reviewed and discussed so they can be applied to future projects to avoid such problems.",
+  "query_tag": "\"failure investigation\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

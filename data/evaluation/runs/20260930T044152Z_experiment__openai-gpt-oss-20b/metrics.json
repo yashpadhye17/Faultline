@@ -1,0 +1,52 @@
+{
+  "aggregate": {
+    "answer_relevancy": 0.7409,
+    "context_precision": 1.0,
+    "context_recall": 0.7158,
+    "answer_correctness": 0.5777
+  },
+  "per_sample": [
+    {
+      "sample_id": "rca_next_ppu",
+      "answer_relevancy": 0.6368885545938778,
+      "context_precision": 1.0,
+      "context_recall": 0.7862553344519773,
+      "answer_correctness": 0.4745048251460865
+    },
+    {
+      "sample_id": "rca_sarj",
+      "answer_relevancy": 0.7604827342338993,
+      "context_precision": 1.0,
+      "context_recall": 0.8555524170655158,
+      "answer_correctness": 0.7240286142889201
+    },
+    {
+      "sample_id": "maint_bearing",
+      "answer_relevancy": 0.723753223608292,
+      "context_precision": 1.0,
+      "context_recall": 0.7188732354642742,
+      "answer_correctness": 0.5691357309850735
+    },
+    {
+      "sample_id": "maint_fault_iso",
+      "answer_relevancy": 0.8424952107386027,
+      "context_precision": 1.0,
+      "context_recall": 0.5024865123236896,
+      "answer_correctness": 0.5429594946360063
+    }
+  ],
+  "passed": true,
+  "thresholds": {
+    "answer_relevancy": 0.5,
+    "context_precision": 0.5,
+    "context_recall": 0.5,
+    "answer_correctness": 0.5
+  },
+  "llm_model": "openai/gpt-oss-20b",
+  "scoring": {
+    "answer_relevancy": "cosine(question, answer) via corpus embedding model",
+    "context_precision": "fraction of contexts with cosine(question, context) >= 0.25",
+    "context_recall": "cosine(ground_truth, joined_contexts)",
+    "answer_correctness": "cosine(ground_truth, answer)"
+  }
+}

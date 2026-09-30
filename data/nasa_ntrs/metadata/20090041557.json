@@ -1,0 +1,52 @@
+{
+  "doc_id": "20090041557",
+  "source": "NASA NTRS",
+  "pdf_filename": "20090041557_20090041557.pdf",
+  "pdf_path": "pdfs/20090041557_20090041557.pdf",
+  "metadata_path": "metadata/20090041557.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20090041557",
+  "title": "Multiscale Failure Analysis of Laminated Composite Panels Subjected to Blast Loading Using FEAMAC/Explicit",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Pineda, Evan J.",
+    "Waas, Anthony M.",
+    "Berdnarcyk, Brett A.",
+    "Arnold, Steven M.",
+    "Collier, Craig S."
+  ],
+  "organizations": [
+    "Michigan Univ.",
+    "NASA Glenn Research Center",
+    "Collier Research Corp."
+  ],
+  "subject_categories": [
+    "Structural Mechanics"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "E-17075",
+    "NASA/TM-2009-215813",
+    "Report Number: E-17075",
+    "Report Number: NASA/TM-2009-215813"
+  ],
+  "funding_numbers": [
+    "NNL07AA29C",
+    "WBS 984754.02.07.03.16.05"
+  ],
+  "abstract": "This preliminary report demonstrates the capabilities of the recently developed software implementation that links the Generalized Method of Cells to explicit finite element analysis by extending a previous development which tied the generalized method of cells to implicit finite elements. The multiscale framework, which uses explicit finite elements at the global-scale and the generalized method of cells at the microscale is detailed. This implementation is suitable for both dynamic mechanics problems and static problems exhibiting drastic and sudden changes in material properties, which often encounter convergence issues with commercial implicit solvers. Progressive failure analysis of stiffened and un-stiffened fiber-reinforced laminates subjected to normal blast pressure loads was performed and is used to demonstrate the capabilities of this framework. The focus of this report is to document the development of the software implementation; thus, no comparison between the results of the models and experimental data is drawn. However, the validity of the results are assessed qualitatively through the observation of failure paths, stress contours, and the distribution of system energies.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

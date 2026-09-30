@@ -1,0 +1,44 @@
+{
+  "doc_id": "19740078908",
+  "source": "NASA NTRS",
+  "pdf_filename": "19740078908_19740078908.pdf",
+  "pdf_path": "pdfs/19740078908_19740078908.pdf",
+  "metadata_path": "metadata/19740078908.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19740078908",
+  "title": "Apollo 6, Anomaly Report No. 6: Abnormal Structural Performance During Launch Phase",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "JSC",
+  "center_name": "Johnson Space Center",
+  "year": 2019,
+  "published": "2019-06-19T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [],
+  "organizations": [],
+  "subject_categories": [
+    "Fluid Mechanics And Thermodynamics"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "ANOMALY-6",
+    "MSC-PT-R-68-22",
+    "NASA-TM-X-70374",
+    "JSC-E-DAA-TN62388",
+    "Report Number: ANOMALY-6",
+    "Report Number: MSC-PT-R-68-22",
+    "Report Number: NASA-TM-X-70374",
+    "Report Number: JSC-E-DAA-TN62388"
+  ],
+  "funding_numbers": [],
+  "abstract": "Approximately 2 minutes 13 seconds after lift-off of the Apollo 6 mission, abrupt changes of strain, vibration, and acceleration measurements were indicated in the S-IVB, instrument unit, adapter, lunar module, and command and service modules; photographs showed objects coming from the area of the adapter. The adapter, however, continued to sustain the required loads with no impairment of the mission. The investigation was first focused upon the understanding of the coupled vibration modes and characteristics of the launch vehicle and spacecraft.' Extensive test programs were conducted. It was eventually concluded that the adapter failure was not caused by vibration. Extensive study of the airborne photography and other evidence indicated that a large area of the adapter had lost inner facesheet from the honeycomb sandwich panels. Loads and stresses resulting from vibration were determined to be insufficient to initiate such a failure. The investigation was then directed toward determining the range of pressures that could have been trapped in the Apollo 6 adapter sandwich panels, and toward determining the tolerance of the panels to withstand pressure with various degrees of flaws such as adhesive voids and facesheet dents. The degradation effects of moisture and heat exposure on the adhesive strength were also studied and tested. These tests and analyses led to the conclusion that pressure internal to the sandwich panels could have caused the failure, if a large flaw existed. The pressure buildup would have been caused by aerodynamic heating effects on air and moisture trapped in the panel. The probable cause of the failure was found in the original ultrasonic inspection scan record of the affected adapter panel. In the center of the region where the adapter failed, horizontally along the station 709 panel splice, the record contained two thick anomalous lines extending several feet. Without an X-ray record of this region, the significance of this particular scan record cannot be fully understood. However, since all other evidence had indicated that the adhesive had to be weakened in a rather large area to initiate the failure, the investigation was focused intently upon the station 709 splices of other adapters. Sufficient information was developed to verify that deficient assembly techniques have consistently resulted in abnormalities in the structure at this station. These abnormalities were identified in adapters 12, 13, 14, 15, and 16. Before the splice abnormalities were pinpointed, corrective action was taken to reduce pressure \"buildup in the honeycomb panels and to reduce heat degrading effects on the adhesive. This was done by drilling vent holes in the inner facesheet and covering the outer facesheet with cork. The adapters having identified abnormalities in the station 709 splice are being repaired, and the contractor is investigating ways of avoiding these -abnormalities in panels yet to be bonded.",
+  "query_tag": "\"corrective action\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

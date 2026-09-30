@@ -1,0 +1,48 @@
+{
+  "doc_id": "19900001286",
+  "source": "NASA NTRS",
+  "pdf_filename": "19900001286_19900001286.pdf",
+  "pdf_path": "pdfs/19900001286_19900001286.pdf",
+  "metadata_path": "metadata/19900001286.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19900001286",
+  "title": "Documentation of the current fault detection, isolation and reconfiguration software of the AIPS fault-tolerant processor",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-24T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Lanning, David T.",
+    "Shepard, Allen W.",
+    "Johnson, Sally C."
+  ],
+  "organizations": [
+    "Illinois Inst. of Tech.",
+    "Old Dominion Univ.",
+    "NASA Langley Research Center"
+  ],
+  "subject_categories": [
+    "Computer Programming And Software"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-89154",
+    "NAS 1.15:89154",
+    "Report Number: NASA-TM-89154",
+    "Report Number: NAS 1.15:89154"
+  ],
+  "funding_numbers": [
+    "RTOP 505-66-21-01"
+  ],
+  "abstract": "Documentation is presented of the December 1986 version of the ADA code for the fault detection, isolation, and reconfiguration (FDIR) functions of the Advanced Information processing System (AIPS) Fault-Tolerant Processor (FTP). Because the FTP is still under development and the software is constantly undergoing changes, this should not be considered final documentation of the FDIR software of the FTP.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca"
+  ]
+}

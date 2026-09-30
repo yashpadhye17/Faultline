@@ -1,0 +1,39 @@
+{
+  "doc_id": "19730012100",
+  "source": "NASA NTRS",
+  "pdf_filename": "19730012100_19730012100.pdf",
+  "pdf_path": "pdfs/19730012100_19730012100.pdf",
+  "metadata_path": "metadata/19730012100.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19730012100",
+  "title": "Reaction control system helium pressure regulator filter failure",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-18T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [],
+  "organizations": [],
+  "subject_categories": [
+    "Propulsion Systems"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "MSC-07640",
+    "NASA-TM-X-69131",
+    "Report Number: MSC-07640",
+    "Report Number: NASA-TM-X-69131"
+  ],
+  "funding_numbers": [],
+  "abstract": "The failure analysis of the command module reaction control system helium pressure regulators revealed that the filter element end caps were bulged by the helium pressure surge during activation. Some end caps may bulge and also some wire separation may occur during command module reaction control system activations; however, system performance should not be affected. The reaction control system design is acceptable and no change in hardware, system, or activation procedures is required.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

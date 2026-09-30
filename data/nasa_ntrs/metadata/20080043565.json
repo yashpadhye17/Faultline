@@ -1,0 +1,49 @@
+{
+  "doc_id": "20080043565",
+  "source": "NASA NTRS",
+  "pdf_filename": "20080043565_20080043565.pdf",
+  "pdf_path": "pdfs/20080043565_20080043565.pdf",
+  "metadata_path": "metadata/20080043565.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20080043565",
+  "title": "Failure Analysis of Electrical Pin Connectors",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Newman, John A.",
+    "Baughman, James M.",
+    "Smith, Stephen W.",
+    "Herath, Jeffrey A."
+  ],
+  "organizations": [
+    "NASA Langley Research Center",
+    "Lockheed Martin Mission Services Co."
+  ],
+  "subject_categories": [
+    "Metals And Metallic Materials"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "L-19544",
+    "NASA/TM-2008-215531",
+    "Report Number: L-19544",
+    "Report Number: NASA/TM-2008-215531"
+  ],
+  "funding_numbers": [
+    "WBS 329231.01.07.04.50"
+  ],
+  "abstract": "A study was initiated to determine the root cause of failure for circuit board electrical connection pins that failed during vibRatory testing. The circuit board is part of an unmanned space probe, and the vibratory testing was performed to ensure component survival of launch loading conditions. The results of this study show that the pins failed as a result of fatigue loading.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

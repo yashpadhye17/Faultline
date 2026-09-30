@@ -1,0 +1,56 @@
+{
+  "doc_id": "20210017934",
+  "source": "NASA NTRS",
+  "pdf_filename": "20210017934_20210017934 FINAL.pdf",
+  "pdf_path": "pdfs/20210017934_20210017934 FINAL.pdf",
+  "metadata_path": "metadata/20210017934.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20210017934",
+  "title": "Arecibo Observatory Auxiliary M4N Socket Termination Failure Investigation",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2021,
+  "published": "2021-06-30T04:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Gregory Harrigan",
+    "Azita Valinia",
+    "Nathan Trepal",
+    "Pavel Babuska",
+    "Vinay Goyal"
+  ],
+  "organizations": [
+    "Langley Research Center",
+    "Goddard Space Flight Center",
+    "Kennedy Space Center",
+    "The Aerospace Corporation"
+  ],
+  "subject_categories": [
+    "Structural Mechanics"
+  ],
+  "keywords": [
+    "Zinc Spelter Sockets",
+    "Arecibo Observatory",
+    "Auxiliary M4N Cable Failure",
+    "NASA Engineering and Safety Center"
+  ],
+  "report_numbers": [
+    "NESC-RP-20-01585",
+    "NASA/TM-20210017934"
+  ],
+  "funding_numbers": [
+    "869021.01.23.01.01"
+  ],
+  "abstract": "The NASA Engineering and Safety Center (NESC) was requested to support the Arecibo Observatory failure investigation in determining the root cause of the Auxiliary M4N cable failure. The NESC and Kennedy Space Center led an integrated NASA investigation with support from Marshall Space Flight Center and The Aerospace Corporation that included forensic investigation of failed hardware, finite element modeling, materials characterization, and root cause analysis. This document contains the outcome of the NESC Assessment.",
+  "query_tag": "\"failure investigation\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

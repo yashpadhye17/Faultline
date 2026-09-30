@@ -1,0 +1,47 @@
+{
+  "doc_id": "19880010988",
+  "source": "NASA NTRS",
+  "pdf_filename": "19880010988_19880010988.pdf",
+  "pdf_path": "pdfs/19880010988_19880010988.pdf",
+  "metadata_path": "metadata/19880010988.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19880010988",
+  "title": "Ply-level failure analysis of a graphite/epoxy laminate under bearing-bypass loading",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-24T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Naik, R. A.",
+    "Crews, J. H., Jr."
+  ],
+  "organizations": [
+    "PRC Kentron, Inc.",
+    "NASA Langley Research Center"
+  ],
+  "subject_categories": [
+    "Composite Materials"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-100578",
+    "NAS 1.15:100578",
+    "Report Number: NASA-TM-100578",
+    "Report Number: NAS 1.15:100578"
+  ],
+  "funding_numbers": [
+    "RTOP 505-63-01-05"
+  ],
+  "abstract": "A combined experimental and analytical study was conducted to investigate and predict the failure modes of a graphite/epoxy laminate subjected to combined bearing and bypass loading. Tests were conducted in a test machine that allowed the bearing-bypass load ratio to be controlled while a single-fastener coupon was loaded to failure in either tension or compression. Onset and ultimate failure modes and strengths were determined for each test case. The damage-onset modes were studied in detail by sectioning and micrographing the damaged specimens. A two-dimensional, finite-element analysis was conducted to determine lamina strains around the bolt hole. Damage onset consisted of matrix cracks, delamination, and fiber failures. Stiffness loss appeared to be caused by fiber failures rather than by matrix cracking and delamination. An unusual offset-compression mode was observed for compressive bearing-bypass laoding in which the specimen failed across its width along a line offset from the hole. The computed lamina strains in the fiber direction were used in a combined analytical and experimental approach to predict bearing-bypass diagrams for damage onset from a few simple tests.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

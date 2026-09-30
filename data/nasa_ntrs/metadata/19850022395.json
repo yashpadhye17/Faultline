@@ -1,0 +1,48 @@
+{
+  "doc_id": "19850022395",
+  "source": "NASA NTRS",
+  "pdf_filename": "19850022395_19850022395.pdf",
+  "pdf_path": "pdfs/19850022395_19850022395.pdf",
+  "metadata_path": "metadata/19850022395.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19850022395",
+  "title": "Development and evaluation of a Fault-Tolerant Multiprocessor (FTMP) computer.  Volume 3:  FTMP test and evaluation",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-24T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Lala, J. H.",
+    "Smith, T. B., III"
+  ],
+  "organizations": [
+    "Draper (Charles Stark) Lab., Inc."
+  ],
+  "subject_categories": [
+    "Computer Systems"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NAS 1.26:166073",
+    "CSDL-R-1602-VOL-3",
+    "NASA-CR-166073",
+    "Report Number: NAS 1.26:166073",
+    "Report Number: CSDL-R-1602-VOL-3",
+    "Report Number: NASA-CR-166073"
+  ],
+  "funding_numbers": [
+    "NAS1-15336"
+  ],
+  "abstract": "The experimental test and evaluation of the Fault-Tolerant Multiprocessor (FTMP) is described. Major objectives of this exercise include expanding validation envelope, building confidence in the system, revealing any weaknesses in the architectural concepts and in their execution in hardware and software, and in general, stressing the hardware and software. To this end, pin-level faults were injected into one LRU of the FTMP and the FTMP response was measured in terms of fault detection, isolation, and recovery times. A total of 21,055 stuck-at-0, stuck-at-1 and invert-signal faults were injected in the CPU, memory, bus interface circuits, Bus Guardian Units, and voters and error latches. Of these, 17,418 were detected. At least 80 percent of undetected faults are estimated to be on unused pins. The multiprocessor identified all detected faults correctly and recovered successfully in each case. Total recovery time for all faults averaged a little over one second. This can be reduced to half a second by including appropriate self-tests.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

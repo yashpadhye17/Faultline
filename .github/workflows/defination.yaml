@@ -1,0 +1,228 @@
+# Shared deployment definition for Reliability Copilot (EIRC).
+# Reusable workflow: build → push ECR → register ECS task → update service.
+#
+# Filename kept as defination.yaml to match the repo stub.
+
+name: Deploy definition
+
+on:
+  workflow_call:
+    inputs:
+      environment:
+        description: GitHub environment name (staging / production)
+        required: true
+        type: string
+      image_tag:
+        description: Docker image tag to publish
+        required: true
+        type: string
+      aws_region:
+        description: AWS region
+        required: false
+        type: string
+        default: us-east-1
+      ecr_repository:
+        description: ECR repository name
+        required: false
+        type: string
+        default: eirc
+      ecs_cluster:
+        description: ECS cluster name
+        required: false
+        type: string
+        default: eirc-cluster
+      ecs_service:
+        description: ECS service name
+        required: false
+        type: string
+        default: eirc-service
+      container_name:
+        description: Container name inside the ECS task definition
+        required: false
+        type: string
+        default: eirc
+      container_port:
+        description: Container port
+        required: false
+        type: number
+        default: 8000
+      cpu:
+        description: Fargate CPU units
+        required: false
+        type: string
+        default: "1024"
+      memory:
+        description: Fargate memory (MiB)
+        required: false
+        type: string
+        default: "2048"
+    secrets:
+      AWS_ACCESS_KEY_ID:
+        required: true
+      AWS_SECRET_ACCESS_KEY:
+        required: true
+      GROQ_API_KEY:
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    name: Build & deploy (${{ inputs.environment }})
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ inputs.aws_region }}
+
+      - name: Login to Amazon ECR
+        id: ecr
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Ensure ECR repository exists
+        env:
+          REPO: ${{ inputs.ecr_repository }}
+        run: |
+          aws ecr describe-repositories --repository-names "$REPO" >/dev/null 2>&1 \
+            || aws ecr create-repository --repository-name "$REPO" --image-scanning-configuration scanOnPush=true
+
+      - name: Set image URI
+        id: image
+        env:
+          REGISTRY: ${{ steps.ecr.outputs.registry }}
+          REPO: ${{ inputs.ecr_repository }}
+          TAG: ${{ inputs.image_tag }}
+        run: |
+          echo "uri=${REGISTRY}/${REPO}:${TAG}" >> "$GITHUB_OUTPUT"
+          echo "uri_latest=${REGISTRY}/${REPO}:latest" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build and push image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: |
+            ${{ steps.image.outputs.uri }}
+            ${{ steps.image.outputs.uri_latest }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Render ECS task definition
+        id: taskdef
+        env:
+          IMAGE: ${{ steps.image.outputs.uri }}
+          CONTAINER: ${{ inputs.container_name }}
+          PORT: ${{ inputs.container_port }}
+          CPU: ${{ inputs.cpu }}
+          MEMORY: ${{ inputs.memory }}
+          REGION: ${{ inputs.aws_region }}
+          FAMILY: eirc-${{ inputs.environment }}
+          LOG_GROUP: /ecs/eirc-${{ inputs.environment }}
+          EXEC_ROLE: ${{ vars.ECS_EXECUTION_ROLE_ARN }}
+          TASK_ROLE: ${{ vars.ECS_TASK_ROLE_ARN }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "${EXEC_ROLE}" ] || [ -z "${TASK_ROLE}" ]; then
+            echo "Set GitHub environment variables ECS_EXECUTION_ROLE_ARN and ECS_TASK_ROLE_ARN" >&2
+            exit 1
+          fi
+          jq -n \
+            --arg family "$FAMILY" \
+            --arg cpu "$CPU" \
+            --arg memory "$MEMORY" \
+            --arg execRole "$EXEC_ROLE" \
+            --arg taskRole "$TASK_ROLE" \
+            --arg name "$CONTAINER" \
+            --arg image "$IMAGE" \
+            --argjson port "$PORT" \
+            --arg region "$REGION" \
+            --arg logGroup "$LOG_GROUP" \
+            --arg groq "$GROQ_API_KEY" \
+            '{
+              family: $family,
+              networkMode: "awsvpc",
+              requiresCompatibilities: ["FARGATE"],
+              cpu: $cpu,
+              memory: $memory,
+              executionRoleArn: $execRole,
+              taskRoleArn: $taskRole,
+              containerDefinitions: [{
+                name: $name,
+                image: $image,
+                essential: true,
+                portMappings: [{ containerPort: $port, hostPort: $port, protocol: "tcp" }],
+                environment: [
+                  { name: "PORT", value: ($port|tostring) },
+                  { name: "PYTHONPATH", value: "/app" },
+                  { name: "TOKENIZERS_PARALLELISM", value: "false" },
+                  { name: "OMP_NUM_THREADS", value: "1" },
+                  { name: "GROQ_API_KEY", value: $groq }
+                ],
+                logConfiguration: {
+                  logDriver: "awslogs",
+                  options: {
+                    "awslogs-group": $logGroup,
+                    "awslogs-region": $region,
+                    "awslogs-stream-prefix": "eirc",
+                    "awslogs-create-group": "true"
+                  }
+                },
+                healthCheck: {
+                  command: ["CMD-SHELL", "curl -fsS http://127.0.0.1:\($port)/healthz || exit 1"],
+                  interval: 30,
+                  timeout: 5,
+                  retries: 3,
+                  startPeriod: 90
+                }
+              }]
+            }' > /tmp/task-definition.json
+          echo "path=/tmp/task-definition.json" >> "$GITHUB_OUTPUT"
+
+      - name: Register task definition
+        id: register
+        run: |
+          ARN=$(aws ecs register-task-definition \
+            --cli-input-json file://${{ steps.taskdef.outputs.path }} \
+            --query 'taskDefinition.taskDefinitionArn' \
+            --output text)
+          echo "arn=$ARN" >> "$GITHUB_OUTPUT"
+          echo "Registered $ARN"
+
+      - name: Update ECS service
+        env:
+          CLUSTER: ${{ inputs.ecs_cluster }}
+          SERVICE: ${{ inputs.ecs_service }}
+          TASK_ARN: ${{ steps.register.outputs.arn }}
+        run: |
+          aws ecs update-service \
+            --cluster "$CLUSTER" \
+            --service "$SERVICE" \
+            --task-definition "$TASK_ARN" \
+            --force-new-deployment \
+            >/dev/null
+          echo "Service update requested on ${CLUSTER}/${SERVICE}"
+
+      - name: Wait for service stability
+        env:
+          CLUSTER: ${{ inputs.ecs_cluster }}
+          SERVICE: ${{ inputs.ecs_service }}
+        run: |
+          aws ecs wait services-stable \
+            --cluster "$CLUSTER" \
+            --services "$SERVICE"
+          echo "Service is stable"

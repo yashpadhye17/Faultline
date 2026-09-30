@@ -1,0 +1,17 @@
+prompts:
+  root_cause_analysis:
+    version: "v1"
+    path: "prompts/root_cause_analysis.txt"
+    description: "Structured NASA-grounded root cause analysis"
+  maintenance_troubleshooting:
+    version: "v1"
+    path: "prompts/maintenance_troubleshooting.txt"
+    description: "Maintenance troubleshooting copilot"
+  engineering_comparison:
+    version: "v1"
+    path: "prompts/engineering_comparison.txt"
+    description: "Engineering comparison across NASA technical reports"
+  nasa_research:
+    version: "v1"
+    path: "prompts/nasa_research.txt"
+    description: "NASA engineering research Q&A"

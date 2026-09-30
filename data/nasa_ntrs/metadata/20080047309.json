@@ -1,0 +1,43 @@
+{
+  "doc_id": "20080047309",
+  "source": "NASA NTRS",
+  "pdf_filename": "20080047309_20080047309.pdf",
+  "pdf_path": "pdfs/20080047309_20080047309.pdf",
+  "metadata_path": "metadata/20080047309.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20080047309",
+  "title": "User-defined Material Model for Thermo-mechanical Progressive Failure Analysis",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Knight, Norman F., Jr."
+  ],
+  "organizations": [
+    "General Dynamics Advanced Information Systems"
+  ],
+  "subject_categories": [
+    "Structural Mechanics"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/CR-2008-215528",
+    "Report Number: NASA/CR-2008-215528"
+  ],
+  "funding_numbers": [
+    "WBS 510505.03.07.01.11",
+    "NNL07AA00B"
+  ],
+  "abstract": "Previously a user-defined material model for orthotropic bimodulus materials was developed for linear and nonlinear stress analysis of composite structures using either shell or solid finite elements within a nonlinear finite element analysis tool. Extensions of this user-defined material model to thermo-mechanical progressive failure analysis are described, and the required input data are documented. The extensions include providing for temperature-dependent material properties, archival of the elastic strains, and a thermal strain calculation for materials exhibiting a stress-free temperature.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "rca",
+    "research"
+  ]
+}

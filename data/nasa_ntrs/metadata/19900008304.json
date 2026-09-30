@@ -1,0 +1,46 @@
+{
+  "doc_id": "19900008304",
+  "source": "NASA NTRS",
+  "pdf_filename": "19900008304_19900008304.pdf",
+  "pdf_path": "pdfs/19900008304_19900008304.pdf",
+  "metadata_path": "metadata/19900008304.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19900008304",
+  "title": "Analysis of the National Transonic Facility mishap",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-24T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Fasanella, Edwin L.",
+    "Robinson, Martha P."
+  ],
+  "organizations": [
+    "Lockheed Engineering and Sciences Co.",
+    "NASA Langley Research Center"
+  ],
+  "subject_categories": [
+    "Air Transportation And Safety"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NAS 1.15:101686",
+    "NASA-TM-101686",
+    "Report Number: NAS 1.15:101686",
+    "Report Number: NASA-TM-101686"
+  ],
+  "funding_numbers": [
+    "RTOP 505-63-41-02"
+  ],
+  "abstract": "The nonlinear dynamic finite element code DYnamic Crash Analysis of STructures (DYCAST) was used to model an accident scenario that occurred at the National Transonic Facility (NTF) wind tunnel. A post mishap investigation revealed that a total of five upstream bulkhead fairing plates were missing, three in one location and two in another. These plates were drawn into the wind tunnel's composite fan blades causing extensive damage. A DYCAST model was developed to determine if one-half of a small thermal shield flange clamp, weighing approximately 2.7 lbs., could have spun off the NTF drive shaft and impacted the bulkhead fairing plates with sufficient energy to cause failure of the attachment bolts. The clamp was presumed to have spun off at a tangent from the NTF drive shaft at a velocity of 1624 in/sec (drive shaft rotating at 580 rpm). The DYCAST analytical model predicts that impact of the 2.7 lbs projectile failed all of the bolts in two of the fairing plates allowing them to escape from the bulkhead ring with a low velocity of a few in/sec.",
+  "query_tag": "\"mishap investigation\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "rca",
+    "research"
+  ]
+}

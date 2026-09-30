@@ -1,0 +1,53 @@
+{
+  "doc_id": "20110006369",
+  "source": "NASA NTRS",
+  "pdf_filename": "20110006369_20110006369.pdf",
+  "pdf_path": "pdfs/20110006369_20110006369.pdf",
+  "metadata_path": "metadata/20110006369.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20110006369",
+  "title": "Recommendations for Enabling Manual Component Level Electronic Repair for Future Space Missions",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-11T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Struk, Peter M.",
+    "Easton, John W.",
+    "Funk, Gregory P.",
+    "Latta, Gary S.",
+    "Ganster, Andrew W.",
+    "Estes, Brett E."
+  ],
+  "organizations": [
+    "NASA Glenn Research Center",
+    "National Center for Space Exploration Research on Fluids and Combustion",
+    "ZIN Technologies, Inc.",
+    "Naval Sea Systems Command"
+  ],
+  "subject_categories": [
+    "Electronics And Electrical Engineering"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "E-17532",
+    "NASA/TM-2011-216933",
+    "Report Number: E-17532",
+    "Report Number: NASA/TM-2011-216933"
+  ],
+  "funding_numbers": [
+    "WBS 431767.04.01.03"
+  ],
+  "abstract": "Long duration missions to the Moon and Mars pose a number of challenges to mission designers, controllers, and the crews. Among these challenges are planning for corrective maintenance actions which often require a repair. Current repair strategies on the International Space Station (ISS) rely primarily on the use of Orbital Replacement Units (ORUs), where a faulty unit is replaced with a spare, and the faulty unit typically returns to Earth for analysis and possible repair. The strategy of replace to repair has posed challenges even for the ISS program. Repairing faulty hardware at lower levels such as the component level can help maintain system availability in situations where no spares exist and potentially reduce logistic resupply mass.This report provides recommendations to help enable manual replacement of electronics at the component-level for future manned space missions. The recommendations include hardware, tools, containment options, and crew training. The recommendations are based on the work of the Component Level Electronics Assembly Repair (CLEAR) task of the Exploration Technology Development Program from 2006 to 2009. The recommendations are derived based on the experience of two experiments conducted by the CLEAR team aboard the International Space Station as well as a group of experienced Miniature/Microminiature (2M) electronics repair technicians and instructors from the U.S. Navy 2M Project Office. The emphasis of the recommendations is the physical repair. Fault diagnostics and post-repair functional test are discussed in other CLEAR reports.",
+  "query_tag": "component repair",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

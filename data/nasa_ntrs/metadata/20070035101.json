@@ -1,0 +1,42 @@
+{
+  "doc_id": "20070035101",
+  "source": "NASA NTRS",
+  "pdf_filename": "20070035101_20070035101.pdf",
+  "pdf_path": "pdfs/20070035101_20070035101.pdf",
+  "metadata_path": "metadata/20070035101.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20070035101",
+  "title": "Wiring Damage Analyses for STS OV-103",
+  "sti_type": "TECHNICAL_PUBLICATION",
+  "sti_type_details": "Technical Publication (TP)",
+  "center_code": "GSFC",
+  "center_name": "Goddard Space Flight Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Thomas, Walter, III"
+  ],
+  "organizations": [
+    "NASA Goddard Space Flight Center"
+  ],
+  "subject_categories": [
+    "Electronics And Electrical Engineering"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "2006-00678-1",
+    "NASA/TP-2006-214156",
+    "Report Number: 2006-00678-1",
+    "Report Number: NASA/TP-2006-214156"
+  ],
+  "funding_numbers": [],
+  "abstract": "This study investigated the Shuttle Program s belief that Space Transportation System (STS) wiring damage occurrences are random, that is, a constant occurrence rate. Using Problem Reporting and Corrective Action (PRACA)-derived data for STS Space Shuttle OV-103, wiring damage was observed to increase over the vehicle s life. Causal factors could include wiring physical deterioration, maintenance and inspection induced damage, and inspection process changes resulting in more damage events being reported. Induced damage effects cannot be resolved with existent data. Growth analysis (using Crow-AMSAA, or CA) resolved maintenance/inspection effects (e.g., heightened awareness) on all wire damages and indicated an overall increase since Challenger Return-to-Flight (RTF). An increasing failure or occurrence rate per flight cycle was seen for each wire damage mode; these (individual) rates were not affected by inspection process effects, within statistical error.",
+  "query_tag": "\"corrective action\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca"
+  ]
+}

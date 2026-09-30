@@ -1,0 +1,37 @@
+{
+  "doc_id": "19710010479",
+  "source": "NASA NTRS",
+  "pdf_filename": "19710010479_19710010479.pdf",
+  "pdf_path": "pdfs/19710010479_19710010479.pdf",
+  "metadata_path": "metadata/19710010479.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19710010479",
+  "title": "MSC Apollo 13 investigation team.  Panel 1 - Spacecraft incident investigation. Volume 1 - Anomaly investigation  Final report",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-17T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [],
+  "organizations": [],
+  "subject_categories": [
+    "Space Vehicles"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-X-66922",
+    "Report Number: NASA-TM-X-66922"
+  ],
+  "funding_numbers": [],
+  "abstract": "Analysis of anomalies, cause, and results of command service module oxygen tank failure on Apollo 13 flight",
+  "query_tag": "\"anomaly investigation\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

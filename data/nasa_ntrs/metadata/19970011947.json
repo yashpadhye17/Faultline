@@ -1,0 +1,54 @@
+{
+  "doc_id": "19970011947",
+  "source": "NASA NTRS",
+  "pdf_filename": "19970011947_19970011947.pdf",
+  "pdf_path": "pdfs/19970011947_19970011947.pdf",
+  "metadata_path": "metadata/19970011947.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19970011947",
+  "title": "TSS-1R Mission Failure Investigation Board",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "HQ",
+  "center_name": "Headquarters",
+  "year": 2019,
+  "published": "2019-08-14T14:24:36.0170000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Szalai, Kenneth J",
+    "Bonifazi, Carlo",
+    "Joyce, Paul M.",
+    "Schwinghamer, Robert J.",
+    "White, Robert D.",
+    "Bowersox, Kenneth",
+    "Schneider, William C.",
+    "Stadler, John H.",
+    "Whittle, David W."
+  ],
+  "organizations": [
+    "NASA Dryden Flight Research Center",
+    "Italian Space Agency",
+    "NASA Johnson Space Center",
+    "NASA Marshall Space Flight Center",
+    "NASA Langley Research Center"
+  ],
+  "subject_categories": [
+    "Space Transportation"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NAS 1.15:112426",
+    "NASA-TM-112426",
+    "Report Number: NAS 1.15:112426",
+    "Report Number: NASA-TM-112426"
+  ],
+  "funding_numbers": [],
+  "abstract": "Reasons for the tether separation during the Tethered Satellite System (TSS-1) Mission are investigated. Lessons learned are presented.",
+  "query_tag": "\"failure investigation\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca"
+  ]
+}

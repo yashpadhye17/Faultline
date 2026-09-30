@@ -1,0 +1,48 @@
+{
+  "doc_id": "19920024627",
+  "source": "NASA NTRS",
+  "pdf_filename": "19920024627_19920024627.pdf",
+  "pdf_path": "pdfs/19920024627_19920024627.pdf",
+  "metadata_path": "metadata/19920024627.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19920024627",
+  "title": "Fault isolation detection expert (FIDEX). Part 1: Expert system diagnostics for a 30/20 Gigahertz satellite transponder",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-25T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Durkin, John",
+    "Schlegelmilch, Richard",
+    "Tallo, Donald"
+  ],
+  "organizations": [
+    "Akron Univ."
+  ],
+  "subject_categories": [
+    "Communications And Radar"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-CR-190840",
+    "NAS 1.26:190840",
+    "Report Number: NASA-CR-190840",
+    "Report Number: NAS 1.26:190840"
+  ],
+  "funding_numbers": [
+    "NAG3-923"
+  ],
+  "abstract": "LeRC has recently completed the design of a Ka-band satellite transponder system, as part of the Advanced Communication Technology Satellite (ACTS) System. To enhance the reliability of this satellite, NASA funded the University of Akron to explore the application of an expert system to provide the transponder with an autonomous diagnosis capability. The results of this research was the development of a prototype diagnosis expert system called FIDEX (fault-isolation and diagnosis expert). FIDEX is a frame-based expert system that was developed in the NEXPERT Object development environment by Neuron Data, Inc. It is a MicroSoft Windows version 3.0 application, and was designed to operate on an Intel i80386 based personal computer system.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

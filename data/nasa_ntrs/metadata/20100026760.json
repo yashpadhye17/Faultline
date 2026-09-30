@@ -1,0 +1,47 @@
+{
+  "doc_id": "20100026760",
+  "source": "NASA NTRS",
+  "pdf_filename": "20100026760_20100026760.pdf",
+  "pdf_path": "pdfs/20100026760_20100026760.pdf",
+  "metadata_path": "metadata/20100026760.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20100026760",
+  "title": "Analysis of Space Shuttle Ground Support System Fault Detection, Isolation, and Recovery Processes and Resources",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "ARC",
+  "center_name": "Ames Research Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Gross, Anthony R.",
+    "Gerald-Yamasaki, Michael",
+    "Trent, Robert P."
+  ],
+  "organizations": [
+    "NASA Ames Research Center"
+  ],
+  "subject_categories": [
+    "Space Transportation And Safety"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/TM-2009-215406",
+    "ARC-E-DAA-TN807",
+    "Report Number: NASA/TM-2009-215406",
+    "Report Number: ARC-E-DAA-TN807"
+  ],
+  "funding_numbers": [
+    "WBS 561581.02.08.01.17.02"
+  ],
+  "abstract": "As part of the FDIR (Fault Detection, Isolation, and Recovery) Project for the Constellation Program, a task was designed within the context of the Constellation Program FDIR project called the Legacy Benchmarking Task to document as accurately as possible the FDIR processes and resources that were used by the Space Shuttle ground support equipment (GSE) during the Shuttle flight program. These results served as a comparison with results obtained from the new FDIR capability. The task team assessed Shuttle and EELV (Evolved Expendable Launch Vehicle) historical data for GSE-related launch delays to identify expected benefits and impact. This analysis included a study of complex fault isolation situations that required a lengthy troubleshooting process. Specifically, four elements of that system were considered: LH2 (liquid hydrogen), LO2 (liquid oxygen), hydraulic test, and ground special power.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "doc_id": "19820003311",
+  "source": "NASA NTRS",
+  "pdf_filename": "19820003311_19820003311.pdf",
+  "pdf_path": "pdfs/19820003311_19820003311.pdf",
+  "metadata_path": "metadata/19820003311.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19820003311",
+  "title": "Failure analysis of a tool steel torque shaft",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-07-12T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Reagan, J. R."
+  ],
+  "organizations": [
+    "NASA Lewis Research Center"
+  ],
+  "subject_categories": [
+    "Metallic Materials"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "E-1077",
+    "NASA-TM-82758",
+    "DOE/NASA/1011-35",
+    "Report Number: E-1077",
+    "Report Number: NASA-TM-82758",
+    "Report Number: DOE/NASA/1011-35"
+  ],
+  "funding_numbers": [],
+  "abstract": "A low design load drive shaft used to deliver power from an experimental exhaust heat recovery system to the crankshaft of an experimental diesel truck engine failed during highway testing. An independent testing laboratory analyzed the failure by routine metallography and attributed the failure to fatigue induced by a banded microstructure. Visual examination by NASA of the failed shaft plus the knowledge of the torsional load that it carried pointed to a 100 percent ductile failure with no evidence of fatigue. Scanning electron microscopy confirmed this. Torsional test specimens were produced from pieces of the failed shaft and torsional overload testing produced identical failures to that which had occurred in the truck engine. This pointed to a failure caused by a high overload and although the microstructure was defective it was not the cause of the failure.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

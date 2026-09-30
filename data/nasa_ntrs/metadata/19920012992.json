@@ -1,0 +1,45 @@
+{
+  "doc_id": "19920012992",
+  "source": "NASA NTRS",
+  "pdf_filename": "19920012992_19920012992.pdf",
+  "pdf_path": "pdfs/19920012992_19920012992.pdf",
+  "metadata_path": "metadata/19920012992.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19920012992",
+  "title": "The role of failure/problems in engineering: A commentary of failures experienced - lessons learned",
+  "sti_type": "TECHNICAL_PUBLICATION",
+  "sti_type_details": "Technical Publication (TP)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-25T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Ryan, R. S."
+  ],
+  "organizations": [
+    "NASA Marshall Space Flight Center"
+  ],
+  "subject_categories": [
+    "Engineering (General)"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NAS 1.60:3213",
+    "M-684",
+    "NASA-TP-3213",
+    "Report Number: NAS 1.60:3213",
+    "Report Number: M-684",
+    "Report Number: NASA-TP-3213"
+  ],
+  "funding_numbers": [],
+  "abstract": "The written version of a series of seminars given to several aerospace companies and three NASA centers are presented. The results are lessons learned through a study of the problems experienced in 35 years of engineering. The basic conclusion is that the primary cause of problems has not been mission technologies, as important as technology is, but the neglect of basic principles. Undergirding this is the lack of a systems focus from determining requirements through design, verification, and operations phases. Many of the concepts discussed are fundamental to total quality management (TQM) and can be used to augment this product enhanced philosophy. Fourteen principles are addressed with problems experienced and are used as examples. Included is a discussion of the implication of constraints, poorly defined requirements, and schedules. Design guidelines, lessons learned, and future tasks are listed. Two additional sections are included that deal with personal lessons learned and thoughts on future thrusts (TQM).",
+  "query_tag": "\"lessons learned\" failure",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

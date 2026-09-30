@@ -1,0 +1,52 @@
+{
+  "doc_id": "20110007101",
+  "source": "NASA NTRS",
+  "pdf_filename": "20110007101_20110007101.pdf",
+  "pdf_path": "pdfs/20110007101_20110007101.pdf",
+  "metadata_path": "metadata/20110007101.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20110007101",
+  "title": "Component-Level Electronic-Assembly Repair (CLEAR) Operational Concept",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-11T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Oeftering, Richard C.",
+    "Bradish, Martin A.",
+    "Juergens, Jeffrey R.",
+    "Lewis, Michael J.",
+    "Vrnak, Daniel R."
+  ],
+  "organizations": [
+    "NASA Glenn Research Center"
+  ],
+  "subject_categories": [
+    "Electronics And Electrical Engineering"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "CLEAR-DOC-007",
+    "NASA/TM-2011-216955",
+    "E-17560",
+    "Report Number: CLEAR-DOC-007",
+    "Report Number: NASA/TM-2011-216955",
+    "Report Number: E-17560"
+  ],
+  "funding_numbers": [
+    "WBS 825855.01.03.03.03"
+  ],
+  "abstract": "This Component-Level Electronic-Assembly Repair (CLEAR) Operational Concept document was developed as a first step in developing the Component-Level Electronic-Assembly Repair (CLEAR) System Architecture (NASA/TM-2011-216956). The CLEAR operational concept defines how the system will be used by the Constellation Program and what needs it meets. The document creates scenarios for major elements of the CLEAR architecture. These scenarios are generic enough to apply to near-Earth, Moon, and Mars missions. The CLEAR operational concept involves basic assumptions about the overall program architecture and interactions with the CLEAR system architecture. The assumptions include spacecraft and operational constraints for near-Earth orbit, Moon, and Mars missions. This document addresses an incremental development strategy where capabilities evolve over time, but it is structured to prevent obsolescence. The approach minimizes flight hardware by exploiting Internet-like telecommunications that enables CLEAR capabilities to remain on Earth and to be uplinked as needed. To minimize crew time and operational cost, CLEAR exploits offline development and validation to support online teleoperations. Operational concept scenarios are developed for diagnostics, repair, and functional test operations. Many of the supporting functions defined in these operational scenarios are further defined as technologies in NASA/TM-2011-216956.",
+  "query_tag": "component repair",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

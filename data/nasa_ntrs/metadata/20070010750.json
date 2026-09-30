@@ -1,0 +1,45 @@
+{
+  "doc_id": "20070010750",
+  "source": "NASA NTRS",
+  "pdf_filename": "20070010750_20070010750.pdf",
+  "pdf_path": "pdfs/20070010750_20070010750.pdf",
+  "metadata_path": "metadata/20070010750.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20070010750",
+  "title": "A Procedure for Modeling Structural Component/Attachment Failure Using Transient Finite Element Analysis",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Lovejoy, Andrew E.",
+    "Jegley, Dawn C."
+  ],
+  "organizations": [
+    "Analytical Services and Materials, Inc.",
+    "NASA Langley Research Center"
+  ],
+  "subject_categories": [
+    "Structural Mechanics"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/CR-2007-214540",
+    "Report Number: NASA/CR-2007-214540"
+  ],
+  "funding_numbers": [
+    "NNL04AA10B",
+    "WBS 561581.02.08.07"
+  ],
+  "abstract": "Structures often comprise smaller substructures that are connected to each other or attached to the ground by a set of finite connections. Under static loading one or more of these connections may exceed allowable limits and be deemed to fail. Of particular interest is the structural response when a connection is severed (failed) while the structure is under static load. A transient failure analysis procedure was developed by which it is possible to examine the dynamic effects that result from introducing a discrete failure while a structure is under static load. The failure is introduced by replacing a connection load history by a time-dependent load set that removes the connection load at the time of failure. The subsequent transient response is examined to determine the importance of the dynamic effects by comparing the structural response with the appropriate allowables. Additionally, this procedure utilizes a standard finite element transient analysis that is readily available in most commercial software, permitting the study of dynamic failures without the need to purchase software specifically for this purpose. The procedure is developed and explained, demonstrated on a simple cantilever box example, and finally demonstrated on a real-world example, the American Airlines Flight 587 (AA587) vertical tail plane (VTP).",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "rca",
+    "research"
+  ]
+}

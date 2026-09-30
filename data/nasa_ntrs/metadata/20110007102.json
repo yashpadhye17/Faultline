@@ -1,0 +1,52 @@
+{
+  "doc_id": "20110007102",
+  "source": "NASA NTRS",
+  "pdf_filename": "20110007102_20110007102.pdf",
+  "pdf_path": "pdfs/20110007102_20110007102.pdf",
+  "metadata_path": "metadata/20110007102.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20110007102",
+  "title": "Component-Level Electronic-Assembly Repair (CLEAR) System Architecture",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-11T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Oeftering, Richard C.",
+    "Bradish, Martin A.",
+    "Juergens, Jeffrey R.",
+    "Lewis, Michael J.",
+    "Vrnak, Daniel R."
+  ],
+  "organizations": [
+    "NASA Glenn Research Center"
+  ],
+  "subject_categories": [
+    "Electronics And Electrical Engineering"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "CLEAR-DOC-008",
+    "E-17561",
+    "NASA/TM-2011-216956",
+    "Report Number: CLEAR-DOC-008",
+    "Report Number: E-17561",
+    "Report Number: NASA/TM-2011-216956"
+  ],
+  "funding_numbers": [
+    "WBS 825855.01.03.03.03"
+  ],
+  "abstract": "This document captures the system architecture for a Component-Level Electronic-Assembly Repair (CLEAR) capability needed for electronics maintenance and repair of the Constellation Program (CxP). CLEAR is intended to improve flight system supportability and reduce the mass of spares required to maintain the electronics of human rated spacecraft on long duration missions. By necessity it allows the crew to make repairs that would otherwise be performed by Earth based repair depots. Because of practical knowledge and skill limitations of small spaceflight crews they must be augmented by Earth based support crews and automated repair equipment. This system architecture covers the complete system from ground-user to flight hardware and flight crew and defines an Earth segment and a Space segment. The Earth Segment involves database management, operational planning, and remote equipment programming and validation processes. The Space Segment involves the automated diagnostic, test and repair equipment required for a complete repair process. This document defines three major subsystems including, tele-operations that links the flight hardware to ground support, highly reconfigurable diagnostics and test instruments, and a CLEAR Repair Apparatus that automates the physical repair process.",
+  "query_tag": "component repair",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

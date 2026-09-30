@@ -1,0 +1,48 @@
+{
+  "doc_id": "20170007245",
+  "source": "NASA NTRS",
+  "pdf_filename": "20170007245_20170007245.pdf",
+  "pdf_path": "pdfs/20170007245_20170007245.pdf",
+  "metadata_path": "metadata/20170007245.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20170007245",
+  "title": "Influence of Shear Stiffness Degradation on Crack Paths in Uni-Directional Composite Laminates",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-07-11T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Satyanarayana, Arunkumar",
+    "Bogert, Phil B."
+  ],
+  "organizations": [
+    "NASA Langley Research Center"
+  ],
+  "subject_categories": [
+    "Composite Materials"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-2017-219641",
+    "NF1676L-27195",
+    "L-20823",
+    "Report Number: NASA-TM-2017-219641",
+    "Report Number: NF1676L-27195",
+    "Report Number: L-20823"
+  ],
+  "funding_numbers": [
+    "WBS 826611.04.07.01"
+  ],
+  "abstract": "Influence of shear stiffness degradation in an element, due to damage, on crack paths in uni-directional laminates has been demonstrated. A new shear stiffness degradation approach to improve crack path prediction has been developed and implemented in an ABAQUS/Explicit frame work using VUMAT. Three progressive failure analysis models, built-in ABAQUS (TradeMark), original COmplete STress Reduction (COSTR) and the modified COSTR damage models have been utilized in this study to simulate crack paths in five unidirectional notched laminates, 15deg, 30deg, 45deg, 60deg and 75deg under uniaxial tension load. Results such as crack paths and load vs. edge displacement curves are documented in this report. Modified COSTR damage model shows better accuracy in predicting crack paths in all the uni-directional laminates compared to the ABAQUS (TradeMark) and the original COSTR damage models.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

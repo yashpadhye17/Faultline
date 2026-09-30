@@ -1,0 +1,54 @@
+{
+  "doc_id": "20030067984",
+  "source": "NASA NTRS",
+  "pdf_filename": "20030067984_20030067984.pdf",
+  "pdf_path": "pdfs/20030067984_20030067984.pdf",
+  "metadata_path": "metadata/20030067984.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20030067984",
+  "title": "Application of a Bank of Kalman Filters for Aircraft Engine Fault Diagnostics",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-12T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Kobayashi, Takahisa",
+    "Simon, Donald L."
+  ],
+  "organizations": [
+    "QSS Group, Inc.",
+    "Army Research Lab."
+  ],
+  "subject_categories": [
+    "Aircraft Design, Testing And Performance"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/TM-2003-212526",
+    "NAS 1.15:212526",
+    "E-14088",
+    "GT2003-38550",
+    "ARL-TR-2955",
+    "Report Number: NASA/TM-2003-212526",
+    "Report Number: NAS 1.15:212526",
+    "Report Number: E-14088",
+    "Report Number: GT2003-38550",
+    "Report Number: ARL-TR-2955"
+  ],
+  "funding_numbers": [
+    "DA Proj. 1L1-61102-AF-20",
+    "WBS 22-728-30-20"
+  ],
+  "abstract": "In this paper, a bank of Kalman filters is applied to aircraft gas turbine engine sensor and actuator fault detection and isolation (FDI) in conjunction with the detection of component faults. This approach uses multiple Kalman filters, each of which is designed for detecting a specific sensor or actuator fault. In the event that a fault does occur, all filters except the one using the correct hypothesis will produce large estimation errors, thereby isolating the specific fault. In the meantime, a set of parameters that indicate engine component performance is estimated for the detection of abrupt degradation. The proposed FDI approach is applied to a nonlinear engine simulation at nominal and aged conditions, and the evaluation results for various engine faults at cruise operating conditions are given. The ability of the proposed approach to reliably detect and isolate sensor and actuator faults is demonstrated.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

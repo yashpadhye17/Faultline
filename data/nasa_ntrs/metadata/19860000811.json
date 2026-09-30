@@ -1,0 +1,44 @@
+{
+  "doc_id": "19860000811",
+  "source": "NASA NTRS",
+  "pdf_filename": "19860000811_19860000811.pdf",
+  "pdf_path": "pdfs/19860000811_19860000811.pdf",
+  "metadata_path": "metadata/19860000811.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19860000811",
+  "title": "Analytical investigation of solid rocket nozzle failure",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-24T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Mccoy, K. E.",
+    "Hester, J."
+  ],
+  "organizations": [
+    "NASA Marshall Space Flight Center"
+  ],
+  "subject_categories": [
+    "Spacecraft Propulsion And Power"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TM-86513",
+    "NAS 1.15:86513",
+    "Report Number: NASA-TM-86513",
+    "Report Number: NAS 1.15:86513"
+  ],
+  "funding_numbers": [],
+  "abstract": "On April 5, 1983, an Inertial Upper Stage (IUS) spacecraft experienced loss of control during the burn of the second of two solid rocket motors. The anomaly investigation showed the cause to be a malfunction of the solid rocket motor. This paper presents a description of the IUS system, a failure analysis summary, an account of the thermal testing and computer modeling done at Marshall Space Flight Center, a comparison of analysis results with thermal data obtained from motor static tests, and describes some of the design enhancement incorporated to prevent recurrence of the anomaly.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca",
+    "research"
+  ]
+}

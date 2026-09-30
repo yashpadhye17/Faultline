@@ -1,0 +1,45 @@
+{
+  "doc_id": "19920004061",
+  "source": "NASA NTRS",
+  "pdf_filename": "19920004061_19920004061.pdf",
+  "pdf_path": "pdfs/19920004061_19920004061.pdf",
+  "metadata_path": "metadata/19920004061.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19920004061",
+  "title": "High-frequency data observations from space shuttle main engine low pressure fuel turbopump discharge duct flex joint tripod failure investigation",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-25T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Zoladz, T. F.",
+    "Farr, R. A."
+  ],
+  "organizations": [
+    "NASA Marshall Space Flight Center"
+  ],
+  "subject_categories": [
+    "Spacecraft Propulsion And Power"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NAS 1.15:103557",
+    "NASA-TM-103557",
+    "Report Number: NAS 1.15:103557",
+    "Report Number: NASA-TM-103557"
+  ],
+  "funding_numbers": [],
+  "abstract": "Observations made by Marshall Space Flight Center (MSFC) engineers during their participation in the Space Shuttle Main Engine (SSME) low pressure fuel turbopump discharge duct flex joint tripod failure investigation are summarized. New signal processing techniques used by the Component Assessment Branch and the Induced Environments Branch during the failure investigation are described in detail. Moreover, nonlinear correlations between frequently encountered anomalous frequencies found in SSME dynamic data are discussed. A recommendation is made to continue low pressure fuel (LPF) duct testing through laboratory flow simulations and MSFC-managed technology test bed SSME testing.",
+  "query_tag": "\"failure investigation\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

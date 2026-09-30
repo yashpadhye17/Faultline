@@ -1,0 +1,54 @@
+{
+  "doc_id": "20170002627",
+  "source": "NASA NTRS",
+  "pdf_filename": "20170002627_20170002627.pdf",
+  "pdf_path": "pdfs/20170002627_20170002627.pdf",
+  "metadata_path": "metadata/20170002627.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20170002627",
+  "title": "Lessons Learned: Mechanical Component and Tribology Activities in Support of Return to Flight",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-11T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Handschuh, Robert F.",
+    "Zaretsky, Erwin V."
+  ],
+  "organizations": [
+    "NASA Glenn Research Center",
+    "NASA Langley Research Center"
+  ],
+  "subject_categories": [
+    "Mechanical Engineering"
+  ],
+  "keywords": [
+    "Tribology",
+    " Lubrication",
+    "Gears",
+    "Mechanical Components"
+  ],
+  "report_numbers": [
+    "NASA/TM-2017-219405",
+    "E-19306",
+    "GRC-E-DAA-TN29097",
+    "Report Number: NASA/TM-2017-219405",
+    "Report Number: E-19306",
+    "Report Number: GRC-E-DAA-TN29097"
+  ],
+  "funding_numbers": [
+    "WBS 432938.11.01.03.06.02.06"
+  ],
+  "abstract": "The February 2003 loss of the Space Shuttle Columbia resulted in NASA Management revisiting every critical system onboard this very complex, reusable space vehicle in a an effort to Return to Flight. Many months after the disaster, contact between NASA Johnson Space Center and NASA Glenn Research Center evolved into an in-depth assessment of the actuator drive systems for the Rudder Speed Brake and Body Flap Systems. The actuators are CRIT 1-1 systems that classifies them as failure of any of the actuators could result in loss of crew and vehicle. Upon further evaluation of these actuator systems and the resulting issues uncovered, several research activities were initiated, conducted, and reported to the NASA Space Shuttle Program Management. The papers contained in this document are the contributions of many researchers from NASA Glenn Research Center and Marshall Space Flight Center as part of a Lessons Learned on mechanical actuation systems as used in space applications. Many of the findings contained in this document were used as a basis to safely Return to Flight for the remaining Space Shuttle Fleet until their retirement. ",
+  "query_tag": "\"lessons learned\" failure",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

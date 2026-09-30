@@ -1,0 +1,51 @@
+{
+  "doc_id": "20080045538",
+  "source": "NASA NTRS",
+  "pdf_filename": "20080045538_20080045538.pdf",
+  "pdf_path": "pdfs/20080045538_20080045538.pdf",
+  "metadata_path": "metadata/20080045538.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20080045538",
+  "title": "Failure Analysis Study and Long-Term Reliability of Optical Assemblies with End-Face Damage",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "LaRC",
+  "center_name": "Langley Research Center",
+  "year": 2019,
+  "published": "2019-07-10T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Kichak, Robert A.",
+    "Ott, Melanie N.",
+    "Leidecker, Henning W.",
+    "Chuska, Richard F.",
+    "Greenwell, Christopher J."
+  ],
+  "organizations": [
+    "NASA Goddard Space Flight Center",
+    "MEI Technologies, Inc."
+  ],
+  "subject_categories": [
+    "Optics"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/TM-2008-215525",
+    "NESC-RP-06-61/05-036-E",
+    "L-19553",
+    "Report Number: NASA/TM-2008-215525",
+    "Report Number: NESC-RP-06-61/05-036-E",
+    "Report Number: L-19553"
+  ],
+  "funding_numbers": [
+    "WBS 510505.01.07.01.06"
+  ],
+  "abstract": "In June 2005, the NESC received a multi-faceted request to determine the long term reliability of fiber optic termini on the ISS that exhibited flaws not manufactured to best workmanship practices. There was a lack of data related to fiber optic workmanship as it affects the long term reliability of optical fiber assemblies in a harsh environment. A fiber optic defect analysis was requested which would find and/or create various types of chips, spalls, scratches, etc., that were identified by the ISS personnel. Once the defects and causes were identified the next step would be to perform long term reliability testing of similar assemblies with similar defects. The goal of the defect analysis would be for the defects to be observed and documented for deterioration of fiber optic performance. Though this report mostly discusses what has been determined as evidence of poor manufacturing processes, it also concludes the majority of the damage could have been avoided with a rigorous process in place.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca"
+  ]
+}

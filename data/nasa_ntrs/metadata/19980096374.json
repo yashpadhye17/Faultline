@@ -1,0 +1,48 @@
+{
+  "doc_id": "19980096374",
+  "source": "NASA NTRS",
+  "pdf_filename": "19980096374_19980096374.pdf",
+  "pdf_path": "pdfs/19980096374_19980096374.pdf",
+  "metadata_path": "metadata/19980096374.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19980096374",
+  "title": "Multiple Fault Isolation in Redundant Systems",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "ARC",
+  "center_name": "Ames Research Center",
+  "year": 2019,
+  "published": "2019-06-27T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Pattipati, Krishna R.",
+    "Patterson-Hine, Ann",
+    "Iverson, David"
+  ],
+  "organizations": [
+    "Connecticut Univ.",
+    "NASA Ames Research Center"
+  ],
+  "subject_categories": [
+    "Quality Assurance And Reliability"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/CR-97-205940",
+    "NAS 1.26:205940",
+    "Report Number: NASA/CR-97-205940",
+    "Report Number: NAS 1.26:205940"
+  ],
+  "funding_numbers": [
+    "NCC2-5123"
+  ],
+  "abstract": "Fault diagnosis in large-scale systems that are products of modern technology present formidable challenges to manufacturers and users. This is due to large number of failure sources in such systems and the need to quickly isolate and rectify failures with minimal down time. In addition, for fault-tolerant systems and systems with infrequent opportunity for maintenance (e.g., Hubble telescope, space station), the assumption of at most a single fault in the system is unrealistic. In this project, we have developed novel block and sequential diagnostic strategies to isolate multiple faults in the shortest possible time without making the unrealistic single fault assumption.",
+  "query_tag": "fault isolation",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

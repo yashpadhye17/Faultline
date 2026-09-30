@@ -1,0 +1,46 @@
+{
+  "doc_id": "20000031324",
+  "source": "NASA NTRS",
+  "pdf_filename": "20000031324_20000031324.pdf",
+  "pdf_path": "pdfs/20000031324_20000031324.pdf",
+  "metadata_path": "metadata/20000031324.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20000031324",
+  "title": "What Operation Failure Discovered? Hot-Fire Test",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "MSFC",
+  "center_name": "Marshall Space Flight Center",
+  "year": 2019,
+  "published": "2019-06-27T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Humphrey, Robert T."
+  ],
+  "organizations": [
+    "Kaiser Marquardt"
+  ],
+  "subject_categories": [
+    "Quality Assurance And Reliability"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NAS 1.26:209749",
+    "NASA/CR-1999-209749",
+    "Rept-5285-001(REV.A)",
+    "Report Number: NAS 1.26:209749",
+    "Report Number: NASA/CR-1999-209749",
+    "Report Number: Rept-5285-001(REV.A)"
+  ],
+  "funding_numbers": [
+    "NAS8-40892"
+  ],
+  "abstract": "This document presents a failure analysis report on the hot fire test.",
+  "query_tag": "\"failure analysis\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "rca"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "doc_id": "20100008953",
+  "source": "NASA NTRS",
+  "pdf_filename": "20100008953_20100008953.pdf",
+  "pdf_path": "pdfs/20100008953_20100008953.pdf",
+  "metadata_path": "metadata/20100008953.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20100008953",
+  "title": "Current Space Station Experiments Investigating Component Level Electronics Repair",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-12T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Easton, John W.",
+    "Struk, Peter M."
+  ],
+  "organizations": [
+    "National Center for Space Exploration Research on Fluids and Combustion",
+    "NASA Glenn Research Center"
+  ],
+  "subject_categories": [
+    "Electronics And Electrical Engineering"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA/TM-2010-216071",
+    "AIAA Paper 2009-6798",
+    "E-17119",
+    "Report Number: NASA/TM-2010-216071",
+    "Report Number: AIAA Paper 2009-6798",
+    "Report Number: E-17119"
+  ],
+  "funding_numbers": [
+    "WBS 431767.04.01.03"
+  ],
+  "abstract": "The Soldering in a Reduced Gravity Experiment (SoRGE) and Component Repair Experiment (CRE)-1 are tests performed on the International Space Station to determine the techniques, tools, and training necessary to allow future crews to perform manual electronics repairs at the component level. SoRGE provides information on the formation and internal structure of through-hole solder joints, illustrating the challenges and implications of soldering in reduced gravity. SoRGE showed a significant increase in internal void defects for joints formed in low gravity compared to normal gravity. Methods for mitigating these void defects were evaluated using a modified soldering process. CRE-1 demonstrated the removal, cleaning, and replacement of electronics components by manual means on functional circuit boards. The majority of components successful passed a post-repair functional test demonstrating the feasibility of component-level repair within the confines of a spacecraft. Together, these tasks provide information to recommend material and tool improvements, training improvements, and future work to help enable electronics repairs in future space missions.",
+  "query_tag": "component repair",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

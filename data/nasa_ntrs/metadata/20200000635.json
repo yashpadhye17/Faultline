@@ -1,0 +1,49 @@
+{
+  "doc_id": "20200000635",
+  "source": "NASA NTRS",
+  "pdf_filename": "20200000635_20200000635.pdf",
+  "pdf_path": "pdfs/20200000635_20200000635.pdf",
+  "metadata_path": "metadata/20200000635.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20200000635",
+  "title": "Prognostic Launch Vehicle Probability of Failure Assessment Methodology for Conceptual Systems Predicated on Human Causal Factors",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2020,
+  "published": "2020-02-03T10:20:44.7000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Craig H Williams",
+    "Lawrence J Ross",
+    "J Joseph Nieberding"
+  ],
+  "organizations": [
+    "Glenn Research Center",
+    "Aerospace Engineering Associates, LLC"
+  ],
+  "subject_categories": [
+    "Launch Vehicles And Launch Operations"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "GRC-E-DAA-TN65662",
+    "AIAA–2018–5413",
+    "E-19687",
+    "Report Number: NASA/TM-20190220179",
+    "Report Number: GRC-E-DAA-TN65662"
+  ],
+  "funding_numbers": [
+    "020920.01.04.03"
+  ],
+  "abstract": "Lessons learned from past failures of launch vehicle developments and operations were used to create a new method to predict the probability of failure of conceptual systems. Existing methods such as Probabilistic Risk Assessments and Human Risk Assessments were considered but found to be too cumbersome for this type of system-wide application for yet-to-be-flown vehicles. The basis for this methodology were historic databases of past failures, where it was determined that various faulty human-interactions were the predominant root causes of failure rather than deficient component reliabilities evaluated through statistical analysis. This methodology contains an expert scoring part which can be used in either a qualitative or a quantitative mode. The method produces two products: a numerical score of the probability of failure or guidance to program management on critical areas in need of increased focus to improve the probability of success. In order to evaluate the effectiveness of this new method, data from a concluded vehicle program (USAF's Titan IV with the Centaur G-Prime upper stage) was used as a test case. Although the theoretical vs. actual probability of failure was found to be in reasonable agreement (4.46% vs. 6.67% respectively) the underlying sub-root cause scoring had significant disparities attributable to significant organizational changes and acquisitions. Recommendations are made for future applications of this method to ongoing launch vehicle development programs.",
+  "query_tag": "\"root cause\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "doc_id": "20100033105",
+  "source": "NASA NTRS",
+  "pdf_filename": "20100033105_20100033105.pdf",
+  "pdf_path": "pdfs/20100033105_20100033105.pdf",
+  "metadata_path": "metadata/20100033105.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20100033105",
+  "title": "Approach to In Situ Component Level Electronics Assembly Repair (CLEAR) for Constellation",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-12T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Struk, Peter M.",
+    "Oeftering, Richard C."
+  ],
+  "organizations": [
+    "NASA Glenn Research Center"
+  ],
+  "subject_categories": [
+    "Astronautics (General)"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "E-17412",
+    "NASA/TM-2010-216784",
+    "AIAA Paper 2009-6472",
+    "Report Number: E-17412",
+    "Report Number: NASA/TM-2010-216784",
+    "Report Number: AIAA Paper 2009-6472"
+  ],
+  "funding_numbers": [
+    "WBS BJ..5855. 0/,0 3,0 '';.07"
+  ],
+  "abstract": "Maintenance resupply is a significant issue for long duration space missions. Currently, the International Space Station (ISS) approaches maintenance primarily around replaceable modules called Orbital Replacement Units (ORU). While swapping out ORUs has served the ISS well keeping crew time for maintenance to a minimum, this approach assumes a substantial logistics capacity to provide replacement ORUs and return ORUs to Earth for repair. The ORUs used for ISS require relatively large blocks of replacement hardware even though the actual failed component may be several orders of magnitude smaller. The Component Level Electronics Assembly Repair (CLEAR) task was created to explore electronics repair down to the component level for future space missions. From 2006 to 2009, CLEAR was an activity under the Supportability project of the Exploration Technology Development Program. This paper describes the activities of CLEAR including making a case for component-level electronics repair, examination of current terrestrial repair hardware, and potential repair needs. Based on those needs, the CLEAR team proposes an architecture for an in-situ repair capability aboard a spacecraft or habitat. Additionally, this paper discusses recent progress toward developing in-space repair capabilities--including two spaceflight experiments-- and presents technology concepts which could help enable or benefit the same.",
+  "query_tag": "component repair",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

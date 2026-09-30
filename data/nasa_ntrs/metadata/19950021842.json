@@ -1,0 +1,47 @@
+{
+  "doc_id": "19950021842",
+  "source": "NASA NTRS",
+  "pdf_filename": "19950021842_19950021842.pdf",
+  "pdf_path": "pdfs/19950021842_19950021842.pdf",
+  "metadata_path": "metadata/19950021842.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19950021842",
+  "title": "Developmental problems and their solution for the Space Shuttle main engine alternate liquid oxygen high-pressure turbopump: Anomaly or failure investigation the key",
+  "sti_type": "TECHNICAL_PUBLICATION",
+  "sti_type_details": "Technical Publication (TP)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-06-26T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Ryan, R.",
+    "Gross, L. A."
+  ],
+  "organizations": [
+    "NASA Marshall Space Flight Center"
+  ],
+  "subject_categories": [
+    "Spacecraft Propulsion And Power"
+  ],
+  "keywords": [],
+  "report_numbers": [
+    "NASA-TP-3553",
+    "NAS 1.60:3553",
+    "M-780",
+    "Report Number: NASA-TP-3553",
+    "Report Number: NAS 1.60:3553",
+    "Report Number: M-780"
+  ],
+  "funding_numbers": [],
+  "abstract": "The Space Shuttle main engine (SSME) alternate high-pressure liquid oxygen pump experienced synchronous vibration and ball bearing life problems that were program threatening. The success of the program hinged on the ability to solve these development problems. The design and solutions to these problems are engirded in the lessons learned and experiences from prior programs, technology programs, and the ability to properly conduct failure or anomaly investigations. The failure investigation determines the problem cause and is the basis for recommending design solutions. For a complex problem, a comprehensive solution requires that formal investigation procedures be used, including fault trees, resolution logic, and action items worked through a concurrent engineering-multidiscipline team. The normal tendency to use an intuitive, cut-and-try approach will usually prove to be costly, both in money and time and will reach a less than optimum, poorly understood answer. The SSME alternate high-pressure oxidizer turbopump development has had two complex problems critical to program success: (1) high synchronous vibrations and (2) excessive ball bearing wear. This paper will use these two problems as examples of this formal failure investigation approach. The results of the team's investigation provides insight into the complexity of the turbomachinery technical discipline interacting/sensitivities and the fine balance of competing investigations required to solve problems and guarantee program success. It is very important to the solution process that maximum use be made of the resources that both the contractor and Government can bring to the problem in a supporting and noncompeting way. There is no place for the not-invented-here attitude. The resources include, but are not limited to: (1) specially skilled professionals; (2) supporting technologies; (3) computational codes and capabilities; and (4) test and manufacturing facilities.",
+  "query_tag": "\"failure investigation\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "comparison",
+    "maintenance",
+    "rca",
+    "research"
+  ]
+}

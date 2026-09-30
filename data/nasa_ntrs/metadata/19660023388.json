@@ -1,0 +1,44 @@
+{
+  "doc_id": "19660023388",
+  "source": "NASA NTRS",
+  "pdf_filename": "19660023388_19660023388.pdf",
+  "pdf_path": "pdfs/19660023388_19660023388.pdf",
+  "metadata_path": "metadata/19660023388.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/19660023388",
+  "title": "Reliability analysis and corrective action summary for the Saturn V hydrodynamic support equipment",
+  "sti_type": "CONTRACTOR_REPORT",
+  "sti_type_details": "Contractor Report (CR)",
+  "center_code": "CDMS",
+  "center_name": "Legacy CDMS",
+  "year": 2019,
+  "published": "2019-05-29T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [],
+  "organizations": [],
+  "subject_categories": [
+    "Auxiliary Systems"
+  ],
+  "keywords": [
+    "SUPPORT SYSTEM",
+    "SATURN V LAUNCH VEHICLE",
+    "RELIABILITY"
+  ],
+  "report_numbers": [
+    "ER-14038",
+    "NASA-CR-76655",
+    "Report Number: ER-14038",
+    "Report Number: NASA-CR-76655"
+  ],
+  "funding_numbers": [
+    "NAS8-11903"
+  ],
+  "abstract": "Reliability analysis for Saturn V hydrodynamic support equipment",
+  "query_tag": "\"corrective action\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "doc_id": "20180002070",
+  "source": "NASA NTRS",
+  "pdf_filename": "20180002070_20180002070.pdf",
+  "pdf_path": "pdfs/20180002070_20180002070.pdf",
+  "metadata_path": "metadata/20180002070.json",
+  "citation_url": "https://ntrs.nasa.gov/citations/20180002070",
+  "title": "Advanced Stirling Radioisotope Generator Engineering Unit 2 Anomaly Investigation",
+  "sti_type": "TECHNICAL_MEMORANDUM",
+  "sti_type_details": "Technical Memorandum (TM)",
+  "center_code": "GRC",
+  "center_name": "Glenn Research Center",
+  "year": 2019,
+  "published": "2019-07-12T00:00:00.0000000+00:00",
+  "distribution": "PUBLIC",
+  "disseminated": "DOCUMENT_AND_METADATA",
+  "status": "CURATED",
+  "authors": [
+    "Lewandowski, Edward J.",
+    "Dobbs, Michael W.",
+    "Oriti, Salvatore M."
+  ],
+  "organizations": [
+    "NASA Glenn Research Center",
+    "Vantage Partners, LLC"
+  ],
+  "subject_categories": [
+    "Engineering (General)"
+  ],
+  "keywords": [
+    "Stirling convertors",
+    "Advanced Stirling Radioisotope Generator",
+    "Advanced Stirling Radioisotope Generator Engineering Unit 2"
+  ],
+  "report_numbers": [
+    "E-19302",
+    "NASA/TM-2018-219400",
+    "AIAA Paper 2016-4816",
+    "GRC-E-DAA-TN34733",
+    "Report Number: E-19302",
+    "Report Number: NASA/TM-2018-219400",
+    "Report Number: AIAA Paper 2016-4816",
+    "Report Number: GRC-E-DAA-TN34733"
+  ],
+  "funding_numbers": [
+    "WBS 138494.04.18.01.01.01",
+    "NNC12BA01B"
+  ],
+  "abstract": "The Advanced Stirling Radioisotope Generator (ASRG) Engineering Unit 2 (EU2) is the highest fidelity electrically heated Stirling radioisotope generator built to date. NASA Glenn Research Center completed the assembly of the ASRG EU2 in September 2014 using hardware from the now cancelled ASRG flight development project. The ASRG EU2 integrated the first pair of Sunpower's Advanced Stirling Convertors (ASC−E3 #1 and #2) in an aluminum generator housing with Lockheed Martin's (LM's) Engineering Development Unit (EDU) 4 controller. After just 179 hr of EU2 generator operation, the first power fluctuation occurred on ASC−E3 #1. The first power fluctuation occurred 175 hr later on ASC−E3 #2. Over time, the power fluctuations became more frequent on both convertors and larger in magnitude. Eventually the EU2 was shut down in January 2015. An anomaly investigation was chartered to determine root cause of the power fluctuations and other anomalous observations. A team with members from Glenn, Sunpower, and LM conducted a thorough investigation of the EU2 anomalies. Findings from the EU2 disassembly identified proximate causes of the anomalous observations. Discussion of the team's assessment of the primary possible failure theories, root cause, and conclusions is provided. Recommendations are made for future Stirling generator development to address the findings from the anomaly investigation. Additional findings from the investigation are also discussed.",
+  "query_tag": "\"anomaly investigation\"",
+  "corpus_focus": "technical_repair_reports",
+  "feature_tags": [
+    "maintenance",
+    "rca"
+  ]
+}
