@@ -8,7 +8,7 @@ Root Cause Analysis, Maintenance Troubleshooting, Engineering Comparison, and Re
 ## Setup
 
 ```bash
-cd Document_Portal
+cd EIRC
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -42,35 +42,34 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 Open:
 - http://localhost:8000/
 - `/rca` `/maintenance` `/comparison` `/research`
-- `/healthz` `/readyz` `/metrics`
+- `/healthz` `/readyz` `/metrics-dashboard`
 
-## Docker
+## Docker deployment
+
+Build a local image and run the API with your env file and a mounted FAISS index (the image does not bake PDFs or the vectorstore).
 
 ```bash
 cp .env.example .env   # set GROQ_API_KEY
 docker build -t eirc:local .
 docker run --rm -p 8000:8000 --env-file .env \
   -v "$(pwd)/data/vectorstore:/app/data/vectorstore" \
+  -v "$(pwd)/data/uploads:/app/data/uploads" \
   eirc:local
 ```
 
-Mount a pre-built FAISS index at `/app/data/vectorstore` (the repo does not bake PDFs or the index into the image).
+Optional Hugging Face cache mount (faster restarts after first model download):
 
-## CI / CD (GitHub Actions)
+```bash
+docker run --rm -p 8000:8000 --env-file .env \
+  -v "$(pwd)/data/vectorstore:/app/data/vectorstore" \
+  -v "$(pwd)/data/uploads:/app/data/uploads" \
+  -v "$(pwd)/.cache/huggingface:/app/.cache/huggingface" \
+  eirc:local
+```
 
-| Workflow | File | Purpose |
-|---|---|---|
-| CI | [`.github/workflows/ci.yaml`](.github/workflows/ci.yaml) | Compile, config check, app import, Docker build |
-| Deploy definition | [`.github/workflows/defination.yaml`](.github/workflows/defination.yaml) | Reusable: ECR push + ECS task register + service update |
-| AWS Deploy | [`.github/workflows/aws.yaml`](.github/workflows/aws.yaml) | Runs CI, then deploys staging (on `main`) or production (manual) |
-
-**Secrets** (repo or environment): `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `GROQ_API_KEY`
-
-**Environment variables** (GitHub Environments `staging` / `production`):
-- `ECS_EXECUTION_ROLE_ARN`, `ECS_TASK_ROLE_ARN` (required)
-- Optional overrides: `AWS_REGION`, `ECR_REPOSITORY`, `ECS_CLUSTER_STAGING`, `ECS_SERVICE_STAGING`, `ECS_CLUSTER_PRODUCTION`, `ECS_SERVICE_PRODUCTION`
-
-Create the ECS cluster, service, VPC networking, and IAM roles once in AWS; the workflows assume they already exist.
+Checks:
+- Health: http://localhost:8000/healthz
+- Ready (index loaded): http://localhost:8000/readyz
 
 ## Evaluation / LLMOps
 

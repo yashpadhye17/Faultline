@@ -130,7 +130,7 @@ python scripts/run_evaluation.py --feature all --limit 8
 ## 5. How to run locally
 
 ```bash
-cd Document_Portal
+cd EIRC
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 export PYTHONPATH=.

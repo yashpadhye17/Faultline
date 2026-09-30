@@ -1,7 +1,7 @@
 # EIRC Evaluation Report — 20260930T044152Z_experiment__openai-gpt-oss-20b
 
 - Created: `2026-09-30T04:42:13.079057+00:00`
-- Dataset: `/Users/yash/Desktop/Document_Portal/data/evaluation/datasets/nasa_rag_v1.jsonl`
+- Dataset: `/Users/yash/Desktop/EIRC/data/evaluation/datasets/nasa_rag_v1.jsonl`
 - Samples: **4**
 - Generation LLM: `openai/gpt-oss-20b`
 - Corpus embedding: `sentence-transformers/all-MiniLM-L6-v2`

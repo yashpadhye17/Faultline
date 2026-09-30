@@ -24,7 +24,7 @@
         "answer_correctness": 0.5777
       },
       "passed": true,
-      "path": "/Users/yash/Desktop/Document_Portal/data/evaluation/runs/20260930T044152Z_experiment__openai-gpt-oss-20b"
+      "path": "/Users/yash/Desktop/EIRC/data/evaluation/runs/20260930T044152Z_experiment__openai-gpt-oss-20b"
     }
   ],
   "best_by_metric": {

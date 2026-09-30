@@ -38,9 +38,9 @@
   "metadata_written": 110,
   "pruned_non_repair": 0,
   "failed": 0,
-  "pdf_dir": "/Users/yash/Desktop/Document_Portal/data/nasa_ntrs/pdfs",
-  "metadata_dir": "/Users/yash/Desktop/Document_Portal/data/nasa_ntrs/metadata",
-  "metadata_file": "/Users/yash/Desktop/Document_Portal/data/nasa_ntrs/metadata.jsonl",
+  "pdf_dir": "/Users/yash/Desktop/EIRC/data/nasa_ntrs/pdfs",
+  "metadata_dir": "/Users/yash/Desktop/EIRC/data/nasa_ntrs/metadata",
+  "metadata_file": "/Users/yash/Desktop/EIRC/data/nasa_ntrs/metadata.jsonl",
   "filterable_fields": [
     "doc_id",
     "sti_type",
