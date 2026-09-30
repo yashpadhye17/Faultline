@@ -3,7 +3,7 @@
 Production FastAPI product for NASA-grounded engineering copilots:
 Root Cause Analysis, Maintenance Troubleshooting, Engineering Comparison, and Research over **technical repair / failure / anomaly reports**.
 
-> Full write-up for GitHub / resume: [`docs/PROJECT_REPORT.md`](docs/PROJECT_REPORT.md)
+> Project Report : [`docs/PROJECT_REPORT.md`](docs/PROJECT_REPORT.md)
 
 ## Setup
 
