@@ -73,7 +73,7 @@ Checks:
 
 ## Evaluation / LLMOps
 
-Offline evaluation stays in the project (CLI + APIs). It is not linked in the product UI.
+Offline evaluation is available in the product UI at `/metrics-dashboard` (sidebar **Evaluations**) and via CLI / APIs.
 
 ```bash
 export PYTHONPATH=.
