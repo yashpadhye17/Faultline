@@ -141,15 +141,3 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 Open:
 - Product: `http://localhost:8000/`
 - Metrics: `http://localhost:8000/metrics-dashboard`
-
----
-
-## 6. Resume bullet (copy/paste)
-
-- Designed and shipped **EIRC**, a FastAPI RAG platform over **NASA NTRS repair/failure reports** with four copilots (RCA, maintenance, comparison, research), FAISS + cross-encoder reranking, citation-grounded generation (Groq), and a **multi-LLM / multi-embedding evaluation dashboard** computing faithfulness, relevancy, context precision/recall, and correctness for LLMOps experimentation.
-
----
-
-## 7. Attribution
-Data provided by NASA Scientific and Technical Information Program  
-https://ntrs.nasa.gov/api/openapi/
